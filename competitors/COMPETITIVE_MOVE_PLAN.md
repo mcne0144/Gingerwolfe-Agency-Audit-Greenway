@@ -11,9 +11,16 @@
 
 ## 0. The single competitive insight this plan is built on
 
-CONFIRMED (2026-08-22): across every named external competitor whose YouTube was retrievable in the KC and Nashville sets (Bob Sight, Rob Sight, Blue Springs, Metro, Kia of Murfreesboro, Wyatt Johnson), the video lines are **stale (5–16 years old), low-volume, low-view**. The two inventory-line formats observed (Rob Sight, Blue Springs) prove the per-vehicle walkthrough model but were abandoned. Metro is an archive; Wyatt Johnson is near-dormant; Murfreesboro's strong personality play is 5+ years old.
+**What the first pass said, and why it changed.** This plan was built on one claim: across every named external competitor whose YouTube was retrievable, the video lines are stale, so the store-level organic video field is wide open and the advantage goes to whoever posts current, consistent, real content. That claim came from **YouTube alone**, and the FB/IG/TikTok verification this plan itself flagged as pending (§4 item 3) has now been run. It does not hold.
 
-**Net, with one important exception:** the store-level organic video field is wide open in KC and Nashville — the advantage goes to whoever posts **current, consistent, real** content. **Store 02 (Jacksonville) is the exception:** Kia on Atlantic runs a **current, consistent offer/promo line** there, so Store 02 wins not on "competitors are absent" but on **depth + utility + local** no Jacksonville competitor covers. (This is CONFIRMED for YouTube only — see §4 caveat about FB/IG/TikTok which remain manual verification needed.)
+**CONFIRMED 2026-08-22 (second pass — Facebook and TikTok retrieved; log in `COMPETITOR_RESEARCH.md §7`):**
+- **KC is occupied.** Bob Sight Ford runs **625 TikTok videos** at roughly one post every other day, posts to Facebook **near-daily** on 8.3K followers, and writes local trim comparisons around I-470 commutes and Jackson County carpools. Rob Sight is current on TikTok (82 videos). The Store 05 "own the empty lane" wedge is **void**.
+- **Nashville is largely intact.** Wyatt Johnson Kia is thin on TikTok too (30 followers, 2 videos, last post Feb 2025).
+- **Jacksonville is now the strongest wedge in the pilot.** Kia on Atlantic posts to Facebook weekly and records **0 likes and 0 shares on four of five observed posts**.
+
+**The revised insight.** Currency is no longer the differentiator, because in the market where a competitor is genuinely active they are *also* current. **Watchability is.** The KC data makes it measurable: Bob Sight publishes the most polished offer copy of any account observed and gets **0.12 plays per follower**; Rob Sight publishes scrappy personality content and gets **9.4** — roughly 78x, on one-fifteenth the audience. Where a competitor is present, we win by being worth watching. Where a competitor is absent or unengaged, we win on depth and utility.
+
+**Still unverified: Instagram, for every competitor in every market.** No move below may treat Instagram as a confirmed wedge.
 
 ---
 
@@ -21,27 +28,28 @@ CONFIRMED (2026-08-22): across every named external competitor whose YouTube was
 
 Competitors confirmed researched: Bob Sight, Rob Sight, Blue Springs, Metro (see `COMPETITOR_RESEARCH.md` §1).
 
-**The wedge (confirmed):** three of four competitors have no current video at all (stale/archive); the most active (Bob Sight) is a thin heritage/service voice. **No competitor runs a current per-vehicle inventory line or current truck reviews.**
+**The wedge (REVISED — the first-pass wedge is void).** The first pass read this market as three stale competitors plus one thin heritage voice, and prescribed owning the current per-vehicle inventory line. Facebook and TikTok retrieval shows Bob Sight posting **every other day on TikTok (625 videos) and near-daily on Facebook (8.3K followers)**, running collision-estimate utility, named-staff content, and local trim comparisons pinned to I-470, US-50 and Jackson County. They are neither thin nor stale. Rob Sight is current on TikTok as well.
 
-Recommended content moves (4–5), mapped to channels and content models:
+**What is actually open (CONFIRMED): not currency — watchability.** Bob Sight's median is ~265 plays on 2,302 followers (**0.12 per follower**); Rob Sight's is ~1,470 on 156 (**9.4 per follower**). The most polished account in the market has the worst reach in it.
 
-1. **Current per-vehicle used-inventory line (Model B) — the primary wedge.** Run one short walkthrough per real vehicle on lot, VIN/stock-coded, on YouTube Shorts + IG Reels + TikTok, and name titles for Raytown/greater-KC local search (as Rob Sight/Blue Springs did — but **current**, not stale). Multi-brand used stock fits the market (Store 05 is pre-owned-heavy; TO VERIFY inventory mix with Shannon).
-   - Channels: YouTube Shorts (1/wk house floor), IG Reels (part of 3–5/wk), TikTok (part of 3–5/wk), FB photo posts.
-   - Pillar: Inventory (≥30% default). Every vehicle TO VERIFY via real inventory feed.
-2. **Truck depth reviews (Model C).** F-150 / Bronco / Maverick / Super Duty walkaround-and-review short + a monthly long-form comparison (e.g., "F-150 vs the competition"). No competitor has current review content, and this is where per-video views are highest (see sibling North evidence).
-   - Channels: YouTube long-form monthly + review Short weekly; cut 30–60s clips for IG/TikTok.
-   - Pillar: Inventory (educational) + Service-adjacent. Review only vehicles verifiably sellable.
-3. **Trust + service layer (Model D).** Counter Bob Sight's heritage/mobile-service message with a **current** service/trust line — service-bay features, what we check at a service visit, mobile-service convenience (Bob Sight proved mobile service is a message; we run it current and consistent). Build service appointments + reviews.
-   - Channels: FB (service reminders/features), YouTube long-form explainer as capacity allows, IG Stories, GBP service posts + 100% review response.
-   - Pillar: Service (20%) + Reviews & Proof.
-4. **Honest, specific offer content (Model A) — lead with proof over price claim.** Bob Sight/Metro lead with "Trust" or "Best Price"; we compete with real, specific offers (real model, real path — e.g., a real current incentive) **only when confirmed real** (TO VERIFY). No "best price" puffery.
-   - Channels: TikTok offer Short, YouTube offer Short, IG Reel/Story, FB offer post, GBP brief post.
-   - Pillar: Inventory (offer-on-model). Every offer TO VERIFY with store before posting. Keep to ~30% of mix.
-5. **Local/community (Model E) — Raytown/East-KC neighbors (TO VERIFY hooks).** Competitors show little local-community content; a real school/charity/local-organization tie plus delivery-day/people content differentiates the store as a neighbor, not just a lot.
-   - Channels: FB (local hub), IG Stories/BTS Reels, TikTok BTS, YouTube showroom/personality Short.
-   - Pillar: Community/Local + Behind-the-Scenes. Local hooks and named staff TO VERIFY per market/two-source rule.
+**Channel reality constraining every move below** (`channel-matrix.csv`, operator-confirmed 2026-08-22): Store 05 publishes on **Facebook and YouTube only**. It has **no Instagram and no TikTok account**. Any move naming IG or TikTok is a **pre-built draft pending Phase-1 stand-up**, not a live slot, per `stores/store-05/STRATEGY.md`. The first-pass moves prescribed IG Reels and TikTok as live channels; that was not executable and is corrected below.
 
-**Sequencing note for Store 05:** open with move 1 (inventory line) — it is the lowest-friction, highest-fit wedge and directly attacks the abandoned competitors — then layer moves 2–5 as capacity allows.
+Recommended content moves — **re-ordered: people first, inventory demoted**:
+
+1. **Watchable people/character line (Model E) — the primary wedge, and the reversal.** Bob Sight already owns polished-and-ignored. Run the opposite: unpolished, human, funny, on camera. Rob Sight's own numbers are the in-market proof that this travels here. Named on-camera lead and consent **TO VERIFY** (two-source rule, OPERATING_RULES §3.5).
+   - Channels: **Facebook (live today)**, YouTube Short; IG/TikTok pre-built pending stand-up.
+   - Pillar: People & Character. This is where Store 05's share belongs, not in an inventory volume line.
+2. **Service and ownership utility as video with a person (Model D) — contested ground, not open ground.** Bob Sight runs virtual collision estimates, mobile service and pickup-and-delivery, each with a real dollar offer. Do not counter a live utility programme with price claims; counter it with the same utility done watchably — what we check at a service visit, what a mobile-service call actually looks like, deal and ownership education. Service facts **TO VERIFY** per store.
+   - Channels: Facebook, YouTube long-form, GBP service posts + 100% review and Q&A response. Pillar: Service & Ownership (+ P5a).
+3. **Truck depth reviews and launch walkarounds (Model C / Model B-social).** Newsworthy product, not per-unit inventory: F-150, Bronco, Maverick, Super Duty. A launch or "all-new" walkaround is the only inventory format in the evidence that reaches six figures. Review only vehicles verifiably sellable.
+   - Channels: YouTube long-form + Short, Facebook. Pillar: Inventory 1b.
+4. **Per-VIN used-lot line (Model B) — demoted to Tier C, uncounted.** Keep the VIN/stock-coded walkaround line for local search, published to **YouTube and GBP**, judged on VDP and search lift alone. It does **not** fill a social mix slot. Store 05's ~888-video YouTube library is a real asset for this lane; ownership is now operator-confirmed at `@GreenwayFordofKansasCity-zw6sj`. This directly reverses the first pass, which made this the primary wedge.
+5. **Honest, specific offers (Model A) — as video with a person, never as a graphic.** Metro's "Best Price" and Bob Sight's polished offer posts are both available to copy and both underperform. Every offer **TO VERIFY** before posting. No price puffery.
+   - Channels: Facebook, YouTube Short. Pillar: Inventory 1b (offer-on-model).
+6. **Local/community (Model E) — Raytown / East-KC (hooks TO VERIFY).** Bob Sight is genuinely strong here, writing to named local roads and counties. This is a lane to match, not one to claim. Gated at the Community share until hooks verify.
+   - Channels: Facebook local hub, GBP. Pillar: Community & Local.
+
+**Sequencing note for Store 05 (REVISED):** open with move 1 (watchable people), not the inventory line. The first pass had this backwards — it opened with the move a live competitor already runs better, and which the pilot brief now classes as uncounted Tier C.
 
 ---
 
@@ -50,6 +58,10 @@ Recommended content moves (4–5), mapped to channels and content models:
 Competitors confirmed researched (open-market discovery, operator-directed 2026-08-22): **Kia on Atlantic (formerly Southside Kia)** — the currently-active competitor; **Kia of Orange Park** and **Kia Jax** (both part of the "Kia Stores of Jacksonville"/kiajax.com group, now stale); **Family Kia** (presence confirmed, content under-observed). Any Kia+Hyundai or Hyundai dealership is **OUT OF SCOPE** per operator directive (see `COMPETITOR_SETS.md`).
 
 **The wedge (confirmed):** Jacksonville is the one market where a competitor's YouTube is **current, not stale** — **Kia on Atlantic runs a consistent, current 31-second offer/promo line** referencing 2026 events, and its relocation/reopening gave it a big local-news moment. The rest of the set is stale (Kia of Orange Park, Kia Jax — 4–5 yrs) or under-observed (Family Kia), and **no Jacksonville competitor runs a current per-vehicle inventory line, current depth reviews, or a people/service line.** So Store 02 does not win on "competitors are absent" — it wins on **depth + utility + local southside, run current**, and by *not* out-promoing Kia on Atlantic's offer volume.
+
+**STRENGTHENED 2026-08-22 (second pass — Facebook retrieved).** Kia on Atlantic's Facebook posts weekly and consistently, so the "current, not stale" read is confirmed on a second channel. What it also shows: **0 likes and 0 shares on four of five observed posts**, and 2 likes on 379 views for the one video. They publish current offers into a vacuum, in exactly the static-graphic format the pilot brief rules out. **This is now the best-evidenced wedge in the pilot** — the competitor is active, disciplined, and reaching nobody.
+
+**Two corrections that affect the moves below.** (a) **Kia on Atlantic is at 11750 Abess Blvd, 32225 — east Jacksonville, not the southside.** That framing derives from their former 9401 Atlantic Blvd address. Store 02 at 10564 Philips Hwy, 32256 is genuinely southside, so the two are **not** the same side of town; move 4's proximity argument should be restated as local ownership rather than head-to-head. (b) **Store 02 has no YouTube account** (`channel-matrix.csv`), so every "YouTube Short" channel line below is a stand-up decision, not a live slot.
 
 Recommended content moves (4–5), mapped to channels and content models:
 
@@ -65,7 +77,7 @@ Recommended content moves (4–5), mapped to channels and content models:
 5. **Honest, specific offer content (Model A) — only when real, and NOT a volume play.** Counter Kia on Atlantic's promo engine with a *disciplined*, verifiable offer line (real model, real path/incentive — TO VERIFY with store before posting), not "Save To The Max" volume or price puffery. Keep to ~30% of mix.
    - Channels: TikTok offer Short, YouTube offer Short, IG Reel/Story, FB offer post, GBP brief post. Pillar: Inventory (offer-on-model).
 
-**Sequencing note for Store 02:** open with move 1 (inventory line) — the lowest-friction wedge nobody in-market runs — then layer moves 2–4 (reviews, service/proof, people/local) to build depth around it; keep move 5 (offers) disciplined and verifiable. Every vehicle/offer TO VERIFY before posting.
+**Sequencing note for Store 02 (REVISED):** the depth wedge stands, but open with **people/character (move 4) alongside the inventory line**, not the inventory line alone. Store 02 is effectively a cold start (2 followers, 3 videos) and character content is what builds an audience from zero — Store 04's 9-follower account reached 1,384 plays at a 21% like rate on a sales-team introduction. Keep move 5 (offers) disciplined and verifiable: the competitor's promo engine is drawing zero engagement, so there is nothing to out-promo.
 
 ---
 
@@ -74,6 +86,13 @@ Recommended content moves (4–5), mapped to channels and content models:
 Competitors confirmed researched: Kia of Murfreesboro, Wyatt Johnson Kia. **Stores 03 and 04 share the SAME competitor set** (same GM James Galuszka, one combined list) — moves in this section apply to BOTH rooftops, each with its own store voice, people, and market (never one group template, never differing sets). Sibling Greenway Kia Franklin is treated as a **sibling benchmark routed to the success-models set, not as a competitor threat** (per `COMPETITOR_SETS.md`). Any Hyundai dealership is OUT OF SCOPE per operator directive.
 
 **The wedge (confirmed):** both named external Kia competitors are stale (Murfreesboro 5–8 yrs) or near-dormant (Wyatt Johnson) on YouTube. Murfreesboro's **personality + service-convenience format is the proven local play** — we run it current, each store with its own real voice.
+
+**Two in-house facts the first pass did not have, both material** (source: Bright Matter per-store channel and credentials trackers, 11 Aug 2026 — not previously represented in this repo):
+
+- **Rivergate has a salesperson at 74,300 followers.** @marisawirtzz posted a Rivergate-tagged video that reached **35,700 plays**. That is the strongest single piece of evidence anywhere in the pilot that the personality format works in this market, and it is already inside the building. It reframes move 1 from "build a character from nothing" into "decide whether to work through a person who already has the audience" — a **GM and operator decision, not an agent action**, and subject to the consent and two-source rules (OPERATING_RULES §3.5).
+- **Rivergate is mid-renovation.** Active rebuild since February 2026, demolition through interior framing, with a temporary canopy keeping the service lane open. Showroom and behind-the-scenes content is **physically constrained** at Store 03 for the duration. This is why Store 03 sits at minimum-viable — a capacity constraint, not a judgement call — and it should be recorded as such rather than read as low ambition.
+
+**Second-pass competitor check (CONFIRMED 2026-08-22):** Wyatt Johnson Kia is thin on TikTok as well as YouTube (30 followers, 2 videos, last post Feb 2025). Kia of Murfreesboro's Facebook, Instagram and TikTok remain unretrieved. Nashville is the market least disturbed by the second pass.
 
 Recommended content moves (4–5) — apply to BOTH Rivergate (03) and Hickory Hollow (04), each with its own store voice, people, and market (never one group template):
 
@@ -98,7 +117,7 @@ Recommended content moves (4–5) — apply to BOTH Rivergate (03) and Hickory H
 
 1. **Store 01 — Greenway Kia West Palm Beach (West Palm Beach, FL), GM Mike Wangle.** Competitor set not yet captured. **Data needed:** GM interview response with West Palm Beach Kia competitors. Until provided, no competitive move plan is built for Store 01.
 2. **Store 02 set confirmation by its GM.** Store 02's set was researched by open-market discovery (operator-directed); GM Emre Sevinir has not yet supplied or confirmed the names. The set (Kia on Atlantic, Kia of Orange Park, Kia Jax, Family Kia) is CONFIRMED as observed, but record the GM's own cross-shop view when it becomes available and reconcile if it differs — the GM interview remains the ground truth for client-facing use.
-3. **Competitor Facebook / Instagram / TikTok / Reddit / GBP (all stores).** Not retrievable this pass (login gate / blocked). Moves that lean on TikTok/IG as a "wedge" are **hypotheses pending confirmation** that competitors are also weak there — mark **manual verification needed — 2026-08-22** and re-check when those platforms are retrievable or competitor channel data is supplied (Shannon via Exa/Apify once granted, per BLOCKERS.md). This matters most for Store 02: **Kia on Atlantic's current promo cadence suggests it is active on FB/IG/TikTok — verify before assuming a TikTok/IG wedge.**
+3. **Competitor Facebook and TikTok — NOW RETRIEVED (2026-08-22, second pass).** Retrieved for the KC, Nashville and Jacksonville sets; findings are folded into §0–§3 above and logged in `COMPETITOR_RESEARCH.md §7`. **Instagram remains unretrieved for every competitor in every market** — no move may treat Instagram as a confirmed wedge, and Instagram is the pilot brief's designated baseline reach engine, so this is the largest remaining gap. Kia on Atlantic's TikTok did not surface in name search; search recall is not proof of absence (TO VERIFY). Kia of Murfreesboro's FB/IG/TikTok, and Reddit and GBP for all competitors, remain unretrieved.
 4. **Physical-address attribution** of each competitor channel (distinguish near-identical names; for Store 02 confirm the Kia on Atlantic vs Southside Kia relocation address and the "Kia Stores of Jacksonville" group structure) — TO VERIFY (OPERATING_RULES §3.8).
 5. **Out of scope (no action): Hyundai / Kia+Hyundai dealerships.** Per operator directive 2026-08-22 these are not competitors, not benchmarks, and not gaps to fill; no move targets them and none is researched.
 
@@ -115,15 +134,18 @@ Recommended content moves (4–5) — apply to BOTH Rivergate (03) and Hickory H
 | Store 02 · trust/service/proof | FB/YT/IG/GBP | Service + Reviews | Model D | CONFIRMED gap vs Kia on Atlantic promo-only |
 | Store 02 · people/local southside | FB/IG/Tik/GBP | Community + BTS | Model E | Hooks/staff TO VERIFY |
 | Store 02 · honest offers (disciplined) | TikTok/IG/FB/GBP/YT | Inventory | Model A | Offers TO VERIFY; not a promo volume play |
-| Store 05 · current inventory line | YT Shorts/IG/TikTok/FB | Inventory | Model B | CONFIRMED wedge (competitors stale) |
-| Store 05 · truck depth reviews | YT long + Short, IG/Tik | Inventory | Model C | CONFIRMED absence among competitors |
-| Store 05 · trust & service | FB/YT/GBP/IG | Service + Reviews | Model D | CONFIRMED gap vs Bob Sight "mobile service" |
-| Store 05 · honest offers | TikTok/IG/FB/GBP/YT | Inventory | Model A | Offers TO VERIFY; format CONFIRMED |
-| Store 05 · local/community | FB/IG/Tik/YT | Community + BTS | Model E | Hooks TO VERIFY |
+| Store 05 · **watchable people/character** | FB (live) · YT Short · IG/Tik pending stand-up | People & Character | Model E | **CONFIRMED wedge (Rob Sight 9.4 vs Bob Sight 0.12 plays/follower)** |
+| Store 05 · service utility as video w/ person | FB/YT/GBP | Service & Ownership | Model D | **CONTESTED — Bob Sight runs live collision/mobile-service programmes** |
+| Store 05 · truck depth + launch walkarounds | YT long + Short, FB | Inventory 1b | Model C | CONFIRMED absence of current reviews among competitors |
+| Store 05 · per-VIN used-lot line | **YT/GBP only — Tier C, uncounted** | Inventory 1a | Model B | **DEMOTED — first-pass wedge void; competitors are current on FB/TikTok** |
+| Store 05 · honest offers (video, not graphics) | FB/YT/GBP | Inventory 1b | Model A | Offers TO VERIFY; static-graphic form ruled out |
+| Store 05 · local/community | FB/GBP | Community & Local | Model E | Hooks TO VERIFY; **Bob Sight is strong here — match, do not claim** |
 | Store 03/04 · people/personality | TikTok/IG/YT/FB | BTS + Community | Model E | CONFIRMED format (Murfreesboro), stale |
 | Store 03/04 · service convenience | FB/YT/IG/GBP | Service + Reviews | Model D | CONFIRMED format (Murfreesboro), stale |
 | Store 03/04 · current inventory line | YT Short/IG/Tik/FB | Inventory | Model B | CONFIRMED absence among competitors |
 | Store 03/04 · Kia best-seller reviews | YT long + Short, IG/Tik | Inventory | Model C | CONFIRMED absence among competitors |
 | Store 03/04 · local per market | FB/IG/Tik/GBP | Community + BTS | Model E | Hooks TO VERIFY |
 
-All moves are **internal recommendations for Shannon McNeil to approve**; nothing is posted or client-facing until it clears the approval pipeline. No move pitches or prices services; real, observed open lanes (e.g., a major gap in competitor video across the KC and Nashville markets) are logged to the Expansion Signals log for the operator, not raised to any GM by an agent.
+**Table note (2026-08-22, second pass):** the Store 05 rows above are rewritten. Store 02 and Store 03/04 rows stand as first written, with Store 02's evidence status strengthened by the Kia on Atlantic zero-engagement finding and Store 03/04's execution qualified by the two in-house facts in §3. Any row citing IG or TikTok for Store 05 is pending Phase-1 stand-up, not live.
+
+All moves are **internal recommendations for Shannon McNeil to approve**
