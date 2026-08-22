@@ -1,0 +1,16 @@
+# MONTH 1 AUDIT — ONE-PAGE BLOCKERS SUMMARY (INTERNAL)
+
+**Audit date:** 2026-08-12. Every blocker below has a named owner. This page is written to lift directly into engagement-state.md §4 (Blocked / on whom).
+
+| # | Blocker | Owner | What's needed to unblock | Stores affected |
+|---|---|---|---|---|
+| 1 | Accounts & access inventory (who holds admin on Meta Business Manager, GBP, TikTok, YouTube — store staff vs outside vendors). Biggest Month 1 timeline risk. | Shannon McNeil (store data/access); Shawn Vink (corporate IT/admin where applicable) | Per-store channel handles/URLs, active status, login access + admin-role list per account, vendor-split (CLIENT.md §8.1 checklist). | All 5 rooftops |
+| 2 | Performance baselines per channel (reach, impressions, engagement, follower counts, last-post dates). | Shannon McNeil (per-account native-insights access); Shawn Vink where corporate; Reporting Analyst consumes | Access to Meta Business Suite, TikTok Analytics, YouTube Studio, GBP Insights. FB/TikTok block automated retrieval — manual verification needed; YouTube needs Studio/API. | All 5 rooftops |
+| 3 | Operations workflow — who posts today, with what tool, on what cadence. | Shannon McNeil | Store answers per CLIENT.md §8 (poster(s), tool, cadence per channel, any vendor-managed accounts). | All 5 rooftops |
+| 4 | Store goals / KPIs / pilot start date / content assets / brand-compliance rules. | Shannon McNeil | CLIENT.md §8.2–8.3 items. | All 5 rooftops |
+| 5 | Reputation platforms (DealerRater, Cars.com, Edmunds, Yelp) ratings/review counts; Google review counts and response behavior. | Research environment (this session): all returned anti-bot/403 — flagged manual verification needed — 2026-08-12. Owner for re-run: Shannon McNeil (Exa/Apify MCP grant) or manual check. | Grant Exa/Apify MCPs (card sent 2026-08-12) and re-run per-store reputation pulls; or manual check of each dealer page. DealerRater/Edmunds/Yelp/Cars.com accounts existence unconfirmed either way. | All 5 rooftops (per-store rows in workbook Bucket 3) |
+| 6 | Reddit presence per store (organic footprint, complaints, responses). | Shannon McNeil (Apify Reddit scraper MCP); manual check as fallback | Reddit blocked automated search from this environment (2026-08-12). Run Apify reddit scraper per store name + street address, or manual Reddit search. Absence framing required (OPERATING_RULES §10). | All 5 rooftops |
+| 7 | GM background — second independent public source per GM (Mike Wangle, Emre Sevinir, James Galuszka, Shane Silvey). | Audit & Research (re-run once Exa MCP granted) | Search engines + DealerRater blocked this session; store team pages pending. Re-run with Exa; two independent sources per named individual required before any bio enters a client-facing brief (OPERATING_RULES §3.5). | All 5 rooftops |
+| 8 | Competitive benchmarking per market (competitor sets + their Google ratings). | Audit & Research (re-run once Exa MCP granted); Shannon McNeil for MCP grant | Web search blocked this session. Re-run per-market competitor searches (Palm Beach, Jacksonville, Nashville, Kansas City metros) with Exa/Apify. | All 5 rooftops |
+
+**Note:** Google Maps listing data (address, rating, phone, website, owner posts) WAS retrievable and is populated in the workbook — see SOURCES.md.
