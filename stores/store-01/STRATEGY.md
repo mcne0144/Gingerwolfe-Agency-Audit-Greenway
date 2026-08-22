@@ -37,7 +37,13 @@ Coastal, service/tourism-dense south-FL metro; demographic specifics, age mix, S
 
 ---
 
-## 3. Content pillars & per-channel mix — FULL (house default, operator to confirm)
+## 3. Content pillars & per-channel mix — FULL (LOCKED 2026-08-22)
+
+> **LOCKED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
+>
+> **Scope of the lock.** Locked for calendar and production planning. **Provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 — a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance** (pilot brief kill criterion 5). Sprout can be configured against these targets now; attribution cannot be trusted while duplicate handles are live.
+>
+> **What may still move, and only this:** Community rises from its gated 10% to 20% on Instagram and TikTok once West Palm Beach local hooks are confirmed, taking 5 points from P2 and 5 from P1b on those channels; plus any reallocation triggered by the day-30/60/90 rules. Any other change requires fresh operator sign-off.
 
 **Counted posts are Tier A/B only.** The §7 full per-channel house mix applies (blended ≈ 32/22/22/11/9), **not** rev-1's single 30/20/15/20/15 (superseded). Store 01's competitor set is **now actionable via open-market discovery** (brief §9) — confirmed set pending discovery + GM reconcile; the mix below is the house full default until that lands.
 

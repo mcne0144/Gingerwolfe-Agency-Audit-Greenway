@@ -50,13 +50,19 @@ Pre-owned-heavy Ford market; **Ford buyers skew older → Facebook/Google carry 
 
 ---
 
-## 3. Content pillars & per-channel mix — ASSET-LED TIER-B/TIER-A (house default, operator to confirm)
+## 3. Content pillars & per-channel mix — ASSET-LED TIER-B/TIER-A (LOCKED 2026-08-22)
+
+> **LOCKED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
+>
+> **Scope of the lock.** Locked for calendar and production planning. **Provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 — a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance** (pilot brief kill criterion 5). Sprout can be configured against these targets now; attribution cannot be trusted while duplicate handles are live.
+>
+> **What may still move, and only this:** the mix **re-expresses across channels at Phase-1 stand-up**, when Instagram and TikTok go live and take repurposed cuts of the same Tier A/B library. Those channels' slot-level targets are deliberately held pending 30 days of real baseline data and return for sign-off then — they are not locked here because no baseline exists. Plus any reallocation triggered by the day-30/60/90 rules. Any other change requires fresh operator sign-off.
 
 Counted posts are **Tier A/B only** (video). **Live channels this phase = FB + YouTube**; IG/TikTok are **pre-built and activate on Phase-1 stand-up**. FB is the only feed channel today, so the counted mix is expressed on FB; YouTube carries Tier A/B search-facing video plus the **Tier C per-VIN library** (uncounted).
 
 **On stand-up:** IG/TikTok take **repurposed cuts of the same asset-led Tier A / Tier B library** — they add **distribution, not a new production burden**, and they do **not** change the FB counted mix below. IG/TikTok slot-level mix targets are **held pending a real baseline** (no follower counts, no invented performance); at activation they run **minimum/asset-led** and are reviewed after 30 days of real data, with any mix proposal flagged for Shannon/GM confirmation.
 
-**FB counted mix (house default, operator to confirm):**
+**FB counted mix (LOCKED 2026-08-22):**
 
 | Pillar (FB) | % |
 |---|---|
@@ -66,7 +72,7 @@ Counted posts are **Tier A/B only** (video). **Live channels this phase = FB + Y
 | 4 Community & Local *(gated)* | 18% |
 | 5b Reviews & Proof (video) | 17% |
 
-*(P3 is above the §7 FB default of 5% because "be watchable" is the rebuilt angle → watchability/people carry weight; used-lot **per-VIN walkarounds move to Tier C on YouTube/GBP** and are NOT counted in the mix, per brief §9. Values are house-default for sign-off.)*
+*(P3 is above the §7 FB default of 5% because "be watchable" is the rebuilt angle → watchability/people carry weight; used-lot **per-VIN walkarounds move to Tier C on YouTube/GBP** and are NOT counted in the mix, per brief §9. Values LOCKED 2026-08-22 (see the lock note at the head of this section).)*
 
 **Tier format plan (asset-led):**
 - **Tier A (from the asset library):** launch walkarounds + headline agency media repurposed; **+ optional daughter character** (NOT required). Weekly Tier A is met from the library when available — not a new-shoot requirement.

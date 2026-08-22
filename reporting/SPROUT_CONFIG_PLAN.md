@@ -167,7 +167,21 @@ Agents (Bright Matter) **draft and feed**; Shannon **reviews and approves**; a *
 - YouTube (support): 1 Short/week + 1 long-form/month
 - *(Reddit: monitor-only — no cadence; GBP: none this phase.)*
 
-**Content pillar mix — input, not gospel** (house default from `content/pillars/PILLARS.md` §3, 30/20/15/20/15): Inventory 30% · Service & Trust 20% · People & Place (BTS) 15% · Community/Local 20% · Reviews & Proof 15%. Use this as the **starting share** for the store's calendar; per-store movement is set per store from audit/goals/market (e.g., Store 05 pushes Inventory + Service & Trust; Stores 03/04 push People & Place + Service & Trust). The mix is **for the operator to confirm** and is not research.
+**Content pillar mix — LOCKED 2026-08-22 (operator sign-off). Configure Sprout and the KPI baseline against these, not against the rev-1 default.**
+
+> The 30/20/15/20/15 figure this section previously carried was the **rev-1 group default**, with rev-1 pillar names (Service & Trust, People & Place). It is superseded. The locked targets are **per store and per channel**, counted over **Tier A/B posts only** — Tier C (per-VIN walkarounds, static offer and compliance graphics, hours and milestone posts) is published but **never fills a mix slot**, so it must be excluded from mix reporting or every store will read as off-target.
+
+| Store | Instagram (1b/2/3/4/5b) | TikTok (1b/2/3/4/5b) | Facebook (1b/2/3/4/5b) |
+|---|---|---|---|
+| 01 West Palm Beach — full | 35 / 25 / 20 / 10 / 10 | 30 / 15 / 40 / 10 / 5 | 30 / 25 / 5 / 25 / 15 |
+| 02 at the Avenues — full | 35 / 25 / 20 / 10 / 10 | 30 / 15 / 40 / 10 / 5 | 30 / 25 / 5 / 25 / 15 |
+| 03 Rivergate — minimum viable | 40 / 30 / 10 / 10 / 10 | *no TikTok account* | 33 / 27 / 5 / 25 / 10 |
+| 04 Hickory Hollow — minimum viable | 40 / 30 / 10 / 10 / 10 | 45 / 30 / 10 / 10 / 5 | 33 / 27 / 5 / 25 / 10 |
+| 05 Ford Kansas City — asset-led | *pending Phase-1 stand-up* | *pending Phase-1 stand-up* | 30 / 20 / 15 / 18 / 17 |
+
+**Three configuration consequences.** (a) **Store 05's mix is Facebook-only** — it has no Instagram or TikTok account today, and those slot targets are deliberately unset pending 30 days of real baseline after stand-up. Do not fill them with the group default. (b) **Store 03 has no TikTok** — leave the column empty rather than defaulting it. (c) **Community (P4) is gated at 10%** on the personality channels at Stores 01–04 and rises to 20% only when that store's local hook list is confirmed; build the target as a variable, not a constant.
+
+**Baseline caveat — carry this into the dashboard build.** The mixes are locked for calendar and production planning but are **provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04. Per pilot brief kill criterion 5, a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance**. Configure now; flag those three stores' attribution as provisional until their canonical handles are confirmed and duplicates retired.
 
 ### 4.3 The approval steps (in Sprout, once live in Month 3)
 1. Shannon loads the agents' ready content package into the store's Sprout group as a **draft** (agents have prepared copy + media + intended slot + CTA off-platform).
@@ -228,7 +242,7 @@ Everything below needs confirmation before this plan becomes a live configuratio
 4. **Hygiene-item resolutions.** Store 01 dup FB, Store 02 inactive dup IG, Store 04 legacy dead Universal Kia — confirm each is (or remains) **disconnected** from Sprout and take the resolution forward as GM-discussion findings, not agent cleanup actions.
 5. **Absence items.** Store 03 TikTok, Store 05 IG + TikTok — confirm no Sprout connection is expected; record as GM discussion items (not connection actions).
 6. **Posting cadence + monthly capture date.** Per-store cadence (`KPI_FRAMEWORK.md` §8 defaults) and the fixed monthly reporting/capture day — **Shannon to confirm**.
-7. **Pillar mix confirmation.** The 30/20/15/20/15 house default and per-store movement — **operator to confirm** (`content/pillars/PILLARS.md` §3 note).
+7. **Pillar mix — RESOLVED 2026-08-22.** The per-store, per-channel targets are **locked by operator sign-off** (see the pillar-mix section above and each `stores/store-0X/STRATEGY.md` §3). No longer an open item. What remains open is narrower: the **Community gate** per store (10% → 20% on hook confirmation), **Store 05's IG/TikTok slot targets** (held pending 30 days post-stand-up), and the **provisional-baseline flag** on Stores 01, 03 and 04 until duplicates are retired.
 8. **Sprout Local / GBP product in scope?** GBP is back-burnered this phase, so Sprout's Local/GBP product is **likely out for now** — **Shannon to confirm** whether any GBP-connected product/license exists or should be deferred. If deferred, GBP has no Sprout placement this phase (§3 keeps it out of publishing groups).
 9. **Sprout license scope (billing).** What licenses/profiles are provisioned and the **at-cost** billing arrangement (`CLIENT.md` §4) — **Shannon + Shawn Vink** to confirm. This plan configures existing licenses only; it provisions nothing and prices nothing.
 10. **Tag-system names.** Sprout's actual tag/label fields — verify against the live system so the §5.2 tag spec maps cleanly (semantics are fixed; labels are TO VERIFY).

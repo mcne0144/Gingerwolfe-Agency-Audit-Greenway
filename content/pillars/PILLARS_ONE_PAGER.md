@@ -4,7 +4,7 @@
 **Prepared by:** Bright Matter LLC agency operations team · **2026-08-22 (rev 2 — reconciled to `_source/GREENWAY_PILOT_BRIEF_2026-08-22.md`)**
 **Source:** `content/pillars/PILLARS.md` (full detail) + the operator strategy brief. Evidence labels: **CONFIRMED** (platform-retrieved 2026-08-22) · **TO VERIFY** (store/Sprout data) · **HOUSE DEFAULT** (team decision for operator sign-off, not research).
 
-> **Supersession note (read first):** The 2026-08-22 operator strategy brief (`_source/GREENWAY_PILOT_BRIEF_2026-08-22.md`) **supersedes the earlier (rev-1) pillars draft** on every strategy point below — pillar *specifications*, the format tier layer, the content mix, the capacity variants, and the per-store competitive angles. Where this page or `PILLARS.md` rev-1 contradicts the brief on a strategy point, **the brief wins.** The five pillar *names* are unchanged. The mixes shown are **HOUSE DEFAULT / graduated** — the operator confirmed the graduated production stance and the asset/capacity read, but the exact percentages await operator sign-off.
+> **Supersession note (read first):** The 2026-08-22 operator strategy brief (`_source/GREENWAY_PILOT_BRIEF_2026-08-22.md`) **supersedes the earlier (rev-1) pillars draft** on every strategy point below — pillar *specifications*, the format tier layer, the content mix, the capacity variants, and the per-store competitive angles. Where this page or `PILLARS.md` rev-1 contradicts the brief on a strategy point, **the brief wins.** The five pillar *names* are unchanged. **The mixes are now LOCKED (2026-08-22 operator sign-off)** — the graduated production stance, the asset and capacity read, and the exact per-store percentages are all confirmed. They are locked for calendar and production planning and **provisional as a measurement baseline** at Stores 01, 03 and 04 until account consolidation completes. Authoritative copies live in each `stores/store-0X/STRATEGY.md` §3.
 
 ---
 
@@ -43,7 +43,7 @@ Revision 1's single wedge — "competitors are stale, so post current content an
 
 ---
 
-## Content mix, per channel — HOUSE DEFAULT (operator to confirm)
+## Content mix, per channel — LOCKED 2026-08-22
 
 Share of **counted** (Tier A/B) posts. Tier C excluded by definition. Community at gated opening weight. Blended ≈ **32 / 22 / 22 / 11 / 9** (P3 up = growth engine; P4 down + gated; P5 down as *post share* while its GBP work continues).
 
