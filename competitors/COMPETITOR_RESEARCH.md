@@ -3,7 +3,8 @@
 **Status:** INTERNAL — research draft, not client-facing. Feeds the per-store content and social strategy.
 **Prepared by:** Bright Matter LLC agency operations team (Audit & Research Analyst)
 **Observation date:** 2026-08-22 (first pass: YouTube public pages only, no client contact)
-**REVISION 2 — 2026-08-22 (second pass: Facebook and TikTok retrieved):** the FB/IG/TikTok verification this file repeatedly defers to has now been run for the KC, Nashville and Jacksonville sets. **It voids the Store 05 wedge and strengthens Store 02's.** Claims below that rested on YouTube alone are annotated inline; method, findings and limits are logged in **§7**. **Instagram remains unretrieved for every competitor in every market.**
+**REVISION 2 — 2026-08-22 (second pass: Facebook and TikTok retrieved):** the FB/IG/TikTok verification this file repeatedly defers to has been run for the KC, Nashville and Jacksonville sets. **It voids the Store 05 wedge and strengthens Store 02's.** Claims below that rested on YouTube alone are annotated inline; method, findings and limits are in **§7**.
+**REVISION 3 — 2026-08-23 (third pass: Instagram retrieved):** competitor Instagram, the largest remaining gap, is now closed for the full set. **It reverses nothing and confirms the second pass** — see **§7.5**. Every competitor platform in the pilot is now observed except Reddit and Google Business Profile.
 **Competitor sets source:** GM one-on-one interviews recorded in `COMPETITOR_SETS.md` for Stores 03/04/05; Store 02's set researched by open-market discovery at the operator's direction (GM Emre Sevinir has not provided names — see §2 and `COMPETITOR_SETS.md`).
 
 ---
@@ -216,7 +217,15 @@ Across the KC (Store 05) and Nashville (Stores 03/04) named external competitors
 
 The most polished offer copy in the KC market produces the worst reach in it. This, not currency, is the opening — see `COMPETITIVE_MOVE_PLAN.md §0` and §1.
 
-### 7.3 Still open
+### 7.4 Still open after the second pass
+
+- ~~**Instagram — every competitor, every market.**~~ **CLOSED 2026-08-23 — see §7.5.**
+- **Kia on Atlantic TikTok.** Not found in name search; not disproven.
+- **Kia of Murfreesboro** Facebook and TikTok. Unretrieved.
+- **Reddit and Google Business Profile** for all competitors. Unretrieved.
+- **Blue Springs and Metro Ford** on Facebook, Instagram and TikTok. Unretrieved; both remain stale on YouTube.
+
+### 7.3 Still open (superseded — retained for the record)
 
 - **Instagram — every competitor, every market.** Unretrieved. Instagram is the designated baseline reach engine in the pilot brief, so this is the largest remaining gap in this file.
 - **Kia on Atlantic TikTok.** Not found in name search; not disproven.
@@ -227,3 +236,45 @@ The most polished offer copy in the KC market produces the worst reach in it. Th
 ### 7.4 Limits, so these numbers are not over-read
 
 Cadence samples are the 8 most recent posts per account, not full history. Facebook engagement counts may under-record reactions, so treat the Kia on Atlantic zeros as approximate rather than exact. Search recall is not proof of absence. Nothing here establishes revenue attribution — reach is not units sold.
+
+---
+
+## 7.5 Third-pass retrieval log — Instagram (2026-08-23)
+
+**Why this section exists.** Instagram was the largest remaining gap in this research and the one that mattered most: it is the pilot brief's designated baseline reach engine, and it carries the largest share in every full-mix store. It is now retrieved for the full competitor set.
+
+**Method.** Instagram profile and post retrieval (Apify `apify/instagram-scraper`), profile details plus the 10 most recent posts per account. Public pages only, no client contact.
+
+**Headline: this pass reverses nothing.** It independently confirms the second pass from a different platform and a different account set.
+
+### 7.5.1 Profile-level (CONFIRMED 2026-08-23)
+
+| Competitor | Handle | Followers | Posts | State |
+|---|---|---|---|---|
+| Bob Sight Ford | `@bobsightford` | 672 | **1,919** | Current, near-daily |
+| Rob Sight Ford | `@robsightford` | **1,672** | 352 | **Stale — last post 7 May 2026** |
+| Kia on Atlantic | `@kiaonatlantic` | 98 | — | Current, roughly weekly |
+| Kia of Murfreesboro | `@kiaofmurfreesboro` | 90 | **2** | Effectively dormant |
+| Wyatt Johnson Kia | — | — | — | **No account found** at the obvious handle (TO VERIFY — recall is not proof of absence) |
+
+### 7.5.2 Post-level reach (median of observed Reels)
+
+| Account | Followers | Median Reel plays | Plays per follower |
+|---|---|---|---|
+| Rob Sight Ford | 1,672 | ~1,071 | 0.64 |
+| Kia on Atlantic | 98 | ~450 | 4.6 |
+| Bob Sight Ford | 672 | **~192** | **0.29** |
+
+**Read the ratio with care.** Plays-per-follower flatters a small account — Kia on Atlantic's 4.6 comes from a 98-follower base, and ~450 plays is a negligible absolute number in a metro of roughly a million people. Bob Sight's problem is both absolute and relative; Kia on Atlantic's is absolute only.
+
+### 7.5.3 What it establishes
+
+1. **Bob Sight's industrial-output-for-no-reach pattern is confirmed on all three channels.** 1,919 Instagram posts and 625 TikToks, against a median Instagram Reel of ~192 plays on 672 followers, 3–17 Facebook likes on 8.3K followers, and ~265 TikTok plays on 2,302. This is not a dealership that is winning quietly. It is the clearest available demonstration that volume and polish are not the same as reach — and it is Store 05's direct competitor.
+2. **Rob Sight is current on TikTok and stale on Instagram.** Last Instagram post 7 May 2026. Their per-post Instagram reach is still the best of the KC set (0.64 plays/follower, 2.2x Bob Sight), which reinforces the watchability finding, but the channel itself is not being maintained. State the split precisely rather than calling them "active".
+3. **Store 02's wedge holds on a third channel.** Kia on Atlantic is present and current on Instagram, at 98 followers and ~450 median plays, with static feed posts drawing 0–3 likes — the same near-zero pattern as their Facebook. Present on every channel, reaching nobody on any of them.
+4. **The static-versus-video rule replicates on competitor accounts.** Across all three retrieved competitors, every static feed post landed **0–3 likes**; every Reel landed **40–1,680 plays**. That is independent confirmation, from accounts with no connection to Greenway, of the format rule the pilot brief derived from Greenway Kia West. It is now the best-replicated finding in this research.
+5. **Nashville is unchanged.** Kia of Murfreesboro at 90 followers and 2 Instagram posts; no Wyatt Johnson Instagram found. The personality format that made Murfreesboro worth studying is dead on Instagram as well as YouTube.
+
+### 7.5.4 Limits
+
+Post samples are the 10 most recent per account, not full history. `postsCount` did not return for Kia on Atlantic. Instagram view and play counts measure different things and are reported here as the platform returned them. A handle not found in search is not proof that no account exists. Nothing here establishes revenue attribution.
