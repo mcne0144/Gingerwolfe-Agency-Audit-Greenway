@@ -1,16 +1,23 @@
 # Store 02 — Greenway Kia at the Avenues — Store Profile & Channel Inventory
 **Status:** INTERNAL — store identity VERIFIED (2026-08-12); channel inventory for FB/IG/TikTok/YouTube PROVIDED (operator, 2026-08-22); YouTube conflict TO VERIFY
-**Last updated:** 2026-08-22
+**Last updated:** 2026-08-24 (GM-interview note confirmed facts added)
 **Owner:** Bright Matter LLC agency operations team
 ---
+## GM-interview confirmed facts (operator note 2026-08-14; evidence: `_source/gm-interviews_google-doc_2026-08-24/03_google-doc-note_store-02-at-the-avenues.md`)
+- Plan: consolidate/clean up accounts; connect **Instagram + TikTok to Sprout Social**; add **UTM tracking**; build **cross-network reporting** (reporting is a top priority). Facebook access already in hand.
+- **Review management stays on Podium** (not merged into the social tool).
+- Weekly **Friday project meetings**; next steps include secure spreadsheet for IG/TikTok credentials and a **paid-media scan of current Facebook ads** (Shannon, organic-SOW planning context only).
+- Content: receptionist (social background) makes IG/TikTok posts; store submits raw video, Shannon edits/curates; **service how-to / short-form educational** content is a pillar; competitor audit includes **Spanish-language** content.
+- Competitors for benchmarking: **Orange Park Kia** and **Atlantic Kia** (Morgan Auto Group) — cross-confirms `competitors/` (Kia on Atlantic active).
+- **Access/action items:** IG+TikTok credentials (secure sheet); Facebook partner/owner access (Ryan is a manager, login unknown); add website links to non-FB channels; resolve YouTube account conflict (below).
 ## Store identity
 | Field | Value |
 |---|---|
 | Store name | Greenway Kia at the Avenues (VERIFIED 2026-08-12) |
 | Location / market | Jacksonville, FL (VERIFIED 2026-08-12) |
-| General Manager | Emre Sevinir (VERIFIED 2026-08-12) |
-| Offerings | TO VERIFY — request from client via Shannon McNeil |
-| Audience notes | TO VERIFY — request from client via Shannon McNeil |
+| General Manager | Emre Sevinir (VERIFIED 2026-08-12). NOTE 2026-08-24: the operator's GM-interview Google Doc for this store was conducted with **Ryan Stranahan** (Emre invited/present in spirit? unresolved — TO VERIFY via Shannon) |
+| Offerings | Store ~3 yrs old; ~4,000–5,000 cars sold; loyal base, excellent reputation. Main challenge = location awareness / foot traffic (CONFIRMED 2026-08-14 note) |
+| Audience notes | Market: Jacksonville, FL (sprawling/driving metro); store right off I-295 & I-95 beltway, "easy in and out" location brand. Weak-reputation local competitor set (Orange Park Kia, Atlantic Kia). Spanish-language content audience being researched (CONFIRMED 2026-08-14 note) |
 
 ## Channel inventory (source: operator 2026-08-22)
 Confirmed from `_source/channel-inventory_shannon_2026-08-22.csv` (tags: sheet = Shannon's own record; web-2026-08-22 = our team's research dated today). Status is conservative — records observed/known state only; no account created or touched.
@@ -37,7 +44,7 @@ Status values: **Active / No account / Duplicate / TO VERIFY** (lowercased in ma
 | Google Business Profile | Not in source file | TO VERIFY | — | — | — |
 
 ## Account-hygiene notes (INTERNAL)
-- **Inactive duplicate Instagram** `instagram.com/greenwaykia.jax` alongside the primary `instagram.com/greenwaykiajax` — flagged unauthorized by Shannon (2026-08-22) and confirmed **not active**. Left as an account-hygiene/cleanup note for GM Emre Sevinir's one-on-one (whether to remove/claim); no account created or touched.
+- **Inactive duplicate Instagram** `instagram.com/greenwaykia.jax` alongside the primary `instagram.com/greenwaykiajax` — flagged unauthorized by Shannon (2026-08-22), confirmed **not active**, and the operator's GM note (2026-08-14) records a decision to **remove the unauthorized/duplicate Instagram account**. Removal still requires Shannon/GM go-ahead + access; no account touched.
 - **YouTube conflict** — Shannon's sheet lists NO ACCOUNT FOUND, but our success-models research (`content/success-models/SUCCESS_ACCOUNTS_RESEARCH.md` §1.5) found channel `@GreenwayKiaattheavenues-b6h` (a video titled "GREENWAY KIA AT THE AVENUES October 2025", search-indexed 2026-08-22). Marked TO VERIFY — resolve with Shannon; do not silently pick one.
 
 ## Known gaps
