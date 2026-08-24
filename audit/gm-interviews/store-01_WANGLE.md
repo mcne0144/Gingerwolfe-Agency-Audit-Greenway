@@ -5,9 +5,10 @@
 
 ## **NO INTERVIEW NOTES RETRIEVED for this GM.**
 - I searched the accessible sources (Wispr Flow shared notes available to this team; Google Drive — see below) and found **no baseline-interview note for Mike Wangle / Store 01**.
-- **What was tried:**
-  - Google Drive: the authenticated browser session now shows the Google sign-in page (no valid Google session; the prior Drive access was in an ephemeral profile that is gone). The team's only Drive evidence is from a prior session that hit a "Verify it's you" 2FA prompt on Shannon's iPhone. **Drive not currently accessible.**
-  - Wispr Flow: only two shared notes are available to the team (GM James → Stores 03/04; GM Shane Silvey → Store 05). No Wangle note is among them.
+- **What was tried (updated 2026-08-24):**
+  - Google Drive browse (`drive.google.com/drive/my-drive`): re-attempted 2026-08-24 in both the default and gwresearch agent-browser sessions — both land on the Google **sign-in wall** (no valid Google session; Drive is 2FA-walled). **No Wangle document discoverable** without a signed-in session.
+  - The task provided a Store 02 Google Doc link (which the team retrieved successfully via the Docs `mobilebasic` plain-text endpoint — see `_source/gm-interviews_google-doc_2026-08-24/`). **No equivalent link was provided for Mike Wangle / Store 01.** If Shannon shares a Wangle Doc link, the same `mobilebasic` method will work to retrieve it.
+  - Wispr Flow: only two shared notes remain available (GM James → Stores 03/04; GM Shane Silvey → Store 05). No Wangle note.
 - **Therefore all Store 01 GM detail below is NOT yet known.** Everything is TO VERIFY — request the note/link from the client via Shannon McNeil.
 
 ## Placeholder fields (all TO VERIFY — request via Shannon McNeil)
