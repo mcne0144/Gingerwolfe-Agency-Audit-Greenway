@@ -4,7 +4,7 @@
 **Owner:** Bright Matter LLC agency operations team (Content Strategist)
 **Date:** 2026-08-22 (**rev 2 — reconciled to `_source/GREENWAY_PILOT_BRIEF_2026-08-22.md` + graduated production stance, owner-endorsed 2026-08-22**)
 **Built from:** the operator strategy brief (supersedes rev-1) · `content/pillars/PILLARS.md` (REVISION 2) · `channel-matrix.csv` + `stores/store-02/STORE.md` · `reporting/SPROUT_CONFIG_PLAN.md` + `GM_KPI_FRAMEWORK.md`.
-**Evidence labels:** CONFIRMED (platform-retrieved, dated) · TO VERIFY · **LOCKED (2026-08-22 operator sign-off — the §3 mix)**. Nothing real-data-dependent is assumed.
+**Evidence labels:** CONFIRMED (platform-retrieved, dated) · TO VERIFY · **LOCKED/RATIFIED (2026-08-22 operator sign-off — the §3 mix)**. Nothing real-data-dependent is assumed.
 
 ---
 
@@ -37,9 +37,9 @@ Growing, family-dense metro; **"the useful dealership on this side of town"** is
 
 ---
 
-## 3. Content pillars & per-channel mix — FULL, depth+utility+local execution (LOCKED 2026-08-22)
+## 3. Content pillars & per-channel mix — FULL, depth+utility+local execution (LOCKED/RATIFIED 2026-08-22 — operator sign-off)
 
-> **LOCKED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
+> **LOCKED/RATIFIED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
 >
 > **Scope of the lock.** Locked for calendar and production planning. **Provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 — a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance** (pilot brief kill criterion 5). Sprout can be configured against these targets now; attribution cannot be trusted while duplicate handles are live.
 >
@@ -125,6 +125,6 @@ Depth and utility, not volume; proof over price; human + local southside; a face
 **Process / compliance:**
 10. **Kia OEM ad/compliance rules** (TO VERIFY).
 11. **Sprout connection verification** — what is connected; confirm inactive dup IG `@greenwaykia.jax` is NOT connected; Shannon/Shawn Vink.
-12. **Final cadence + per-channel mix confirmation** — Shannon (house defaults for sign-off).
+12. **Final per-store CADENCE confirmation** — Shannon (capacity call; the per-channel MIX is already LOCKED/RATIFIED by the operator 2026-08-22).
 
 *End of Store 02 strategy — FULL-ish/character phased in; depth+utility+local wedge (brief-supported, not a promo race); every store-data item TO VERIFY.*

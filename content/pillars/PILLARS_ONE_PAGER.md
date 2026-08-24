@@ -2,9 +2,9 @@
 
 **Status:** INTERNAL DRAFT — not client-facing. For Shannon McNeil to confirm before it feeds any per-store strategy or calendar.
 **Prepared by:** Bright Matter LLC agency operations team · **2026-08-22 (rev 2 — reconciled to `_source/GREENWAY_PILOT_BRIEF_2026-08-22.md`)**
-**Source:** `content/pillars/PILLARS.md` (full detail) + the operator strategy brief. Evidence labels: **CONFIRMED** (platform-retrieved 2026-08-22) · **TO VERIFY** (store/Sprout data) · **HOUSE DEFAULT** (team decision for operator sign-off, not research).
+**Source:** `content/pillars/PILLARS.md` (full detail) + the operator strategy brief. Evidence labels: **CONFIRMED** (platform-retrieved 2026-08-22) · **TO VERIFY** (store/Sprout data) · **HOUSE DEFAULT** (team decision, not research; per-channel mixes RATIFIED by operator 2026-08-22).
 
-> **Supersession note (read first):** The 2026-08-22 operator strategy brief (`_source/GREENWAY_PILOT_BRIEF_2026-08-22.md`) **supersedes the earlier (rev-1) pillars draft** on every strategy point below — pillar *specifications*, the format tier layer, the content mix, the capacity variants, and the per-store competitive angles. Where this page or `PILLARS.md` rev-1 contradicts the brief on a strategy point, **the brief wins.** The five pillar *names* are unchanged. **The mixes are now LOCKED (2026-08-22 operator sign-off)** — the graduated production stance, the asset and capacity read, and the exact per-store percentages are all confirmed. They are locked for calendar and production planning and **provisional as a measurement baseline** at Stores 01, 03 and 04 until account consolidation completes. Authoritative copies live in each `stores/store-0X/STRATEGY.md` §3.
+> **Supersession note (read first):** The 2026-08-22 operator strategy brief (`_source/GREENWAY_PILOT_BRIEF_2026-08-22.md`) **supersedes the earlier (rev-1) pillars draft** on every strategy point below — pillar *specifications*, the format tier layer, the content mix, the capacity variants, and the per-store competitive angles. Where this page or `PILLARS.md` rev-1 contradicts the brief on a strategy point, **the brief wins.** The five pillar *names* are unchanged. The mixes shown are **RATIFIED (2026-08-22)** — the operator confirmed the graduated production stance, the asset/capacity read, and the exact per-channel percentages.
 
 ---
 
@@ -43,7 +43,7 @@ Revision 1's single wedge — "competitors are stale, so post current content an
 
 ---
 
-## Content mix, per channel — LOCKED 2026-08-22
+## Content mix, per channel — RATIFIED (2026-08-22)
 
 Share of **counted** (Tier A/B) posts. Tier C excluded by definition. Community at gated opening weight. Blended ≈ **32 / 22 / 22 / 11 / 9** (P3 up = growth engine; P4 down + gated; P5 down as *post share* while its GBP work continues).
 
@@ -86,9 +86,9 @@ Share of **counted** (Tier A/B) posts. Tier C excluded by definition. Community 
 
 ---
 
-## Your decisions needed (HOUSE DEFAULT → operator sign-off)
+## Your decisions needed (per-channel mixes RATIFIED 2026-08-22; cadence still open)
 
 1. **Confirm the graduated per-store stance** (01/02 full; 03/04 minimum-viable/light uplift; 05 asset-led). *Owner-endorsed 2026-08-22 — recorded here as direction.*
-2. **Confirm the per-channel mix percentages** (§7 full = 01/02; min-viable variant = 03/04; asset-led FB/YT = 05) — house-default numbers awaiting operator sign-off.
+2. **Confirm the per-channel mix percentages** (§7 full = 01/02; min-viable variant = 03/04; asset-led FB/YT = 05) — RATIFIED by operator 2026-08-22.
 3. **Confirm the Community gating threshold** (opens at 10%, escalates to 20% after a store's hook list is verified).
 4. **Confirm the weekly Tier A target** (≥1/rooftop/week in full mix; launch-walkarounds-only for min-viable stores).

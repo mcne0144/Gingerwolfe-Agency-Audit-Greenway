@@ -4,7 +4,7 @@
 **Owner:** Bright Matter LLC agency operations team (Content Strategist)
 **Date:** 2026-08-22 (**rev 2 — reconciled to `_source/GREENWAY_PILOT_BRIEF_2026-08-22.md` + graduated production stance, owner-endorsed 2026-08-22**)
 **Built from:** the operator strategy brief (supersedes rev-1) · `content/pillars/PILLARS.md` (REVISION 2) · `channel-matrix.csv` + `stores/store-04/STORE.md` · `reporting/SPROUT_CONFIG_PLAN.md` + `GM_KPI_FRAMEWORK.md`.
-**Evidence labels:** CONFIRMED · TO VERIFY · **LOCKED (2026-08-22 operator sign-off — the §3 mix)**. Nothing real-data-dependent is assumed.
+**Evidence labels:** CONFIRMED · TO VERIFY · **LOCKED/RATIFIED (2026-08-22 operator sign-off — the §3 mix)**. Nothing real-data-dependent is assumed.
 
 ---
 
@@ -41,9 +41,9 @@ Southeast Nashville / Antioch–La Vergne–Smyrna: growing suburban corridor of
 
 ---
 
-## 3. Content pillars & per-channel mix — MINIMUM VIABLE (LOCKED 2026-08-22)
+## 3. Content pillars & per-channel mix — MINIMUM VIABLE (LOCKED/RATIFIED 2026-08-22 — operator sign-off)
 
-> **LOCKED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
+> **LOCKED/RATIFIED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
 >
 > **Scope of the lock.** Locked for calendar and production planning. **Provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 — a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance** (pilot brief kill criterion 5). Sprout can be configured against these targets now; attribution cannot be trusted while duplicate handles are live.
 >
@@ -59,7 +59,7 @@ Counted posts are **Tier A/B only**. **P3 at 10%** (share to 1b and 2); Communit
 | 4 Community & Local *(gated)* | 10% | 10% | 25% |
 | 5b Reviews & Proof (video) | 10% | 5% | 10% |
 
-*(FB Community at 25% = local-hub share per §7 house default; P3 capped at 10% on personality channels with its share in 1b/2. Values LOCKED 2026-08-22 (see the lock note at the head of this section).)*
+*(FB Community at 25% = local-hub share per §7 house default; P3 capped at 10% on personality channels with its share in 1b/2. Values LOCKED/RATIFIED 2026-08-22 by the operator (see the lock note at the head of this section).)*
 
 **Why for THIS store:** lean + sustainable (same capacity reasoning as Store 03) **with TikTok active** — so the light P3 shows up as occasional BTS/real-people clips, not a character arc. P1b/2 lead; Community gated till Antioch hooks verify; 5b video proof (review flow is a lever at 4.3★, kept in every week's rhythm — **held as a weekly row, not a big share**). **Deal & ownership education lives under P2.**
 
@@ -130,6 +130,6 @@ Human, helpful, local — Antioch's own voice (never Store 03's, never a cloned 
 **Process / compliance:**
 9. **Kia OEM ad/compliance rules** (TO VERIFY).
 10. **Sprout connection verification** — what is connected; confirm legacy "Universal Kia" accounts are NOT connected; Shannon/Shawn Vink.
-11. **Final cadence + per-channel mix confirmation** — Shannon (house defaults for sign-off).
+11. **Final per-store CADENCE confirmation** — Shannon (capacity call; the per-channel MIX is already LOCKED/RATIFIED by the operator 2026-08-22).
 
 *End of Store 04 strategy — MIN VIABLE / light uplift (a strength): lean, sustainable, train-the-trainer; FB+IG+TikTok all active; no character, Tier A = launch walkarounds only; own Antioch voice/scorecard, separate from Store 03.*

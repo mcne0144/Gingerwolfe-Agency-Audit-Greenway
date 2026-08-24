@@ -1,6 +1,7 @@
 # Content Calendar — Store 05 · Greenway Ford Kansas City (4-Week Precise Calendar)
 
 **Status: INTERNAL DRAFT — not client-facing.** Agents draft → Shannon approves → store human publishes in Sprout. **TO VERIFY cell unresolved on post date = item held, not posted.**
+**Mix status:** per-channel pillar mix RATIFIED by operator 2026-08-22 — this calendar is finalized against the ratified numbers. Cadence remains a Shannon capacity call.
 **Owner:** Bright Matter LLC (Content Strategist) · **Date:** 2026-08-22 (**rev 3 — Tier-B STRONG + ASSET-LED Tier A (unchanged); FB + YouTube = immediately-active baseline; IG/TikTok content PRE-BUILT and activating on Phase-1 stand-up, operator-confirmed 2026-08-22**)
 **Built from:** `stores/store-05/STRATEGY.md` (rev 3) · **operator confirmation 2026-08-22 (IG + TikTok stood up in Phase 1)** · `content/pillars/PILLARS.md` REVISION 2 · `CONTENT_CALENDAR_TEMPLATE.md` · `SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** **FB ~3 posts/wk (2 counted video + 1 utility)** · **YouTube ~1 Short/wk + 1 long-form/mo + per-VIN (Tier 1a)** — these are **live and schedulable now**. · **Instagram + TikTok: accounts not yet live.** Operator confirmed 2026-08-22 they are **stood up during Phase 1**, so their slots are **pre-built below** (§"IG + TikTok — pre-built") and **activate on stand-up** at ~2/wk each (minimum/asset-led start). **Handles TO VERIFY / pending stand-up — none invented; nothing scheduled to a channel that does not yet exist.** Pilot month/dates TO VERIFY.

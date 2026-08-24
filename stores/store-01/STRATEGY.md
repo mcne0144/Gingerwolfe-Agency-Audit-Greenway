@@ -4,7 +4,7 @@
 **Owner:** Bright Matter LLC agency operations team (Content Strategist)
 **Date:** 2026-08-22 (**rev 2 — reconciled to `_source/GREENWAY_PILOT_BRIEF_2026-08-22.md` + graduated production stance, owner-endorsed 2026-08-22**)
 **Built from:** the operator strategy brief (supersedes rev-1 pillars on strategy/mix) · `content/pillars/PILLARS.md` (REVISION 2) · `channel-matrix.csv` + `stores/store-01/STORE.md` · `reporting/SPROUT_CONFIG_PLAN.md` + `reporting/GM_KPI_FRAMEWORK.md`.
-**Evidence labels:** CONFIRMED (platform-retrieved, dated) · **TO VERIFY — request from client via Shannon McNeil** (must be supplied before a post goes live) · **HOUSE DEFAULT** (team decision for operator sign-off, not research). Nothing in square brackets or marked TO VERIFY is assumed.
+**Evidence labels:** CONFIRMED (platform-retrieved, dated) · **TO VERIFY — request from client via Shannon McNeil** (must be supplied before a post goes live) · **LOCKED/RATIFIED** (2026-08-22 operator sign-off — the §3 per-channel mix; no longer HOUSE DEFAULT). Nothing in square brackets or marked TO VERIFY is assumed.
 
 ---
 
@@ -37,9 +37,9 @@ Coastal, service/tourism-dense south-FL metro; demographic specifics, age mix, S
 
 ---
 
-## 3. Content pillars & per-channel mix — FULL (LOCKED 2026-08-22)
+## 3. Content pillars & per-channel mix — FULL (LOCKED/RATIFIED 2026-08-22 — operator sign-off)
 
-> **LOCKED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
+> **LOCKED/RATIFIED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
 >
 > **Scope of the lock.** Locked for calendar and production planning. **Provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 — a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance** (pilot brief kill criterion 5). Sprout can be configured against these targets now; attribution cannot be trusted while duplicate handles are live.
 >
@@ -122,6 +122,6 @@ Honest, specific, never hype; **proof over price**; human + local, a WPB neighbo
 **Process / compliance:**
 9. **Kia OEM advertising/compliance rules** (TO VERIFY per brand) before any vehicle/incentive claim.
 10. **Sprout connection verification** (what is connected today; dup FB disconnected) — Shannon/Shawn Vink.
-11. **Final cadence + per-channel mix confirmation** — Shannon (house default numbers above are for sign-off).
+11. **Final per-store CADENCE confirmation** — Shannon (capacity call; the per-channel MIX is already LOCKED/RATIFIED by the operator 2026-08-22).
 
 *End of Store 01 strategy — FULL/character stance; §7 per-channel mix + tier model; every store-data item TO VERIFY; nothing posted.*

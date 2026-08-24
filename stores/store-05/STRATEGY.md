@@ -50,9 +50,9 @@ Pre-owned-heavy Ford market; **Ford buyers skew older → Facebook/Google carry 
 
 ---
 
-## 3. Content pillars & per-channel mix — ASSET-LED TIER-B/TIER-A (LOCKED 2026-08-22)
+## 3. Content pillars & per-channel mix — ASSET-LED TIER-B/TIER-A (LOCKED/RATIFIED 2026-08-22 — operator sign-off)
 
-> **LOCKED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
+> **LOCKED/RATIFIED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
 >
 > **Scope of the lock.** Locked for calendar and production planning. **Provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 — a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance** (pilot brief kill criterion 5). Sprout can be configured against these targets now; attribution cannot be trusted while duplicate handles are live.
 >
@@ -62,7 +62,7 @@ Counted posts are **Tier A/B only** (video). **Live channels this phase = FB + Y
 
 **On stand-up:** IG/TikTok take **repurposed cuts of the same asset-led Tier A / Tier B library** — they add **distribution, not a new production burden**, and they do **not** change the FB counted mix below. IG/TikTok slot-level mix targets are **held pending a real baseline** (no follower counts, no invented performance); at activation they run **minimum/asset-led** and are reviewed after 30 days of real data, with any mix proposal flagged for Shannon/GM confirmation.
 
-**FB counted mix (LOCKED 2026-08-22):**
+**FB counted mix (LOCKED/RATIFIED 2026-08-22):**
 
 | Pillar (FB) | % |
 |---|---|
@@ -72,7 +72,7 @@ Counted posts are **Tier A/B only** (video). **Live channels this phase = FB + Y
 | 4 Community & Local *(gated)* | 18% |
 | 5b Reviews & Proof (video) | 17% |
 
-*(P3 is above the §7 FB default of 5% because "be watchable" is the rebuilt angle → watchability/people carry weight; used-lot **per-VIN walkarounds move to Tier C on YouTube/GBP** and are NOT counted in the mix, per brief §9. Values LOCKED 2026-08-22 (see the lock note at the head of this section).)*
+*(P3 is above the §7 FB default of 5% because "be watchable" is the rebuilt angle → watchability/people carry weight; used-lot **per-VIN walkarounds move to Tier C on YouTube/GBP** and are NOT counted in the mix, per brief §9. Values LOCKED/RATIFIED 2026-08-22 by the operator (see the lock note at the head of this section).)*
 
 **Tier format plan (asset-led):**
 - **Tier A (from the asset library):** launch walkarounds + headline agency media repurposed; **+ optional daughter character** (NOT required). Weekly Tier A is met from the library when available — not a new-shoot requirement.
@@ -141,6 +141,6 @@ Watchable, honest, specific, proof-over-price; warmer/clearer/less casual than t
 **Process / compliance:**
 10. **Ford OEM ad/compliance rules** (TO VERIFY — distinct from Kia).
 11. **Sprout connection verification** — what FB/YouTube is connected today; **and the plan to connect IG/TikTok once Phase-1 stand-up completes** (nothing to connect until the accounts exist); Shannon/Shawn Vink.
-12. **Final cadence + FB/YT mix confirmation** — Shannon (house defaults for sign-off). **IG/TikTok activation cadence** (~2/wk each, minimum/asset-led start) confirmed at stand-up, not before.
+12. **Final cadence + FB/YT mix confirmation** — Shannon (mix already LOCKED/RATIFIED by the operator 2026-08-22 — cadence only is a capacity call). **IG/TikTok activation cadence** (~2/wk each, minimum/asset-led start) confirmed at stand-up, not before.
 
 *End of Store 05 strategy — Tier-B STRONG + asset-led Tier A (unchanged); **FB + YouTube live now, IG/TikTok pre-built and activating on Phase-1 stand-up (operator-confirmed 2026-08-22), handles TO VERIFY**; rebuilt "be watchable" wedge; every store-data item TO VERIFY.*

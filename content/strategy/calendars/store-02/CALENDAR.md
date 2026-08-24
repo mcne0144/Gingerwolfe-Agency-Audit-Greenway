@@ -1,6 +1,7 @@
 # Content Calendar — Store 02 · Greenway Kia at the Avenues (4-Week Precise Calendar)
 
 **Status: INTERNAL DRAFT — not client-facing.** Agents draft → Shannon approves → store human publishes in Sprout. **TO VERIFY cell unresolved on post date = item held, not posted.**
+**Mix status:** per-channel pillar mix RATIFIED by operator 2026-08-22 — this calendar is finalized against the ratified numbers. Cadence remains a Shannon capacity call.
 **Owner:** Bright Matter LLC (Content Strategist) · **Date:** 2026-08-22 (**rev 2 — FULL-ish/character stance; §7 per-channel mix + Tier model; depth+utility+local wedge**)
 **Built from:** `stores/store-02/STRATEGY.md` (rev 2) · `content/pillars/PILLARS.md` REVISION 2 · `CONTENT_CALENDAR_TEMPLATE.md` · `SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** FB ~3 posts/wk (2 counted video + 1 utility) · IG ~3 Reels + 3 Stories/wk · TikTok ~3 videos/wk · YouTube ~1 Short/wk + 1 long-form/mo (depth-review home). Pilot month/dates TO VERIFY.

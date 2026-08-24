@@ -4,7 +4,7 @@
 **Owner:** Bright Matter LLC agency operations team (Content Strategist)
 **Date:** 2026-08-22 (**rev 2 — reconciled to `_source/GREENWAY_PILOT_BRIEF_2026-08-22.md` + graduated production stance, owner-endorsed 2026-08-22**)
 **Built from:** the operator strategy brief (supersedes rev-1) · `content/pillars/PILLARS.md` (REVISION 2) · `channel-matrix.csv` + `stores/store-03/STORE.md` · `reporting/SPROUT_CONFIG_PLAN.md` + `GM_KPI_FRAMEWORK.md`.
-**Evidence labels:** CONFIRMED · TO VERIFY · **LOCKED (2026-08-22 operator sign-off — the §3 mix)**. Nothing real-data-dependent is assumed.
+**Evidence labels:** CONFIRMED · TO VERIFY · **LOCKED/RATIFIED (2026-08-22 operator sign-off — the §3 mix)**. Nothing real-data-dependent is assumed.
 
 ---
 
@@ -41,9 +41,9 @@ North Nashville / Madison-Goodlettsville: commuting families, value-focused Kia 
 
 ---
 
-## 3. Content pillars & per-channel mix — MINIMUM VIABLE (LOCKED 2026-08-22)
+## 3. Content pillars & per-channel mix — MINIMUM VIABLE (LOCKED/RATIFIED 2026-08-22 — operator sign-off)
 
-> **LOCKED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
+> **LOCKED/RATIFIED — 2026-08-22, operator sign-off.** These percentages are no longer HOUSE DEFAULT. They are the confirmed targets this store's calendar is built against, and the targets the Reporting Analyst configures Sprout and the KPI baseline against.
 >
 > **Scope of the lock.** Locked for calendar and production planning. **Provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 — a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance** (pilot brief kill criterion 5). Sprout can be configured against these targets now; attribution cannot be trusted while duplicate handles are live.
 >
@@ -59,7 +59,7 @@ Counted posts are **Tier A/B only**. **P3 at 10%** (share moved to 1b and 2); Co
 | 4 Community & Local *(gated)* | 10% | — | 25% |
 | 5b Reviews & Proof (video) | 10% | — | 10% |
 
-*(FB Community sits at 25% as the local-hub share per the §7 house default; on the personality channels P3 is capped at 10% and its share sits in 1b/2. Values LOCKED 2026-08-22 (see the lock note at the head of this section).)*
+*(FB Community sits at 25% as the local-hub share per the §7 house default; on the personality channels P3 is capped at 10% and its share sits in 1b/2. Values LOCKED/RATIFIED 2026-08-22 by the operator (see the lock note at the head of this section).)*
 
 **Why for THIS store:** lean + sustainable — high 1b/2 (the revenue core, low-friction to produce from real inventory/service), P3 capped at 10% (no character required), Community gated till Madison hooks verify, 5b as occasional video proof. **Deal & ownership education lives under P2.**
 
@@ -128,7 +128,7 @@ Personality-led *where it shows up* but light; human, helpful, local (own Madiso
 **Process / compliance:**
 8. **Kia OEM ad/compliance rules** (TO VERIFY).
 9. **Sprout connection verification** — what is connected; confirm no TikTok to connect; Shannon/Shawn Vink.
-10. **Final cadence + per-channel mix confirmation** — Shannon (house defaults for sign-off).
+10. **Final per-store CADENCE confirmation** — Shannon (capacity call; the per-channel MIX is already LOCKED/RATIFIED by the operator 2026-08-22).
 11. Future TikTok path (absence item) — GM discussion, not unilateral creation.
 
 *End of Store 03 strategy — MIN VIABLE / light uplift (a strength, not a downgrade): lean, sustainable, train-the-trainer; FB+IG only, NO TikTok; no character, Tier A = launch walkarounds only; own Madison voice/scorecard, separate from Store 04.*

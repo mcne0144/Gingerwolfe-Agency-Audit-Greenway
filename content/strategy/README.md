@@ -23,7 +23,7 @@
 
 **No one blanket mix.** Each rooftop runs a production stance fit to its capacity, per-channel mix, and tier plan:
 
-| Store | Market / GM | Production stance | Active publish channels | Per-channel mix (HOUSE DEFAULT) |
+| Store | Market / GM | Production stance | Active publish channels | Per-channel mix (RATIFIED 2026-08-22) |
 |---|---|---|---|---|
 | **01** · Greenway Kia West Palm Beach | West Palm Beach, FL · Mike Wangle | **FULL / Tier A recurring character** (dedicated on-site video person — anchor rooftop) | FB, IG, TikTok (+YT support) | §7 full: IG35/25/20/10/10 · TT30/15/40/10/5 · FB30/25/5/25/15 |
 | **02** · Greenway Kia at the Avenues | Jacksonville, FL · Emre Sevinir | **FULL-ish / Tier A viable** (2–3 participants; phase Tier A cadence in) | FB, IG, TikTok (+YT support) | §7 full (depth+utility+local execution) |
@@ -44,9 +44,9 @@
 
 ## Deviation register — graduated stance replaces the single-default deviation model
 
-The brief **supersedes the rev-1 single 30/20/15/20/15 default**. Per-store mixes now follow the §7 house per-channel mix (01/02 full), the minimum-viable variant (03/04), or the asset-led variant (05). **All mixes are HOUSE DEFAULT for operator sign-off** — the operator confirmed the graduated stance and the asset/capacity read, but the exact percentages are flagged, not silently final.
+The brief **supersedes the rev-1 single 30/20/15/20/15 default**. Per-store mixes now follow the §7 house per-channel mix (01/02 full), the minimum-viable variant (03/04), or the asset-led variant (05). **All mixes are RATIFIED by the operator (2026-08-22)** — they are now locked and drive the calendars + Sprout/KPI baselines. The graduated production stance is unchanged.
 
-| Store | Mix (house default) | Production stance + note |
+| Store | Mix (ratified) | Production stance + note |
 |---|---|---|
 | 01 | §7 full | FULL/character — anchor rooftop; P3 elevated (esp. TikTok 40%) |
 | 02 | §7 full (depth+utility+local) | FULL-ish/character phased in; offers discretionary/verifiable |
@@ -72,7 +72,7 @@ Each STRATEGY.md states its stance, tier plan, channels, gated local hooks, comp
 3. **Store 05 IG/TikTok Phase-1 stand-up** — **operator-confirmed 2026-08-22 that both accounts will be stood up in Phase 1** (no longer an open-ended gate). Still open: **target date, who creates/owns them (GM + Shannon action with IT/Shawn Vink where access is required — never an agent action), and the real handles once live (TO VERIFY — never invented)**. Content is pre-built and activates on stand-up, minimum/asset-led. **Store 03 TikTok** absence — GM discussion, not creation.
 4. **TikTok/duplicate consolidation** (Store 01 dormant+dup + staff-account decision; Store 02 dup IG + cold-start TikTok; Store 04 three TikTok accounts) — precondition per brief §3.
 5. **Per-store real data** (inventory, offers, service, named person, local hooks) — request lists per STRATEGY §9.
-6. **Final cadence + per-channel mix confirmation** per store — Shannon (house defaults for sign-off).
+6. **Final per-store cadence confirmation** per store — Shannon (capacity call; the per-channel mix is already operator-ratified 2026-08-22).
 7. **OEM ad/compliance rules** (Kia 01–04; Ford 05) before any vehicle/incentive claim.
 8. Re-verify **competitor FB/IG/TikTok** presence before any FB/IG/TikTok wedge is asserted confirmed (manual verification needed — 2026-08-22); re-date every observation.
 

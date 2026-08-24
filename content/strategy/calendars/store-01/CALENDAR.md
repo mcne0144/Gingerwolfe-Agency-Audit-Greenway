@@ -1,6 +1,7 @@
 # Content Calendar — Store 01 · Greenway Kia West Palm Beach (4-Week Precise Calendar)
 
 **Status: INTERNAL DRAFT — not client-facing. Nothing posts until Shannon McNeil approves each item and a store human publishes in Sprout.**
+**Mix status:** per-channel pillar mix RATIFIED by operator 2026-08-22 — this calendar is finalized against the ratified numbers. Cadence remains a Shannon capacity call.
 **Owner:** Bright Matter LLC (Content Strategist) · **Date:** 2026-08-22 (**rev 2 — reconciled to graduated FULL/character stance + brief's Tier model and §7 per-channel mix**)
 **Built from:** `stores/store-01/STRATEGY.md` (rev 2) · `content/pillars/PILLARS.md` REVISION 2 (tier layer + per-channel mix) · `content/CONTENT_CALENDAR_TEMPLATE.md` · `reporting/SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** FB ~3 posts/wk (2 counted video + 1 Tier C utility) · IG ~3 Reels + 3 Stories/wk · TikTok ~3 videos/wk (incl. ≥1 Tier A) · YouTube ~1 Short + per-VIN (Tier 1a). Pilot month/dates TO VERIFY. Slots are placeholders until the store confirms the real asset.

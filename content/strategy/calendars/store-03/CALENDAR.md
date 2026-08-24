@@ -1,6 +1,7 @@
 # Content Calendar — Store 03 · Greenway Kia Rivergate (4-Week Precise Calendar)
 
 **Status: INTERNAL DRAFT — not client-facing.** Agents draft → Shannon approves → store human publishes in Sprout. **TO VERIFY cell unresolved on post date = item held, not posted.**
+**Mix status:** per-channel pillar mix RATIFIED by operator 2026-08-22 — this calendar is finalized against the ratified numbers. Cadence remains a Shannon capacity call.
 **Owner:** Bright Matter LLC (Content Strategist) · **Date:** 2026-08-22 (**rev 2 — MINIMUM VIABLE / light uplift; P3=10%; Tier A = launch walkarounds only**)**
 **Built from:** `stores/store-03/STRATEGY.md` (rev 2) · `content/pillars/PILLARS.md` REVISION 2 · `CONTENT_CALENDAR_TEMPLATE.md` · `SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** FB ~3 posts/wk (2 counted video + 1 utility) · IG ~2 Reels + ~3 Stories/wk · **YouTube ~1 Short/wk ONLY after `@universalkia` attribution confirmed** (conditional). **NO TikTok — Store 03 has no TikTok account; no TikTok slots scheduled.** Pilot month/dates TO VERIFY.

@@ -3,6 +3,7 @@
 **Status:** INTERNAL DRAFT — planning work only. NOT client-facing. Nothing is published, launched, or touched in any live account. Shannon McNeil approves before anything leaves the team.
 **Owner:** Bright Matter LLC agency operations team (Reporting Analyst)
 **Date:** 2026-08-22 (plan written; every connection state below is TO VERIFY)
+**Reconciled:** 2026-08-22 — pillar mix updated to the operator-**RATIFIED** blend **32/22/22/11/9** + per-store per-channel variants (§4.2). Mix is locked. **Cadence is not** — it remains a Shannon capacity call per store.
 **Applies to:** Month 2 — Strategy & Build (mid-Sep – mid-Oct) of the six-month organic pilot across 5 rooftops.
 
 > **Read this first (operating boundary):** This is a **plan only**. No account is created, no profile is connected, no approval workflow is enforced on a live system, and **no agent ever publishes.** A human on the Greenway/Shannon side operates Sprout and does all publishing. Agents draft, feed, and analyze content; they never hold publish rights and never touch a live account without the operator's explicit confirmation. Every line below marked **TO VERIFY** stays TO VERIFY until Shannon McNeil (and Shawn Vink for admin/access) confirms it.
@@ -160,28 +161,38 @@ Agents (Bright Matter) **draft and feed**; Shannon **reviews and approves**; a *
 - Only `Approved` items are scheduled/published.
 - `Draft`, `Lead review`, and `Edits needed` items are **never** scheduled.
 
-**Posting cadence — house default (from `KPI_FRAMEWORK.md` §8 / `CONTENT_STRATEGY_FRAMEWORK.md` §8), applied per store, to be confirmed with Shannon:**
+**Posting cadence — house default (from `KPI_FRAMEWORK.md` §8 / `CONTENT_STRATEGY_FRAMEWORK.md` §8), applied per store. Cadence is NOT ratified — it stays a Shannon capacity call per store (TO CONFIRM):**
 - Facebook: 3–5 posts/week
 - Instagram: 3–5 feed posts + 3–5 Stories/week
 - TikTok: 3–5 videos/week
 - YouTube (support): 1 Short/week + 1 long-form/month
 - *(Reddit: monitor-only — no cadence; GBP: none this phase.)*
 
-**Content pillar mix — LOCKED 2026-08-22 (operator sign-off). Configure Sprout and the KPI baseline against these, not against the rev-1 default.**
+**Content pillar mix — RATIFIED by the operator (Shannon McNeil, 2026-08-22).** These are the locked starting shares; they are no longer a house default awaiting sign-off. Blended house blend across the pilot = **32/22/22/11/9**:
 
-> The 30/20/15/20/15 figure this section previously carried was the **rev-1 group default**, with rev-1 pillar names (Service & Trust, People & Place). It is superseded. The locked targets are **per store and per channel**, counted over **Tier A/B posts only** — Tier C (per-VIN walkarounds, static offer and compliance graphics, hours and milestone posts) is published but **never fills a mix slot**, so it must be excluded from mix reporting or every store will read as off-target.
+| # | Pillar | Blended share |
+|---|--------|---------------|
+| P1 | Inventory / Search | 32% |
+| P2 | Service & Ownership | 22% |
+| P3 | People & Character | 22% |
+| P4 | Community / Local (**gated** 10% → 20%) | 11% |
+| P5 | Reviews & Social-Proof | 9% |
 
-| Store | Instagram (1b/2/3/4/5b) | TikTok (1b/2/3/4/5b) | Facebook (1b/2/3/4/5b) |
-|---|---|---|---|
-| 01 West Palm Beach — full | 35 / 25 / 20 / 10 / 10 | 30 / 15 / 40 / 10 / 5 | 30 / 25 / 5 / 25 / 15 |
-| 02 at the Avenues — full | 35 / 25 / 20 / 10 / 10 | 30 / 15 / 40 / 10 / 5 | 30 / 25 / 5 / 25 / 15 |
-| 03 Rivergate — minimum viable | 40 / 30 / 10 / 10 / 10 | *no TikTok account* | 33 / 27 / 5 / 25 / 10 |
-| 04 Hickory Hollow — minimum viable | 40 / 30 / 10 / 10 / 10 | 45 / 30 / 10 / 10 / 5 | 33 / 27 / 5 / 25 / 10 |
-| 05 Ford Kansas City — asset-led | *pending Phase-1 stand-up* | *pending Phase-1 stand-up* | 30 / 20 / 15 / 18 / 17 |
+*The blend is the ratified **approximate** across-pilot average of the per-channel mixes below (it is a rounded blend, not a per-channel target — each per-channel mix in the store table sums to 100%). Configure Sprout to the store's per-channel mix, never to the blend.*
 
-**Three configuration consequences.** (a) **Store 05's mix is Facebook-only** — it has no Instagram or TikTok account today, and those slot targets are deliberately unset pending 30 days of real baseline after stand-up. Do not fill them with the group default. (b) **Store 03 has no TikTok** — leave the column empty rather than defaulting it. (c) **Community (P4) is gated at 10%** on the personality channels at Stores 01–04 and rises to 20% only when that store's local hook list is confirmed; build the target as a variable, not a constant.
+**The mix is counted on Tier A (Hero) and Tier B (Workhorse) posts only. Tier C (Utility) is published but NOT counted** toward the mix — this is the counting rule the K5 content-mix check uses (§5.2).
 
-**Baseline caveat — carry this into the dashboard build.** The mixes are locked for calendar and production planning but are **provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04. Per pilot brief kill criterion 5, a rooftop still running duplicate accounts at day 30 is reported as a **blocked baseline, not underperformance**. Configure now; flag those three stores' attribution as provisional until their canonical handles are confirmed and duplicates retired.
+**Per-channel mixes are set per store** (each store's `stores/store-NN/STRATEGY.md` is the source of truth; do not average them into one number in Sprout):
+
+| Store | Stance | Ratified per-channel mix (P1/P2/P3/P4/P5) |
+|-------|--------|--------------------------------------------|
+| 01 · West Palm Beach | Full | IG **35/25/20/10/10** · TikTok **30/15/40/10/5** · FB **30/25/5/25/15** |
+| 02 · Jacksonville (Avenues) | Full | IG **35/25/20/10/10** · TikTok **30/15/40/10/5** · FB **30/25/5/25/15** |
+| 03 · Rivergate | Min-viable (FB+IG only, **NO TikTok**) | IG **40/30/10/10/10** · FB **33/27/5/25/10** · P3 = 10%, Tier A = launch only |
+| 04 · Hickory Hollow | Min-viable (FB+IG+TikTok+YT) | IG **40/30/10/10/10** · TikTok **45/30/10/10/5** · FB **33/27/5/25/10** |
+| 05 · Kansas City (Raytown) | Asset-led (FB+YT; IG/TikTok = Phase-1 stand-up) | **30/20/15/18/17** |
+
+These are the **ratified starting shares** — per-store execution adapts within them (format choice, emphasis, sequencing); the percentages themselves are locked and are not silently re-cut in Sprout. Rev-1's single all-channel default share is **superseded** by the ratified blend and per-store variants above.
 
 ### 4.3 The approval steps (in Sprout, once live in Month 3)
 1. Shannon loads the agents' ready content package into the store's Sprout group as a **draft** (agents have prepared copy + media + intended slot + CTA off-platform).
@@ -202,13 +213,15 @@ Sprout is **one source among several** for the KPI framework (`KPI_FRAMEWORK.md`
 - **Still from native tools, not Sprout:** K9/K10 DMs & message response (native inboxes), K16 Reddit (manual), K17–K23 GBP (back-burnered / later), and any metric Sprout's connection doesn't surface (flag as a gap rather than guess).
 
 ### 5.2 Tagging / labeling conventions (critical for the monthly report)
-Apply **Sprout tags/labels to every published post** so each post can be attributed to *store, channel, and pillar* for the monthly content-mix check (K5) and "what's working" analysis (`REPORTING_TEMPLATE.md` §4). **Three required tags on every post:**
+Apply **Sprout tags/labels to every published post** so each post can be attributed to *store, channel, pillar, and format tier* for the monthly content-mix check (K5) and "what's working" analysis (`REPORTING_TEMPLATE.md` §4). **Four required tags on every post:**
 
 1. **Store tag:** `store-01` … `store-05` (matches `stores/store-NN` and `dashboards/store-NN`).
 2. **Channel tag:** `fb` · `ig` · `tt` · `yt` (matches DASHBOARD column prefixes).
-3. **Pillar tag:** `pillar-1-inventory` · `pillar-2-service-trust` · `pillar-3-people-place` · `pillar-4-community-local` · `pillar-5-reviews-proof` (matches `content/pillars/PILLARS.md` §3).
+3. **Pillar tag:** `pillar-1-inventory` (P1 Inventory/Search) · `pillar-2-service-trust` (P2 Service & Ownership) · `pillar-3-people-place` (P3 People & Character) · `pillar-4-community-local` (P4 Community/Local, gated) · `pillar-5-reviews-proof` (P5 Reviews & Social-Proof) — slugs unchanged; the parenthetical is the current pillar name (`content/pillars/PILLARS.md` §3). Tag slugs stay stable so historical tagging keeps reconciling.
 
-**Why:** the monthly report needs (a) per-store × per-channel numbers (dashboard columns), and (b) the **content-mix check** (did the store post roughly its pillar mix?) which only works if every post carries a pillar tag. Without tags, the mix check and "what's working" become manual guesses. Tag structure TO VERIFY against the live Sprout tag system (names may differ); the *semantics* above are the spec.
+**Fourth tag — required for the mix check:** **Tier tag:** `tier-a` (Hero) · `tier-b` (Workhorse) · `tier-c` (Utility). The ratified mix is counted on **Tier A/B posts only** — Tier C is published but excluded — so the K5 content-mix check cannot be computed without a tier tag on every post. Tag names TO VERIFY against the live Sprout tag system; the semantics are the spec.
+
+**Why:** the monthly report needs (a) per-store × per-channel numbers (dashboard columns), and (b) the **content-mix check** (did the store's Tier A/B posts land on its ratified pillar mix?) which only works if every post carries a pillar tag **and** a tier tag. Without tags, the mix check and "what's working" become manual guesses. Tag structure TO VERIFY against the live Sprout tag system (names may differ); the *semantics* above are the spec.
 
 ### 5.3 Reporting flow to the GM report
 Per store per month: extract Sprout report → map to `KPI_FRAMEWORK.md` KPIs → fill `DASHBOARD.csv` row (TO VERIFY cells stay TO VERIFY) → build `MONTHLY_REPORT-<period>.md` via `REPORTING_TEMPLATE.md` → quarterly variant at end of Months 3 and 6. GM/COO views follow `GM_KPI_FRAMEWORK.md` (per-rooftop five-core-metric view + COO one-page rollup with **five named rows**, never an opaque group number).
@@ -223,7 +236,7 @@ This section is the **Sprout-specific runbook**; it aligns with and extends `con
 2. **Sprout access.** Shannon controls all Sprout access and grants the store trainee at most a **limited scheduling role** (or draft-only) in *their store's* group. Agents never hold publish rights. Trainees learn what Shannon allows and never publish outside their own store's group.
 3. **The store group — learn it cold.** The trainee names their store's group, its connected profiles (§2), and confirms the hygiene items are NOT connected (no duplicate/legacy accounts in the queue).
 4. **Scheduling within approved items only.** Only `Approved` items are scheduled. `Draft` / `Lead review` / `Edits needed` are never scheduled. Trainee learns the approval-status → Sprout-state mapping (Module 4).
-5. **Posting cadence & pillar mix.** Trainee learns their store's cadence (FB/IG/TikTok numbers from §4.2) and the pillar mix check — tags every approved post and checks the store's mix against its target (30/20/15/20/15 as starting default, per-store confirmed).
+5. **Posting cadence & pillar mix.** Trainee learns their store's cadence (FB/IG/TikTok numbers from §4.2 — cadence remains Shannon-confirmed per store) and the pillar mix check — tags every approved post and checks the store's mix against its **ratified** target: the blended house blend is **32/22/22/11/9** (P1 Inventory/Search · P2 Service & Ownership · P3 People & Character · P4 Community/Local gated · P5 Reviews & Social-Proof), and the trainee uses **their own store's** per-channel variant from §4.2 (full 01/02 · min-viable 03/04 · asset-led 05). **Count Tier A/B posts only; Tier C is published but not counted.**
 6. **Publishing and phone-native content.** Trainee uses Sprout for scheduled posts; Instagram Stories shot on a phone are used at Shannon's direction and logged in the calendar. The trainee never publishes Reddit; they know Reddit is monitor-only and GBP is back-burnered this phase.
 7. **Responding & reporting.** Trainee learns comment/DM response flow (sensitive items escalate to Shannon, never the trainee's discretion alone), and reads their store's monthly dashboard — they learn **to read it, not to invent numbers** (Module 5). They run the fixed monthly capture day in Sprout, map to the dashboard, and hand the raw capture to the Reporting Analyst / Shannon.
 8. **Handoff progression.** Observe (Months 1–2) → co-create (Month 3) → own (Month 4) → run (Month 5–6), per the playbook's six-month progression. **Month 6 readiness** = the store employee can run the queue, approvals they're granted, and reporting capture without Bright Matter in the loop daily.
@@ -242,7 +255,7 @@ Everything below needs confirmation before this plan becomes a live configuratio
 4. **Hygiene-item resolutions.** Store 01 dup FB, Store 02 inactive dup IG, Store 04 legacy dead Universal Kia — confirm each is (or remains) **disconnected** from Sprout and take the resolution forward as GM-discussion findings, not agent cleanup actions.
 5. **Absence items.** Store 03 TikTok, Store 05 IG + TikTok — confirm no Sprout connection is expected; record as GM discussion items (not connection actions).
 6. **Posting cadence + monthly capture date.** Per-store cadence (`KPI_FRAMEWORK.md` §8 defaults) and the fixed monthly reporting/capture day — **Shannon to confirm**.
-7. **Pillar mix — RESOLVED 2026-08-22.** The per-store, per-channel targets are **locked by operator sign-off** (see the pillar-mix section above and each `stores/store-0X/STRATEGY.md` §3). No longer an open item. What remains open is narrower: the **Community gate** per store (10% → 20% on hook confirmation), **Store 05's IG/TikTok slot targets** (held pending 30 days post-stand-up), and the **provisional-baseline flag** on Stores 01, 03 and 04 until duplicates are retired.
+7. **Pillar mix — CLOSED (no longer an open item).** The pillar mix is **RATIFIED 2026-08-22** by the operator: blended **32/22/22/11/9** plus the per-store per-channel variants (full 01/02 · min-viable 03/04 · asset-led 05) in §4.2 and each `stores/store-NN/STRATEGY.md`. Counted on Tier A/B posts only. **Per-store CADENCE remains open** — a Shannon capacity call (see item 6).
 8. **Sprout Local / GBP product in scope?** GBP is back-burnered this phase, so Sprout's Local/GBP product is **likely out for now** — **Shannon to confirm** whether any GBP-connected product/license exists or should be deferred. If deferred, GBP has no Sprout placement this phase (§3 keeps it out of publishing groups).
 9. **Sprout license scope (billing).** What licenses/profiles are provisioned and the **at-cost** billing arrangement (`CLIENT.md` §4) — **Shannon + Shawn Vink** to confirm. This plan configures existing licenses only; it provisions nothing and prices nothing.
 10. **Tag-system names.** Sprout's actual tag/label fields — verify against the live system so the §5.2 tag spec maps cleanly (semantics are fixed; labels are TO VERIFY).
@@ -254,7 +267,7 @@ Everything below needs confirmation before this plan becomes a live configuratio
 - **Source of truth for channels:** `channel-matrix.csv` + `stores/store-01..05/STORE.md` (do not invent handles).
 - **Commercial terms / pilot scope:** `CLIENT.md` §4, §6a, §8.3.
 - **Approval pipeline:** `WORKFLOW.md`; operating rules in `OPERATING_RULES.md` (esp. §2 no-agent-publish, §3 live-paid hard line).
-- **Content inputs:** `content/pillars/PILLARS.md` (§3 mix), `content/CONTENT_STRATEGY_FRAMEWORK.md` (§7–8 cadence), `content/CONTENT_CALENDAR_TEMPLATE.md`.
+- **Content inputs:** `content/pillars/PILLARS.md` (§3 mix — **RATIFIED 2026-08-22**), `stores/store-NN/STRATEGY.md` (per-store per-channel ratified mix — source of truth), `content/CONTENT_STRATEGY_FRAMEWORK.md` (§7–8 cadence — cadence still Shannon-confirmed), `content/CONTENT_CALENDAR_TEMPLATE.md`.
 - **Reporting outputs:** `reporting/KPI_FRAMEWORK.md` (§6–7), `reporting/GM_KPI_FRAMEWORK.md`, `reporting/DASHBOARD_TEMPLATE.md` + `reporting/dashboards/store-NN/DASHBOARD.csv`, `reporting/REPORTING_TEMPLATE.md`.
 - **Handoff:** `content/governance/TRAIN_THE_TRAINER_PLAYBOOK.md` (Module 4) and `content/governance/GOVERNANCE_MODEL.md`.
 
