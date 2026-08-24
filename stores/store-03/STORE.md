@@ -36,6 +36,15 @@ Status values: **Active / No account / Duplicate / TO VERIFY** (lowercased in ma
 | Reddit | Not in source file | TO VERIFY | — | — | — |
 | Google Business Profile | Not in source file | TO VERIFY | — | — | — |
 
+## GM interview findings (source: operator Wispr note 2026-08-24 — GM James Galuszka, covers both Nashville rooftops; see `audit/gm-interviews/store-03_GALUSZKA.md`)
+- **CONFIRMED — Facebook operation:** Conquest agency runs Facebook posting, continues through end of this month, with **no reporting provided**; revisit after audit phase.
+- **CONFIRMED — Legacy accounts:** many legacy **Universal/Carnival Kia** accounts (YouTube, X, IG, FB, Pinterest) are dead — target deletion; decision to **start fresh** YouTube/channels rather than recover old accounts.
+- **CONFIRMED — Access gap:** Instagram (Rivergate) and TikTok credentials needed to connect to Sprout (open item).
+- **CONFIRMED — Content sourcing:** prior $1K/month salesperson-video program failed (low participation, poor quality); relaunch = required salesperson video submission + Shannon coaching + top-contributor identification + shared drive.
+- **CONFIRMED — Campaign:** MJS agency "See in a Greenway Kia" tag-to-win-car campaign next month across 3 Nashville stores; repost tagged UGC.
+- **CONFIRMED — Competitors (GM-named):** Greenway Kia Franklin, Murphy's Brew Kia, Wyatt Johnson Kia Clarksville, local Hyundai stores.
+- **CONFIRMED — Cadence:** weekly meetings for first ~3 weeks of setup.
+- **CONFIRMED — Open item:** Shannon to investigate/deactivate legacy Universal Kia YouTube and remove dead YouTube link from website.
 ## Account-hygiene notes (INTERNAL)
 - **No TikTok account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.
 - **No YouTube account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.

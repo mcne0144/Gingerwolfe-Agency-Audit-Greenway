@@ -9,8 +9,9 @@
 | Store name | Greenway Ford Kansas City (VERIFIED 2026-08-12) |
 | Location / market | Raytown, MO (VERIFIED 2026-08-12) |
 | General Manager | Shane Silvey (VERIFIED 2026-08-12) |
-| Offerings | TO VERIFY — request from client via Shannon McNeil |
+| Offerings | CONFIRMED priority mix (GM Shane Silvey, via operator note 2026-08-24): **service and used** (store sells ~3 used per new; service contributes more to bottom line). Full new/used/service offering list still TO VERIFY. |
 | Audience notes | TO VERIFY — request from client via Shannon McNeil |
+| Brand name to use | **Greenway Ford of KC** (CONFIRMED decision, GM via operator note 2026-08-24); drop Raytown framing; legacy "Dick Smith Ford" traces flagged for cleanup |
 
 ## Channel inventory (source: operator 2026-08-22)
 Confirmed from `_source/channel-inventory_shannon_2026-08-22.csv` (tags: sheet = Shannon's own record; web-2026-08-22 = our team's research dated today). Status is conservative — records observed/known state only; no account created or touched.
@@ -36,6 +37,16 @@ Status values: **Active / No account / Duplicate / TO VERIFY** (lowercased in ma
 | Reddit | Not in source file | TO VERIFY | — | — | — |
 | Google Business Profile | Not in source file | TO VERIFY | — | — | — |
 
+## GM interview findings (source: operator Wispr note 2026-08-24 — GM Shane Silvey; see `audit/gm-interviews/store-05_SILVEY.md`)
+- **CONFIRMED — Branding:** standardize on **Greenway Ford of KC**; legacy **'Dick Smith Ford'** still surfaces in service emails, backlinks (Nextdoor), website image links — cleanup flagged.
+- **CONFIRMED — Listings:** Apple Maps shows **Hertz Rent-A-Car**; Copilot/DuckDuckGo return wrong address *(GM-reported; independent re-verify TO VERIFY)*.
+- **CONFIRMED — Facebook:** currently only static ads via Conquest; **Instagram** to be spun up and cross-posted (Phase 1). Matches inventory (no current IG/TikTok).
+- **CONFIRMED — TikTok:** viable if a personality-hire creates content; candidate = **Shane Silvey's daughter** *(consent/usage TO VERIFY before use)*; steer away from insider sales humor toward self-deprecating sales humor.
+- **CONFIRMED — Content direction:** service-department educational shorts (oil change, wiper tips, staff Q&A); repurpose LocalIQ walk-around videos; AI serial concept (e.g., recurring alien characters) to test.
+- **CONFIRMED — Measurement:** Sprout dashboard planned; pull in GA4, organic + paid analytics, review sites.
+- **CONFIRMED — Competitor set (GM-named):** Bob Sight, Rob Sight, Blue Springs Ford, Metro Ford.
+- **CONFIRMED — Content focus:** brand awareness & engagement, not price/discount posts.
+- **CONFIRMED — Access item:** Shane to ask Conquest to grant Shannon Meta ad-account access before Conquest relationship ends.
 ## Account-hygiene notes (INTERNAL)
 - **No Instagram account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.
 - **No TikTok account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.

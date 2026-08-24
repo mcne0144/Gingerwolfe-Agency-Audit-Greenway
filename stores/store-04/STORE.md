@@ -39,6 +39,14 @@ Status values: **Active / No account / Duplicate / Legacy-dead / TO VERIFY** (lo
 | Reddit | Not in source file | TO VERIFY | — | — | — |
 | Google Business Profile | Not in source file | TO VERIFY | — | — | — |
 
+## GM interview findings (source: operator Wispr note 2026-08-24 — GM James Galuszka, covers both Nashville rooftops; see `audit/gm-interviews/store-04_GALUSZKA.md`)
+- **CONFIRMED — Facebook operation:** Conquest agency runs Facebook posting, continues through end of this month, with **no reporting provided**; revisit after audit phase.
+- **CONFIRMED — Legacy accounts:** many legacy **Universal/Carnival Kia** accounts (YouTube, X, IG, FB, Pinterest) are dead — target deletion; decision to **start fresh** YouTube/channels rather than recover old accounts. (Supports the legacy "Universal Kia" inventory below.)
+- **CONFIRMED — Access gap:** Instagram (**Hickory Hollow**) and TikTok credentials needed to connect to Sprout (open item).
+- **CONFIRMED — Content sourcing:** prior $1K/month salesperson-video program failed (low participation, poor quality); relaunch = required salesperson video submission + Shannon coaching + top-contributor identification + shared drive.
+- **CONFIRMED — Campaign:** MJS agency "See in a Greenway Kia" tag-to-win-car campaign next month across 3 Nashville stores; repost tagged UGC.
+- **CONFIRMED — Competitors (GM-named):** Greenway Kia Franklin, Murphy's Brew Kia, Wyatt Johnson Kia Clarksville, local Hyundai stores.
+- **CONFIRMED — Open item:** Shannon to investigate/deactivate legacy Universal Kia YouTube and remove dead YouTube link from website.
 ## Account-hygiene notes (INTERNAL)
 - **Legacy "Universal Kia" dead accounts** (prior brand at this location): Facebook `facebook.com/universalkiahickoryhollow`, X `x.com/UniversalKiahh`, Instagram `instagram.com/universalkiahh` — all marked dead by Shannon. Legacy presence recorded for GM one-on-one discussion; nothing created or touched.
 
