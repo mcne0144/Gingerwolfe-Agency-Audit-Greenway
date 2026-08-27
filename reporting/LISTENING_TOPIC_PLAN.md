@@ -34,7 +34,7 @@ Sprout licenses Listening by **active Topic allotment** (the number included dep
 | 2 | **Nashville Market — Competitive** | Competitive Analysis | Stores 03+04 (one shared market, one shared GM-provided set) vs. Murfreesboro Kia, Wyatt Johnson Kia Clarksville (§4) |
 | 3 | **Jacksonville Market — Competitive** | Competitive Analysis | Store 02 vs. Kia on Atlantic, Kia of Orange Park, Kia Jax, Family Kia (§4) |
 | 4 | **Kansas City Market — Competitive** | Competitive Analysis | Store 05 vs. Bob Sight, Rob Sight, Blue Springs Ford, Metro Ford (§4) |
-| 5 | **West Palm Beach Market — Competitive** | Competitive Analysis | Store 01 — **BLOCKED: no competitor set yet** (GM Mike Wangle has not provided names, `COMPETITOR_SETS.md`). Build only after the set exists. |
+| 5 | **West Palm Beach Market — Competitive** | Competitive Analysis | Store 01 vs. Napleton Northlake Kia, Kia Delray, Bev Smith Kia (§4.4) — operator-approved set 2026-08-27; GM confirmation TO VERIFY before client-facing use |
 
 **Why one Brand Health topic, not five:** the five rooftop names are distinct enough to segment inside one topic (per-store keyword groups + Sprout's filter/tag tools), and Topic allotments are scarce. Per-store isolation is enforced **at the reporting layer** — every extract from the topic is filtered to one store's keyword group before it enters that store's report. If the allotment turns out to be generous (≥8 active topics), split Brand Health into five per-store topics instead — cleaner segmentation, same queries.
 
@@ -141,8 +141,17 @@ One topic per market, built from the **Competitive Analysis** template so Sprout
 | Blue Springs Ford | `"Blue Springs Ford"` |
 | Metro Ford | (`"Metro Ford"` AND [`"Kansas City"` OR `"KC"` OR `"Missouri"`]) — "Metro Ford" exists in many cities; must be geo-guarded |
 
-### 4.4 West Palm Beach Market (Store 01) — DO NOT BUILD YET
-No competitor set exists (`COMPETITOR_SETS.md` — needs GM Mike Wangle or the operator). Building a competitive topic from invented names would violate the no-invented-facts rule. **Blocked until the set is provided**; Store 01 is still fully covered by the Brand Health topic in the meantime.
+### 4.4 West Palm Beach Market (Store 01)
+Set researched by open-market discovery and **operator-approved 2026-08-27** (`COMPETITOR_SETS.md`); **GM Mike Wangle confirmation still TO VERIFY** — buildable now, but hold any client-facing share-of-voice framing until the GM confirms the set.
+
+| Brand in topic | Keywords |
+|---|---|
+| Greenway (ours) | Store 01 group from §3.2 |
+| Napleton Northlake Kia | `"Northlake Kia"` · `"Napleton Kia"` · (`"Napleton"` AND `"Kia"`) |
+| Kia Delray | `"Kia Delray"` · (`"Kia"` AND `"Delray"`) |
+| Bev Smith Kia | `"Bev Smith Kia"` (distinctive enough to run bare; verify in Preview) |
+
+**Caveat:** `"West Palm Beach Kia"` is likely a legacy listing for our own rooftop's pre-Greenway name (`COMPETITOR_SETS.md` Store 01 caveat) — if confirmed, add it to the Store 01 include group in §3.2 as a legacy-name catch, never as a competitor brand in this topic.
 
 ---
 
@@ -171,7 +180,7 @@ No competitor set exists (`COMPETITOR_SETS.md` — needs GM Mike Wangle or the o
 3. **Historical backfill window** on activation (assumed up to ~13 months — verify per contract) — determines whether the audit period is covered retroactively.
 4. **Definitive list of non-pilot Greenway rooftop names** (Orlando metro etc.) for the §3.3 exclude list — request via Shannon; do not guess.
 5. **"Murfreesboro Kia" name confirmation** with GM James Galuszka before the Nashville topic goes anywhere client-facing.
-6. **Store 01 competitor set** from GM Mike Wangle — unblocks §4.4.
+6. **Store 01 competitor set — GM confirmation.** The set is now populated by open-market discovery and operator-approved (2026-08-27, `COMPETITOR_SETS.md`); confirm with GM Mike Wangle via Shannon before any client-facing share-of-voice framing. Also verify whether "West Palm Beach Kia" is the rooftop's legacy pre-Greenway name (→ §3.2 legacy catch if so).
 7. **Universal Kia unattributed-mention handling** — confirm with Shannon how `store-0304-unattributed` mentions are presented to the shared GM (ties to the `@universalkia` YouTube attribution governance item).
 8. **Who runs the weekly negative-sentiment skim** — Shannon, or a trainee she grants read-only Listening access (her call, per training gatekeeping).
 9. **Topic tag labels** (`store-01`…`store-05`, `store-0304-unattributed`) against the live Sprout tag system — semantics fixed, labels TO VERIFY (same caveat as `SPROUT_CONFIG_PLAN.md` §5.2).

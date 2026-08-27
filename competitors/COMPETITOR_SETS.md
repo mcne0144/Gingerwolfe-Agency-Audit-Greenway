@@ -12,6 +12,7 @@ Per-store competitive sets. Each rooftop is its own market — competitor sets a
 
 - Stores 03/04/05: sourced from each GM's own one-on-one interview (conducted by Shannon McNeil, the only client-facing voice). Dates and GM recorded per row.
 - Store 02: **GM Emre Sevinir has not provided names.** Per the operator's direction, the Store 02 set was **researched by open-market discovery** (public YouTube open discovery, 2026-08-22) and recorded in `COMPETITOR_RESEARCH.md` §2. Rows are labeled CONFIRMED (observed) vs TO VERIFY.
+- Store 01: **GM Mike Wangle has not provided names.** Set researched by open-market discovery (live web, 2026-08-27) using the Store 02 method and **approved by the operator (2026-08-27)**. Rows carry "GM confirmation TO VERIFY" until Mike Wangle confirms via Shannon.
 - Research on each competitor's public social/marketing presence is verified against the live platform or marked "manual verification needed — [date]" per OPERATING_RULES §3.
 - **Operator directive (2026-08-22):** any Kia+Hyundai combined dealership and any Hyundai dealership is NOT in the mix — not a competitor, not a benchmark, not a gap. Any such store goes to an OUT-OF-SCOPE note, not the competitor set (see bottom of this file). This overrides any earlier Hyundai references in this file.
 
@@ -48,7 +49,15 @@ Per-store competitive sets. Each rooftop is its own market — competitor sets a
 Group read-through: three of the four (Kia on Atlantic, Kia of Orange Park, Kia Jax) appear to share the "Kia Stores of Jacksonville"/kiajax.com group — ownership/group structure TO VERIFY (research note in `COMPETITOR_RESEARCH.md` §2.4).
 
 ### Store 01 — Greenway Kia West Palm Beach (West Palm Beach, FL) — GM Mike Wangle
-**Not yet captured.** Needs to come from its GM (Mike Wangle) or the operator.
+**Researched by open-market discovery (2026-08-27), operator-approved 2026-08-27.** Set led by other Kia dealerships in the Palm Beach County metro a local Kia shopper would realistically cross-shop (same method as Store 02). GM Mike Wangle has not supplied names — **GM confirmation TO VERIFY before any client-facing use.**
+
+| Competitor | Market | Notes | Status |
+|---|---|---|---|
+| Napleton Northlake Kia | Palm Beach Gardens, FL (3626 Northlake Blvd) | Nearest same-brand rooftop (~15 min north); actively markets to West Palm Beach, Wellington, and Royal Palm Beach shoppers — directly overlaps Store 01 territory. Ed Napleton group store. | Operator-approved (2026-08-27); GM confirmation TO VERIFY |
+| Kia Delray | Delray Beach, FL (2255 S Federal Hwy) | Southern-county cross-shop; names West Palm Beach among its service areas. Shoppers in Lake Worth/Boynton/Delray sit between the two stores. | Operator-approved (2026-08-27); GM confirmation TO VERIFY |
+| Bev Smith Kia | Fort Pierce, FL (Treasure Coast) | Conquest competitor: runs a dedicated "Kia dealer near West Palm Beach" landing page targeting Store 01's market despite the distance. | Operator-approved (2026-08-27); GM confirmation TO VERIFY |
+
+**Caveat — "West Palm Beach Kia" (Cars.com listing):** likely a legacy listing for the SAME rooftop under its pre-Greenway name (mirrors the Universal Kia situation, Stores 03/04). **Not a competitor.** Verify; if confirmed as the old name, it becomes a legacy-name catch in the Store 01 listening query (`reporting/LISTENING_TOPIC_PLAN.md`), never a competitor row.
 
 ---
 
