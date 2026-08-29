@@ -6,6 +6,8 @@
 **Reconciled:** 2026-08-22 — pillar mix updated to the operator-**RATIFIED** blend **32/22/22/11/9** + per-store per-channel variants (§4.2). Mix is locked. **Cadence is not** — it remains a Shannon capacity call per store.
 **Applies to:** Month 2 — Strategy & Build (mid-Sep – mid-Oct) of the six-month organic pilot across 5 rooftops.
 
+> **Connection state verified 2026-08-29 via the Sprout API** (`SPROUT_API_PULL_2026-08-29.md` §1): the account holds 46 profiles group-wide. Pilot side, connected today: Store 02 FB, Store 03 FB+IG, Store 04 FB, Store 05 FB. **Store 01 has zero connections.** No pilot or sibling TikTok and no YouTube is connected anywhere. The §2 checklist below remains the action list; the pull report is the observed baseline it verifies against.
+
 > **Read this first (operating boundary):** This is a **plan only**. No account is created, no profile is connected, no approval workflow is enforced on a live system, and **no agent ever publishes.** A human on the Greenway/Shannon side operates Sprout and does all publishing. Agents draft, feed, and analyze content; they never hold publish rights and never touch a live account without the operator's explicit confirmation. Every line below marked **TO VERIFY** stays TO VERIFY until Shannon McNeil (and Shawn Vink for admin/access) confirms it.
 
 ---

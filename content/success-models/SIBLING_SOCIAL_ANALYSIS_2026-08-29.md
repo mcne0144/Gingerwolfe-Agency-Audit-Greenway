@@ -118,6 +118,8 @@ That is the brief's "an offer is published as video with a person, or it is not 
 
 **The East FB listicle is the best organic Facebook post observed across all three stores** (6,425 views / 86 reactions vs a 0–14 reaction norm). Format, not budget, is the visible variable; whether it was boosted is not observable from public data (TO VERIFY in Sprout/Ads Manager if it matters).
 
+> **Amendment 2026-08-29 (Sprout owned data; see `reporting/SPROUT_API_PULL_2026-08-29.md` §3):** the "best organic FB post" claim is withdrawn. Sprout shows this post at 1,261 owned impressions / 464 video views, and East's FB page ran 246.8K paid vs 7.8K organic impressions in August. The public 6,425-view counter cannot be treated as organic evidence. The narrower finding stands: on owned organic data the listicle is still among the page's top organic posts of the month, so the format recommendation for the pilot is unchanged, but its expected organic ceiling is far lower than the public number suggested.
+
 ---
 
 ## 3. What works — ranked, with evidence
@@ -266,5 +268,6 @@ The task asked about posts and ads. The pilot SOW is organic-only; no sibling pa
 
 **CONFIRMED (retrieved 2026-08-29, Apify runs cited in header):** all §1 account statuses and follower/library counts; every post metric quoted in §§2–7; North TikTok historical snapshot (417 followers) via Exa cache of unknown capture date, directional only.
 **Supersedes:** the 2026-08-22 "manual verification needed" status for sibling FB/IG/TikTok in `SUCCESS_ACCOUNTS_RESEARCH.md` §4.1–4.2 and `success-models/README.md` §4.1, for these three stores only.
-**Still TO VERIFY:** West street address (§3.8 rule); FB page follower counts (not exposed to logged-out scrape); whether East's FB listicle was boosted (Sprout/Ads Manager); Sprout-side reach/impressions for all sibling accounts (needed before any GM-facing benchmark uses these numbers); pilot-store follower baselines; every store fact flagged in §7 (offers, staff names, local hooks, language splits, inventory, OEM rules).
+**Still TO VERIFY:** West street address (§3.8 rule); every store fact flagged in §7 (offers, staff names, local hooks, language splits, inventory, OEM rules).
+**Resolved 2026-08-29 by the Sprout API pull (`reporting/SPROUT_API_PULL_2026-08-29.md`):** FB follower counts (North 1,611 / West 1,298 / East 3,639); Sprout-side owned impressions and IG reach for the sibling FB/IG accounts, which reconcile with this doc's public post metrics almost exactly (§3 of the pull report); pilot-store FB follower baselines (S02 490 / S03 1,126 / S04 1,478 / S05 2,641, plus Rivergate IG 20); the East FB listicle boost question, resolved as "public view counter is not organic evidence" (page ran 97% paid impressions in August; see the amendment in §2.3). Sibling TikTok accounts are NOT connected to Sprout, so all TikTok figures in this doc remain public-data only.
 **Not fabricated:** no number in this document is estimated or extrapolated; every metric is a retrieved public count, dated.
