@@ -21,6 +21,7 @@ The audit foundation for **Greenway Auto Group's six-month organic social pilot*
 | `AUDIT_REPORT_TEMPLATE.md` | The GM-ready report form: executive summary, scorecard, per-channel findings, ranked opportunities, next steps with owner and timing, data-sources appendix | Producing a completed audit for one store |
 | `gm-interviews/GM_INTERVIEW_GUIDE.md` | How the operator runs each GM one-on-one: pre-interview checklist, flow, timing, sensitive-findings handling, note template, post-interview steps | Running the Month 1 GM interviews (operator only) |
 | `gm-interviews/BASELINE_QUESTIONNAIRE.md` | The 38-question baseline set, mapped to the six audit buckets and `CLIENT.md` §8 | The question set the operator reads in each interview |
+| `reports/GROUP_BENCHMARK_AND_BASELINE_2026-08.md` | The group-level Month 1 deliverable component: internal benchmark from the three Orlando sibling Kia stores (public data, reconciled against owned analytics), the pilot stores' owned organic baseline with the paid/organic split, and the five reshootable format briefs. Every per-store audit report cites it for benchmark context. INTERNAL DRAFT pending Shannon's approval. | Writing any per-store report's benchmark or baseline sections; preparing GM conversations |
 | `README.md` (this file) | How the audit folder fits the rest of the workspace | Orientation |
 
 ## How the audit files relate to the rest of the workspace
@@ -57,4 +58,5 @@ greenway/
 ## Current state
 
 - Framework, benchmarks, and report template are drafted and internally consistent with the workspace.
-- All five stores remain unfilled templates (everything TO VERIFY); no completed audits exist yet; nothing is client-facing.
+- **The first completed audit component exists (2026-08-29):** `reports/GROUP_BENCHMARK_AND_BASELINE_2026-08.md` fills the group-level benchmark and performance-baseline lanes with retrieved data (sibling public metrics + Sprout owned analytics). Per-store reports remain unfilled pending client data; the group component gives them their benchmark citations and each connected store's organic baseline.
+- Nothing is client-facing until Shannon McNeil approves.

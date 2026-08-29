@@ -1,7 +1,7 @@
 # ENGAGEMENT STATE — Greenway Auto Group Pilot (one page)
 
 **Status:** INTERNAL — living doc, maintained by Team Lead. Updated after every task closes.
-**Last updated:** 2026-08-22
+**Last updated:** 2026-08-29
 
 ---
 
@@ -31,7 +31,10 @@ Pilot start date: TO VERIFY via Shannon McNeil.
 | 11a | Per-store STRATEGY.md + precise FB/IG/TikTok calendar with media specs | Content Strategist | ⏳ **IN FLIGHT 08-22 (session 34ec9c76)** — unblocked by pillar approval; applying approved mix + Store 02 wedge; store-specific, no template. | in flight |
 | 10d | Revise pillars: exclude Kia+Hyundai store from competitor/pilot framing + ground in Greenway's own top organic FB/IG/TikTok performers | Content Strategist | ✅ Delivered 08-22 (see content/pillars/) | done |
 | 10e | Sibling deep-dive: Greenway Kia North/West/East full FB+IG+TikTok analysis (Apify-retrieved public metrics) + per-pilot-store repurposing playbook | Audit & Research + Content Strategist | ✅ Delivered 08-29 (see content/success-models/SIBLING_SOCIAL_ANALYSIS_2026-08-29.md) — **with operator for review**; Sprout-side reach/impressions still pending Shannon/Shawn | review |
-| 11 | Real per-store audits, calendars, monthly reports | Per role | ⛔ Partially unblocked — channel handles in; still need Reddit/GBP, goals, access | ongoing |
+| 10f | Sibling video briefs (5 reshootable creative briefs, frame-level review) | Content Strategist | ✅ Delivered 08-29 (see content/success-models/briefs/) — **with operator for review** | review |
+| 10g | Sprout owned-analytics pull: connection inventory, Aug organic/paid baseline, public-data reconciliation | Reporting Analyst | ✅ Delivered 08-29 (see reporting/SPROUT_API_PULL_2026-08-29.md) — Store 01 unconnected; paid dominates pilot FB impressions; token used read-only, rotation requested | done |
+| 10h | Group Benchmark & Baseline Report (Month 1 audit deliverable component, client-facing draft) | Audit & Research + Content + Reporting | ✅ Delivered 08-29 (see audit/reports/GROUP_BENCHMARK_AND_BASELINE_2026-08.md) — **with operator for review; needs copy-check pass before any client release** | review |
+| 11 | Real per-store audits, calendars, monthly reports | Per role | ⛔ Partially unblocked — channel handles in; still need Reddit/GBP, goals, access. Group benchmark/baseline component (10h) now feeds every per-store report | ongoing |
 
 ## 3. Open blockers (named owners)
 
