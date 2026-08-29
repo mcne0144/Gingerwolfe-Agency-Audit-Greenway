@@ -11,7 +11,7 @@ Headline: the Sprout account holds 46 connected profiles spanning the whole Gree
 
 ## 1. What is connected (and what is not)
 
-46 profiles total: 42 Facebook pages (group-wide, most rooftops outside the pilot), 4 Instagram accounts, 1 TikTok (the operator's personal @shannon50000), 0 YouTube.
+46 profiles total: 41 Facebook pages (group-wide, most rooftops outside the pilot), 4 Instagram accounts, 1 TikTok (the operator's personal @shannon50000), 0 YouTube.
 
 ### 1.1 Pilot rooftops
 

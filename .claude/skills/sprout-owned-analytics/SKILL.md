@@ -39,9 +39,13 @@ With no live token, do the same analysis from cached JSON (the raw rows the scri
 4. **Metric quirks:** `impressions_unique` (reach) is null for Facebook at this API tier, real for Instagram. `lifetime_snapshot.followers_count` is a snapshot (the script keeps the latest, never sums). FACEBOOK_AD post rows return zero/null owned metrics. Public Facebook reel "views" counters are not comparable to owned per-post impressions and must never be cited as organic evidence.
 5. **Reconciliation is the validation.** Owned IG Reel impressions matched public play counts almost exactly in the 2026-08 pull (often to the digit). When owned and public disagree by multiples on Facebook, suspect paid delivery, and say the gap is unproven without Ads Manager rather than asserting a cause.
 
+## Reading the window edges
+
+Before summing daily rows, check for nulls at the edges of the window: Facebook metrics often lag a day or two (in the 2026-08 pull, every FB profile's final-day impressions were null, and two profiles lagged two days). Sum what exists, and state the effective coverage per profile rather than presenting a short window as a full one.
+
 ## Report format
 
-Write an INTERNAL markdown report (in this repo: `reporting/SPROUT_API_PULL_<date>.md`; `SPROUT_API_PULL_2026-08-29.md` is the exemplar). Structure:
+Write the report in plain house prose: periods, commas, and colons, not em-dash chains (the no-em-dash-heavy-prose rule applies to this report exactly as it does to client-facing copy, and past reports drifted here). Write an INTERNAL markdown report (in this repo: `reporting/SPROUT_API_PULL_<date>.md`; `SPROUT_API_PULL_2026-08-29.md` is the exemplar). Structure:
 
 1. Header: status INTERNAL, retrieval date, window, method line stating read-only use and that the token is not stored and rotation was requested.
 2. **What is connected / not connected** per pilot store and benchmark store, with gaps called out.

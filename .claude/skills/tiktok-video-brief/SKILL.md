@@ -23,9 +23,10 @@ Pick nframes by duration: 12 for under 10s, 14 for 10–45s, 16 above. Run it on
 
 ### 2. Read the evidence
 
-1. Read `meta.json` first: caption, duration, public stats (plays, likes, comments, shares, saves), and `sticker_text` (TikTok's own record of on-screen overlay text, often the hook).
-2. Read the frames in order with the Read tool (they are images). Read every frame for short clips; for longer ones read every other frame first and fill gaps where the structure is unclear.
+1. Read `meta.json` first: caption, duration, public stats (plays, likes, comments, shares, saves), and `sticker_text` (TikTok's own record of on-screen overlay text, often the hook). Also check the raw stats block for an `isAd` flag: if present and true, play counts may include paid distribution, and the brief must say so before anyone benchmarks organic performance on the post.
+2. Read the frames in order with the Read tool (they are images). Read every frame for short clips; for longer ones read every other frame first, then extract extra gap-fill frames (ffmpeg -ss on video.mp4) at the edit points where the structure is unclear. A brief built on frames you actually looked at is the product; do not fill gaps from imagination.
 3. Note per frame: who is in frame, framing (wide/medium/macro), location, visible on-screen text, and what changed since the previous frame. Scene changes between adjacent frames mark the edit points.
+4. Fallback when the downloader is blocked (proxy or captcha): TikTok's public ASR caption track and CDN cover image, or an Apify TikTok scraper run, can substitute for metadata and dialogue. Anything not seen with your own eyes (machine scene descriptions included) is secondhand: label the shot table accordingly and downgrade claims built on it.
 
 ### 3. Honesty boundaries (these make the brief credible)
 
