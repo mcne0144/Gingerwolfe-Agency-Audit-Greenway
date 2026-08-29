@@ -96,6 +96,8 @@ Two context notes:
 - Offer as **character-led video with the person on camera and the full disclaimer in the caption**: **118,200 plays, 11,000 likes, 1,502 saves.**
 That is the brief's "an offer is published as video with a person, or it is not published" rule (`PILLARS.md` §2.1), proven inside Greenway's own group.
 
+**Amendment 2026-08-29 (frame-level video review):** the 1.2M "Who would you buy a car from?" post is not a two-character skit as first recorded from scrape metadata. It is a multi-candidate vote format: Zarya hosts and introduces at least four salespeople, each exiting the showroom door in his own style, with the caption as the ballot. See `briefs/BRIEF_03_west_salesperson_vote_skit.md` §1 for the correction and the reshoot template; §7 adaptations built on the two-person contrast remain valid as a simplified variant.
+
 ### 2.3 Greenway Kia East — the listicle + Spanish line (no TikTok)
 
 **What the account is:** IG + FB only. No character. Its engine is the **benefits-listicle Reel** (checklist overlay + b-roll, no on-camera talent required), a consistent **Spanish-language line**, occasional lot-energy walkarounds and team vox-pop humor, plus FB-only per-VIN copy posts and event listings.
