@@ -14,6 +14,7 @@
 |---|---|
 | `SUCCESS_ACCOUNTS_RESEARCH.md` | The account catalog: what each account posts, on which channels, at what cadence, and whether each observation is CONFIRMED (dated) or TO VERIFY / manual-verification-needed. |
 | `CONTENT_MODELS.md` | Five reusable content models (Offer Promo, Per-Vehicle Inventory Line, Model Review Depth, Department/Service & Trust, Local/Community & People), each mapped to channels, pillars, cadence, and Kia-vs-Ford per-store notes, with evidence labels. |
+| `SIBLING_SOCIAL_ANALYSIS_2026-08-29.md` | Full FB + IG (Reels) + TikTok analysis of sibling rooftops Greenway Kia North, West, and East (retrieved 2026-08-29 via Apify/Exa): account inventory, post-level engagement data, what works and what does not, cadence, pillar read-through, and a per-pilot-store repurposing playbook with specific posts and adaptations. Closes (for these three stores) the FB/IG/TikTok verification gap in §4 below. |
 | `README.md` (this file) | How the research feeds the strategy, and which models still need verification. |
 
 ---
@@ -42,9 +43,9 @@
 
 ## 4. What is still open (must be verified before the operator builds a client-facing calendar)
 
-1. **Facebook / Instagram / TikTok / Reddit content** for every account in the catalog — manual verification needed — 2026-08-22 (Meta/TikTok block automated fetch; this environment could only observe YouTube). Current-account and follower data for the pilot stores is still per `CLIENT.md` §8 / `channel-matrix.csv` (TO VERIFY via Shannon).
+1. **Facebook / Instagram / TikTok / Reddit content** for every account in the catalog — manual verification needed — 2026-08-22 (Meta/TikTok block automated fetch; this environment could only observe YouTube). **UPDATE 2026-08-29: retrieved via Apify for Greenway Kia North, West, and East (FB + IG + TikTok) — see `SIBLING_SOCIAL_ANALYSIS_2026-08-29.md`.** Still open for the external accounts (Longo, Galpin), the competitor sets, and Reddit. Current-account and follower data for the pilot stores is still per `CLIENT.md` §8 / `channel-matrix.csv` (TO VERIFY via Shannon).
 2. **A citable third-party "best dealership social accounts / awards" list** — manual verification needed — 2026-08-22 (web search blocked). Until found, the external-dealer "well-regarded" characterization is my selection, not a cited award.
-3. **Rooftop-to-street-address attribution** of sibling Greenway channels (West/North/East/Greenway Ford) — TO VERIFY (OPERATING_RULES §3.8).
+3. **Rooftop-to-street-address attribution** of sibling Greenway channels — 2026-08-29: North (625 N US Hwy 17-92, Longwood FL) and East (8701 E Colonial Dr, Orlando FL) CONFIRMED; West = Orlando confirmed, street address still TO VERIFY; Greenway Ford channels still TO VERIFY (OPERATING_RULES §3.8).
 4. **Store 05 and Stores 01/03/04 current channels** — manual verification needed — 2026-08-22.
 
 ---

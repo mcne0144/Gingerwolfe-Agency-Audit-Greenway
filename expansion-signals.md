@@ -27,6 +27,7 @@ Capability values: Paid media / Reviews & reputation / Content production / Syst
 | Store 05 — Ford Kansas City, Raytown, MO | Paid: buyer base skews older (Facebook/Google are primary surfaces) and reputation is split across two listings — listing cleanup first, then Meta Local-actions + Google Local campaign proposal | GBP 4.3★ main listing, posts current Aug 10, 2026 — observed 2026-08-12 (audit workbook store-05); split listing row above. Row drafted in paid/PAID_OPPORTUNITY_TEMPLATE.md §3 (Row E) | Paid media | Listing cleanup: likely yes; paid test: no | No | Open (sequenced after listing cleanup) |
 | Group-level (Casey Coffey / COO view) | Near-universal staff-driven positive reviews; zero dealership responses to public complaints across rooftops (operator context, confirm per-store in audit) | CLIENT.md §9; audit workbook structural finding | Reviews & reputation (response management = expansion priority #2) | No — larger: framework + staffing decision | No | Open |
 | Non-pilot rooftops | (seed from Month 1 audit) | | | | | Open |
+| Non-pilot — Kia North (Longwood, FL) | Instagram @greenway_kia_northorlando dormant since 2024-05-13 (157 followers) while the store's TikTok runs 34.6K followers; the store's best content never reaches the IG Reels audience | Apify IG scrape 2026-08-29 (content/success-models/SIBLING_SOCIAL_ANALYSIS_2026-08-29.md §2.1) | Content production / account hygiene | No — non-pilot rooftop; operator decides if/when to raise with the group | No | Open |
 
 ## No-charge goodwill tally
 
