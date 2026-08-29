@@ -1,0 +1,11 @@
+{
+  "skill_name": "sprout-owned-analytics",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Cached Sprout Social API responses from the Greenway account (retrieved 2026-08-29) are in the fixtures directory: profiles.json is GET /v1/2885225/metadata/customer (the connected-profiles list), and daily_aug.json is daily analytics rows for Aug 1-28 for 11 profile IDs (metrics include impressions, engagements, video_views, net_follower_growth, posts_sent_count, lifetime_snapshot.followers_count). No live token is available. Working from these files: identify which pilot-store profiles (per CLIENT.md) and which Orlando sibling profiles (Kia North/West/East) are connected and which are missing, aggregate the August metrics per profile, and write an INTERNAL summary report as SPROUT_SUMMARY.md in the output directory. Do not modify or commit any repo files.",
+      "expected_output": "INTERNAL report identifying Store 01 as unconnected, the duplicate Kia North FB page, no TikTok/YouTube; per-profile aggregate table with correct sums (e.g., Hickory Hollow FB 445,709 impressions) and follower snapshots not summed (Hickory ~1,478).",
+      "files": ["fixtures/profiles.json", "fixtures/daily_aug.json"]
+    }
+  ]
+}

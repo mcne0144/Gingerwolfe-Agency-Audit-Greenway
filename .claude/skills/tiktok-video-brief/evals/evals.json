@@ -1,0 +1,11 @@
+{
+  "skill_name": "tiktok-video-brief",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "We're extending the sibling video briefs for the Greenway pilot. Watch this Greenway Kia North TikTok and write a reshootable creative brief for it: https://www.tiktok.com/@greenwaykianorth/video/7673906528608390431 (the Carnival 'couch called, it wants a ride' cargo demo, roughly 1.8K plays, referenced in content/success-models/SIBLING_SOCIAL_ANALYSIS_2026-08-29.md section 7 Stores 03/04 row 1). Save the brief as BRIEF_couch_cargo_demo.md in the output directory, along with the video metadata you retrieved. Do not modify or commit any repo files.",
+      "expected_output": "A brief with shot-by-shot frame-based timing, accurate public stats, why-it-worked mechanics, a numbered reshoot template, pilot-store mapping, no invented dialogue, INTERNAL label, no em-dashes.",
+      "files": []
+    }
+  ]
+}
