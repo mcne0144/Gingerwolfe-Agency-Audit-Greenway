@@ -1,6 +1,6 @@
 # Store 03 — Greenway Kia Rivergate — Store Profile & Channel Inventory
-**Status:** INTERNAL — store identity VERIFIED (2026-08-12); channel inventory for FB/IG/TikTok/YouTube PROVIDED (operator, 2026-08-22)
-**Last updated:** 2026-08-22
+**Status:** INTERNAL — store identity VERIFIED (2026-08-12); channel inventory PROVIDED (operator, 2026-08-22); **Sprout connectivity PROVIDED (operator, 2026-08-25)**
+**Last updated:** 2026-08-25 (Sprout-connectivity reconciliation added)
 **Owner:** Bright Matter LLC agency operations team
 ---
 ## Store identity
@@ -45,6 +45,17 @@ Status values: **Active / No account / Duplicate / TO VERIFY** (lowercased in ma
 - **CONFIRMED — Competitors (GM-named):** Greenway Kia Franklin, Murphy's Brew Kia, Wyatt Johnson Kia Clarksville, local Hyundai stores.
 - **CONFIRMED — Cadence:** weekly meetings for first ~3 weeks of setup.
 - **CONFIRMED — Open item:** Shannon to investigate/deactivate legacy Universal Kia YouTube and remove dead YouTube link from website.
+## Sprout connectivity (operator-provided 2026-08-25; source: `_source/channel-sprout-connectivity_shannon_2026-08-25.md`)
+| Channel | Sprout status |
+|---|---|
+| Facebook (`greenwaykiarivergate`) | **CONNECTED** |
+| GA4 — "Kia Rivergate - GA4" | **CONNECTED** |
+| Instagram (`greenwaykiarivergate`) | **CONNECTED** |
+| TikTok | N/A — no account |
+| YouTube (legacy `@universalkia`, pending deletion) | NOT connected / not listed |
+
+**Not-connected list:** none among live social accounts — FB, GA4 and IG are all connected (operator 2026-08-25), resolving the **Rivergate IG access gap** flagged in the GM interview (2026-08-24). No TikTok or YouTube account exists to connect. Legacy `@universalkia` YouTube remains a cleanup item (GM decision: start fresh + target deletion).
+
 ## Account-hygiene notes (INTERNAL)
 - **No TikTok account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.
 - **No YouTube account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.

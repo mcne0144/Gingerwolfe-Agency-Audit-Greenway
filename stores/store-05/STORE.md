@@ -1,6 +1,6 @@
 # Store 05 — Greenway Ford Kansas City — Store Profile & Channel Inventory
-**Status:** INTERNAL — store identity VERIFIED (2026-08-12); channel inventory for FB/IG/TikTok/YouTube PROVIDED (operator, 2026-08-22)
-**Last updated:** 2026-08-22
+**Status:** INTERNAL — store identity VERIFIED (2026-08-12); channel inventory PROVIDED (operator, 2026-08-22); **Sprout connectivity PROVIDED (operator, 2026-08-25)**
+**Last updated:** 2026-08-25 (Sprout-connectivity reconciliation added)
 **Owner:** Bright Matter LLC agency operations team
 ---
 ## Store identity
@@ -47,9 +47,21 @@ Status values: **Active / No account / Duplicate / TO VERIFY** (lowercased in ma
 - **CONFIRMED — Competitor set (GM-named):** Bob Sight, Rob Sight, Blue Springs Ford, Metro Ford.
 - **CONFIRMED — Content focus:** brand awareness & engagement, not price/discount posts.
 - **CONFIRMED — Access item:** Shane to ask Conquest to grant Shannon Meta ad-account access before Conquest relationship ends.
+## Sprout connectivity (operator-provided 2026-08-25; source: `_source/channel-sprout-connectivity_shannon_2026-08-25.md`)
+| Channel | Sprout status |
+|---|---|
+| Facebook (`greenwayfordraytown`) | **CONNECTED** |
+| GA4 — "Ford Dick Smith" | **CONNECTED — MISLABELED.** This is actually Greenway Ford of Raytown under the wrong name (operator 2026-08-25). Relabel to **Greenway Ford of KC** to match the GM rebrand (Silvey 08-24; also `STRATEGY.md` rev 3 + `audit/gm-interviews/store-05_SILVEY.md`). |
+| Instagram | N/A — no account (Phase-1 stand-up per operator 2026-08-22) |
+| TikTok | N/A — no account (Phase-1 stand-up per operator 2026-08-22) |
+| YouTube (`@GreenwayFordofKansasCity-zw6sj`) | NOT connected / not listed (support/search home; active baseline) |
+
+**Not-connected list:** none among live social accounts — FB is connected and the only connected GA4 is the mislabeled "Ford Dick Smith". No IG/TikTok accounts exist yet (Phase-1 stand-up). YouTube is live but not listed in Sprout.
+
 ## Account-hygiene notes (INTERNAL)
-- **No Instagram account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.
-- **No TikTok account** found as of 2026-08-22 (web research) — absence, recorded for GM one-on-one discussion.
+- **No Instagram account** found as of 2026-08-22 (web research) — Phase-1 stand-up, not a live slot (operator-confirmed 2026-08-22).
+- **No TikTok account** found as of 2026-08-22 (web research) — Phase-1 stand-up, not a live slot (operator-confirmed 2026-08-22).
+- **GA4 mislabel:** "Ford Dick Smith" GA4 is connected but carries the pre-rebrand name; relabeling to Greenway Ford of KC is part of the brand-cleanup flagged in the GM interview (Silvey 08-24).
 
 ## Known gaps
 - **Access unknown.** No account access, ownership, or permission details confirmed for any channel.
