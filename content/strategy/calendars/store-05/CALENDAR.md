@@ -7,6 +7,10 @@
 
 > **Tier column (brief §4):** **A** = Hero (**asset-led**: launch walkarounds + repurposed agency media from the GM's library; optional daughter character, not required) · **B** = Workhorse (video from the library: feature demos, truck depth/comparisons, service utility with a person, offer-as-video, delivery-day) · **C** = Utility (**published but NOT counted**: **per-VIN used-lot walkarounds on YouTube/GBP = Tier 1a search**, static offer/compliance, hours/holiday, roundup photos, review-milestone). **Only Tier A/B count toward the mix.**
 
+> **Why Tier A is asset-led here and character-led elsewhere (added 2026-08-23).** Store 05 has **no confirmed named on-camera lead**, so kill criterion 4 applies by design: Tier A is met by **launch walkarounds and repurposed agency library media**, and the daughter participant stays optional. The `COMPETITIVE_MOVE_PLAN.md §1` sequencing note — "open with watchable people" — is the target **once a named lead is confirmed**, not a contradiction of the rows below. When one is confirmed, the Tier A row converts from asset-led to character-led and P3's share is revisited at the next sign-off.
+>
+> **What "counter Bob Sight's utility" now means (CONFIRMED 2026-08-22/23).** The competitor is not thin: **625 TikTok videos, near-daily Facebook, 1,919 Instagram posts**. What they do not have is reach — a median Instagram Reel of **~192 plays on 672 followers**, and ~265 median TikTok plays on 2,302. Rob Sight, at 156 TikTok followers, out-reaches them roughly 78x per follower with scrappy personality content. So the service rows below **must not** try to out-post or out-polish Bob Sight. They win by being watchable: utility delivered by a person on camera, never a price claim and never a static graphic.
+
 **Media-spec key (platform standard):** FB 1:1/4:5; video 4:5 ≤60s. YouTube Short 9:16 ≤60s; YouTube long-form 16:9 7–14 min (truck comparison); clip 30–60s for FB. **Offers = video with a person (Tier B).** Per-VIN = Tier C (YouTube/GBP, VIN/title for Raytown/KC local search). Audio original/licensed.
 
 **Sprout tags on EVERY post:** `store-05` + channel (`fb`/`yt` now; `ig`/`tt` added at stand-up) + pillar + **tier**. **Pre-built IG/TikTok rows additionally carry `pending-standup` until the accounts are live and connected.** *(Tag labels TO VERIFY against live Sprout.)*
@@ -85,7 +89,9 @@ Same concrete rhythm repeats (IDs → W2/W3/W4); topics re-column from the asset
 
 ---
 
-## 4-week pillar mix check — COUNTED posts only (Tier A/B)
+## 4-week pillar mix check — COUNTED posts only (Tier A/B) · **MIX LOCKED 2026-08-22**
+> **Mix LOCKED 2026-08-22 (operator sign-off).** The pillar targets in this section are no longer house default. Locked for calendar and production planning; **provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 (kill criterion 5 — duplicates at day 30 are a blocked baseline, not underperformance). Only the Community gate (10% → 20% on hook confirmation) and the day-30/60/90 reallocation rules move without fresh sign-off.
+
 
 **Scope: live channels only.** This check covers **FB + YouTube** — the pre-built IG/TikTok rows are **not counted until those accounts are live** and their posts actually publish. Weekly counted ≈ 5 (FB 4 video + 1 YT Short) → ~20 counted over 4 weeks (+ YT long-form + per-VIN as Tier C, uncounted). **Tier C excluded.** Target split (asset-led FB + YT):
 

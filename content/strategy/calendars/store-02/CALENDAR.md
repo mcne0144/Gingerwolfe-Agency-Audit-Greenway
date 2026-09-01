@@ -5,6 +5,10 @@
 **Built from:** `stores/store-02/STRATEGY.md` (rev 2) · `content/pillars/PILLARS.md` REVISION 2 · `CONTENT_CALENDAR_TEMPLATE.md` · `SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** FB ~3 posts/wk (2 counted video + 1 utility) · IG ~3 Reels + 3 Stories/wk · TikTok ~3 videos/wk · YouTube ~1 Short/wk + 1 long-form/mo (depth-review home). Pilot month/dates TO VERIFY.
 
+> **Channel confirmation (added 2026-08-23).** All four channels are live and the earlier ambiguities are resolved: Facebook `/GreenwayKiaAtTheAvenues`, Instagram `@greenwaykiajax` (the duplicate `greenwaykia.jax` is **inactive per operator 2026-08-22**), TikTok `@greenwaykiajax`, and **YouTube `@greenwaykiaattheavenues-b6h` — Active, operator-confirmed, conflict resolved**. The YouTube rows below are live slots and need no stand-up decision. *(A 2026-08-22 note in the competitor docs briefly claimed Store 02 had no YouTube; that was wrong and has been withdrawn.)*
+>
+> **What the competitive read means for the rows below (CONFIRMED 2026-08-22/23).** Kia on Atlantic is **present on every channel and reaching nobody on any of them**: Facebook weekly with **0 likes and 0 shares on four of five observed posts**, Instagram at 98 followers with static posts at 0–3 likes. There is nothing to out-promo. The depth, utility and local rows below are the whole wedge, and the **offers-stay-discretionary rule is what keeps us from copying a play that is visibly not working**. Note also that the competitor is at 11750 Abess Blvd (east Jacksonville), not the southside — Store 02 at 10564 Philips Hwy owns the southside lane outright rather than contesting it.
+
 > **Tier column (brief §4):** **A** = Hero (recurring character [phased] / serialized campaign / launch walkaround) · **B** = Workhorse (video) · **C** = Utility (**published but NOT counted**). **Only Tier A/B count toward the pillar mix.** Store 02's depth reviews run 30–60s (real detail, not 6-second hype).
 
 **Media-spec key (platform standard):**
@@ -56,7 +60,9 @@ Same rhythmic recur (IDs → W2/W3/W4); rotate depth reviews across the best-sel
 
 ---
 
-## 4-week pillar mix check — COUNTED posts only (Tier A/B)
+## 4-week pillar mix check — COUNTED posts only (Tier A/B) · **MIX LOCKED 2026-08-22**
+> **Mix LOCKED 2026-08-22 (operator sign-off).** The pillar targets in this section are no longer house default. Locked for calendar and production planning; **provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 (kill criterion 5 — duplicates at day 30 are a blocked baseline, not underperformance). Only the Community gate (10% → 20% on hook confirmation) and the day-30/60/90 reallocation rules move without fresh sign-off.
+
 
 Weekly counted ≈ 8 (2 FB + 3 IG + 3 TT) → ~32 counted over 4 weeks. **Tier C excluded.** Target split (per-channel §7 full mix):
 

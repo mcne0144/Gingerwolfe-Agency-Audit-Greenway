@@ -5,6 +5,8 @@
 **Built from:** `stores/store-01/STRATEGY.md` (rev 2) · `content/pillars/PILLARS.md` REVISION 2 (tier layer + per-channel mix) · `content/CONTENT_CALENDAR_TEMPLATE.md` · `reporting/SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** FB ~3 posts/wk (2 counted video + 1 Tier C utility) · IG ~3 Reels + 3 Stories/wk · TikTok ~3 videos/wk (incl. ≥1 Tier A) · YouTube ~1 Short + per-VIN (Tier 1a). Pilot month/dates TO VERIFY. Slots are placeholders until the store confirms the real asset.
 
+> **Channel hygiene before the first post (added 2026-08-23).** **Facebook: publish only to `facebook.com/GreenwayKiaWestPalmBeach`.** A duplicate page exists at `facebook.com/greenwaykiawpb` and is splitting reach — confirm the page of record with the GM before connecting Sprout, and never post to both. **Instagram `@greenwaykiawpb` is the strongest IG start of the five pilot stores** per the 7 Aug audit, and IG carries the largest locked share here (35%) — treat it as the priority channel, not an equal third. **A store salesperson account holds ~1,994 followers against the store TikTok's 87.** Whether the character line runs through the store account, that person, or both is a **GM + operator decision, never an agent action**; until it is settled the Tier A rows below stay on the store account.
+
 > **Tier column (brief §4):** **A** = Hero (recurring character / serialized campaign / launch walkaround) · **B** = Workhorse (video: feature demo, service explainer, comparison, offer-as-video, delivery-day) · **C** = Utility (**published but NOT counted** — per-VIN, static offer/compliance, hours/holiday, roundup photos, review-milestone; lives on YouTube/GBP/Facebook). **Only Tier A/B rows count toward the pillar mix.**
 
 **Media-spec key (platform standard, not TO VERIFY):**
@@ -59,7 +61,9 @@ Same concrete rhythm recurs (IDs → W2/W3/W4); topics re-column to the next rea
 
 ---
 
-## 4-week pillar mix check — COUNTED posts only (Tier A/B)
+## 4-week pillar mix check — COUNTED posts only (Tier A/B) · **MIX LOCKED 2026-08-22**
+> **Mix LOCKED 2026-08-22 (operator sign-off).** The pillar targets in this section are no longer house default. Locked for calendar and production planning; **provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 (kill criterion 5 — duplicates at day 30 are a blocked baseline, not underperformance). Only the Community gate (10% → 20% on hook confirmation) and the day-30/60/90 reallocation rules move without fresh sign-off.
+
 
 Weekly counted ≈ 8 (2 FB + 3 IG + 3 TT) → ~32 counted feed posts over 4 weeks. **Tier C (photos, per-VIN, static, hours, milestones, Stories) is excluded by definition.** Target split of the **counted** slots (per-channel §7 full mix):
 

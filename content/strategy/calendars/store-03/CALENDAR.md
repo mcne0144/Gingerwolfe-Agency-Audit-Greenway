@@ -5,6 +5,10 @@
 **Built from:** `stores/store-03/STRATEGY.md` (rev 2) · `content/pillars/PILLARS.md` REVISION 2 · `CONTENT_CALENDAR_TEMPLATE.md` · `SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** FB ~3 posts/wk (2 counted video + 1 utility) · IG ~2 Reels + ~3 Stories/wk · **YouTube ~1 Short/wk ONLY after `@universalkia` attribution confirmed** (conditional). **NO TikTok — Store 03 has no TikTok account; no TikTok slots scheduled.** Pilot month/dates TO VERIFY.
 
+> **Production constraint — read before scheduling any on-site shoot (added 2026-08-23).** **Rivergate is mid-renovation.** Active rebuild since February 2026, demolition through interior framing, with a temporary canopy keeping the service lane running. Showroom, walkaround and behind-the-scenes capture is **physically constrained for the duration**. This is the real reason Store 03 sits at minimum viable — a capacity constraint, not a judgement about ambition — and it should be stated that way in the GM one-on-one. Practical effect on the rows below: prefer **service-lane and off-site or library footage** over showroom framing, and treat any row needing showroom capture as **held until the renovation state is confirmed** by the store.
+>
+> **In-house audience that already exists (GM decision, not an agent action).** A Rivergate salesperson, **@marisawirtzz (~74,300 followers)**, posted a Rivergate-tagged video that reached **~35,700 plays** — by a wide margin the strongest evidence anywhere in the pilot that the personality format works in this market. Store 03 stays **no-character / minimum-viable** as locked, so **no row below depends on this**. It is recorded because the question "do we work through a person who already has the audience" belongs to the GM and the operator, and it should not be re-discovered later. Consent and the two-source rule apply before any name enters client-facing copy.
+
 > **Tier column (brief §4):** **A** = Hero (**launch walkarounds only** — no recurring character in minimum-viable) · **B** = Workhorse (video) · **C** = Utility (**published but NOT counted**). **Only Tier A/B count toward the pillar mix.**
 
 **Media-spec key (platform standard):**
@@ -48,7 +52,9 @@ Same concrete rhythm repeats (IDs → W2/W3/W4); topics re-column to the next re
 
 ---
 
-## 4-week pillar mix check — COUNTED posts only (Tier A/B)
+## 4-week pillar mix check — COUNTED posts only (Tier A/B) · **MIX LOCKED 2026-08-22**
+> **Mix LOCKED 2026-08-22 (operator sign-off).** The pillar targets in this section are no longer house default. Locked for calendar and production planning; **provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 (kill criterion 5 — duplicates at day 30 are a blocked baseline, not underperformance). Only the Community gate (10% → 20% on hook confirmation) and the day-30/60/90 reallocation rules move without fresh sign-off.
+
 
 Weekly counted ≈ 4 (2 FB video + 2 IG Reels) → ~16 counted over 4 weeks. **Tier C excluded.** Target split (minimum-viable per-channel):
 

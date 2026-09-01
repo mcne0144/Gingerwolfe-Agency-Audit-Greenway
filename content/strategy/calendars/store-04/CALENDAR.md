@@ -5,6 +5,8 @@
 **Built from:** `stores/store-04/STRATEGY.md` (rev 2) · `content/pillars/PILLARS.md` REVISION 2 · `CONTENT_CALENDAR_TEMPLATE.md` · `SPROUT_CONFIG_PLAN.md` §4–5.
 **Cadence target (TO VERIFY — Shannon-approved capacity):** FB ~3 posts/wk (2 counted + 1 utility) · IG ~2 Reels + ~3 Stories/wk · TikTok ~2 videos/wk · YouTube ~1 Short/wk (attribution-confirmed). Pilot month/dates TO VERIFY.
 
+> **Channel hygiene before the first post (added 2026-08-23).** **TikTok: publish only to `@greenwaykia.hicko`** — the channel matrix records it as the account of record. **Two other Hickory Hollow TikTok accounts exist** (`@greenwaykiahickoryhollow`, last post Oct 2022; `@greenwaykiahickor`, Dec 2023). Scheduling into the wrong one splits reach and corrupts the baseline, so confirm the handle in Sprout before the first TikTok row goes live. This store also carries a **legacy "Universal Kia" estate from a rebrand that never finished** — a dead Facebook page, an old X account, an old Instagram and a Pinterest — plus a **YouTube handle (`@universalkia`) still shared with Store 03**. None of it is scheduled here; all of it is a **governance and cleanup item for the GM one-on-one**, not an agent action. **Proof point worth keeping in view:** the 9-follower `@greenwaykia.hicko` account posted a sales-team introduction that reached **1,384 plays at a 21% like rate** — light people content performs from a standing start, even though this store stays no-character under the locked minimum-viable stance.
+
 > **Tier column (brief §4):** **A** = Hero (**launch walkarounds only** — no recurring character) · **B** = Workhorse (video) · **C** = Utility (**published but NOT counted**). **Only Tier A/B count toward the pillar mix.** TikTok is ACTIVE here (unlike Store 03) — light P3 BTS + short inventory clips, no character arc.
 
 **Media-spec key (platform standard):** TikTok/IG Reel 9:16 15–60s captions; IG feed 4:5/1:1; IG Story 9:16; FB 1:1/4:5 video 4:5; YT Short 9:16 ≤60s. **Offers = video with a person (Tier B).** Per-VIN = Tier C. Audio original/licensed.
@@ -50,7 +52,9 @@ Same concrete rhythm repeats (IDs → W2/W3/W4); topics re-column to the next re
 
 ---
 
-## 4-week pillar mix check — COUNTED posts only (Tier A/B)
+## 4-week pillar mix check — COUNTED posts only (Tier A/B) · **MIX LOCKED 2026-08-22**
+> **Mix LOCKED 2026-08-22 (operator sign-off).** The pillar targets in this section are no longer house default. Locked for calendar and production planning; **provisional as a measurement baseline** until account consolidation completes at Stores 01, 03 and 04 (kill criterion 5 — duplicates at day 30 are a blocked baseline, not underperformance). Only the Community gate (10% → 20% on hook confirmation) and the day-30/60/90 reallocation rules move without fresh sign-off.
+
 
 Weekly counted ≈ 6 (2 FB + 2 IG + 2 TT) → ~24 counted over 4 weeks. **Tier C excluded.** Target split (minimum-viable per-channel):
 
