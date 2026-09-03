@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The full brief. Greenway pilot content system.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bm-forest:#152C28; --bm-forest-2:#1E3B36; --bm-forest-deep:#0F211D; --bm-gold:#AD7F44;
+    --bm-cream:#F0E9DC; --bm-khaki:#C6B7A1;
+    --ink:#1C1F1E; --ink-2:#4A524F;
+    --ink-inverse:var(--bm-cream); --ink-inverse-2:#D8CFBE;
+    --surface-page:var(--bm-cream);
+    --surface-tonal:#E8E0D0;
+    --surface-inverse:var(--bm-forest);
+    --line-soft:rgba(21,44,40,.14);
+    --line-inverse:rgba(240,233,220,.28);
+    --space-2:12px; --space-3:18px; --space-4:24px; --space-5:36px; --space-6:56px; --space-7:96px;
+    --size-eyebrow:.8rem; --size-small:.9rem; --size-body:1.0625rem;
+    --size-h2:clamp(1.7rem,3vw,2.3rem); --size-h1:clamp(2.1rem,4.2vw,3.2rem);
+    --serif:"Spectral",Georgia,serif;
+    --sans:"Archivo",system-ui,sans-serif;
+    --max:880px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--surface-page);color:var(--ink);font-family:var(--sans);font-size:var(--size-body);line-height:1.55}
+  a{color:inherit}
+  h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0 0 .5rem}
+  h1{font-size:var(--size-h1);letter-spacing:-.01em}
+  h2{font-size:var(--size-h2);margin-bottom:var(--space-4)}
+  h3{font-size:1.3rem}
+  p{margin:0 0 1.5rem;max-width:62ch}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--space-4)}
+  section{padding:var(--space-6) 0;border-top:1px solid var(--line-soft);scroll-margin-top:72px}
+  .eyebrow{display:block;font-family:var(--sans);font-size:var(--size-eyebrow);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--bm-gold);margin:0 0 var(--space-3)}
+  .more{display:inline-block;font-family:var(--sans);font-size:.95rem;font-weight:500;color:var(--bm-forest);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--bm-gold)}
+  .more:hover{color:var(--bm-gold)}
+
+  header.nav{position:sticky;top:0;z-index:5;background:var(--surface-inverse);color:var(--ink-inverse)}
+  header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:var(--space-3)}
+  .lockup{display:flex;align-items:center;gap:var(--space-2);font-family:var(--serif);font-size:1.15rem}
+  .lockup svg{width:30px;height:30px;flex:none}
+  .back{color:var(--ink-inverse);text-decoration:none;font-size:.92rem;opacity:.85}
+  .back:hover{opacity:1;color:var(--bm-gold)}
+
+  .pagehead{padding:var(--space-7) 0 var(--space-6)}
+  .pagehead p{color:var(--ink-2)}
+
+  .box{padding:36px;background:var(--surface-tonal);border-radius:6px;margin:var(--space-4) 0}
+  .box h3{font-size:1.5rem;margin-bottom:.8rem}
+  .box ul{margin:0;padding-left:0;list-style:none}
+  .box li{border-left:2px solid var(--bm-gold);padding-left:14px;margin-bottom:12px}
+  a.inline{color:var(--bm-forest);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--bm-gold)}
+
+  .steps{counter-reset:s;margin:var(--space-4) 0 0;padding:0;list-style:none}
+  .steps li{display:grid;grid-template-columns:56px 1fr;gap:var(--space-3);padding:22px 0;border-top:1px solid var(--line-soft)}
+  .steps li:last-child{border-bottom:1px solid var(--line-soft)}
+  .steps li::before{counter-increment:s;content:counter(s);font-family:var(--serif);font-style:italic;font-size:1.8rem;color:var(--bm-gold);line-height:1}
+  .steps h3{margin-bottom:.35rem}
+  .steps p{margin:0;color:var(--ink-2)}
+
+  table{width:100%;border-collapse:collapse;margin-top:var(--space-4);font-size:.96rem}
+  th,td{text-align:left;padding:14px 12px;border-top:1px solid var(--line-soft);vertical-align:top}
+  th{font-family:var(--serif);font-weight:500;font-size:1.1rem;color:var(--bm-forest)}
+  tr:last-child td{border-bottom:1px solid var(--line-soft)}
+  td:first-child{font-weight:500;white-space:nowrap}
+  @media (max-width:700px){
+    table,thead,tbody,tr,td,th{display:block}
+    thead{display:none}
+    td{border:0;padding:6px 0;white-space:normal}
+    td:first-child{padding-top:var(--space-3);font-family:var(--serif);font-size:1.15rem;border-top:1px solid var(--line-soft)}
+    tr:last-child td:last-child{border-bottom:1px solid var(--line-soft);padding-bottom:var(--space-3)}
+  }
+
+  .note{font-size:var(--size-small);color:var(--ink-2);border-left:3px solid var(--bm-gold);padding-left:14px;margin-top:var(--space-4);max-width:60ch}
+  footer{padding:var(--space-5) 0;font-size:.88rem;color:var(--ink-2);border-top:1px solid var(--line-soft)}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <div class="lockup">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#C6B7A1" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#AD7F44"/></svg>
+      Bright Matter
+    </div>
+    <a class="back" href="index.html">&larr; Back to the playbook</a>
+  </div>
+</header>
+
+<div class="pagehead">
+  <div class="wrap">
+    <span class="eyebrow">Greenway pilot &middot; supporting detail</span>
+    <h1>The full brief.</h1>
+    <p>Everything behind the playbook page: the complete findings, the week in detail, each store's plan, and how the scorecard works.</p>
+  </div>
+</div>
+
+<section id="findings">
+  <div class="wrap">
+    <span class="eyebrow">Findings</span>
+    <h2>What we learned from your Orlando stores.</h2>
+    <p>We pulled every top post from Kia North, Kia West and Kia East on TikTok, Instagram and YouTube, then read 739 comments and 21 transcripts to see what the audience actually responded to.</p>
+    <p>The pattern is consistent. The subject of a post barely matters. The format decides everything.</p>
+    <p>The clearest proof is on Kia West. A lease offer posted as a static image drew two likes.</p>
+    <p>The same kind of offer, delivered by a salesperson on camera who opened with "if you buy fast food every week, you can afford this car," drew <a class="inline" href="https://www.tiktok.com/@greenwaykiawest/video/7596783553656933687" target="_blank" rel="noopener">120,000 plays and 1,500 saves</a>. Same store, same month, same offer.</p>
+    <p>Kia North built a 35,000-follower account without a single personality. Their engine is short demos of one feature, framed as a question. <a class="inline" href="https://www.tiktok.com/@greenwaykianorth/video/7619367218345741582" target="_blank" rel="noopener">"Would you use this?"</a> reached 731,000 people and was saved 5,400 times, which means people sent it to the person they shop with.</p>
+    <p>Kia East has 590 TikTok followers and <a class="inline" href="https://www.tiktok.com/@greenway.kia.east/video/7657596596594560269" target="_blank" rel="noopener">posts in Spanish that reach 36,000 people</a>. That is sixty times its audience, repeatedly. Nobody else in the group is serving those buyers.</p>
+    <div class="box">
+      <h3>What the audience told us</h3>
+      <ul>
+        <li>People follow a person, not a store. "I don't know what state you're in but I followed."</li>
+        <li>Owners learn their car's features from TikTok, not the manual, and they ask for the trim and year on every demo.</li>
+        <li>The same objection appears on every winning post, so we answer it once, well, instead of arguing in captions.</li>
+        <li>Every winner starts talking in the first half second. No logo, no music over the voice, no "welcome to."</li>
+        <li>Reach is national. Local conversion is a separate job, and we treat it as one.</li>
+      </ul>
+    </div>
+    <div class="note">
+      <p>Hero formats are where the biggest reach lives and need a willing person. Workhorse formats need no personality and are the reliable weekly baseline.</p>
+      <p>Inventory graphics, hours notices and holiday posts still get published, but they are utility, not content, and we do not count them.</p>
+    </div>
+  </div>
+</section>
+
+<section id="system">
+  <div class="wrap">
+    <span class="eyebrow">The weekly system</span>
+    <h2>The full week, step by step.</h2>
+    <ol class="steps">
+      <li><div><h3>We send the brief on Monday</h3><p>A two-page brief per store: which format, who is on camera, three shots to capture, the caption already written, the vehicle confirmed on the lot. It comes from the format library plus what we know about your store.</p></div></li>
+      <li><div><h3>Your person shoots it on a phone</h3><p>One capture, one take where possible, native sound. The brief tells them what to say in the first three seconds. Fifteen minutes on the lot, not a production day.</p></div></li>
+      <li><div><h3>We cut it for every channel</h3><p>One capture becomes the TikTok, the Instagram Reel, the Facebook post, and a YouTube Short. We adjust the captions per channel. Nothing is reshot and nothing is posted once.</p></div></li>
+      <li><div><h3>We answer the comments and route the leads</h3><p>We answer questions about trim, year and price. Anyone showing intent goes to your store the same way messages reach you today, with a copy kept in Sprout.</p></div></li>
+      <li><div><h3>The scorecard tells us what to make next</h3><p>What performed re-ranks the formats for next week. We build your scorecard on your own numbers, against your own baseline, not against Orlando.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="stores">
+  <div class="wrap">
+    <span class="eyebrow">Store plans</span>
+    <h2>What each pilot store gets.</h2>
+    <p>Same nine formats, tuned to each store's people and market. We settle the items marked "we confirm with you" in the one-on-one with each general manager instead of assuming them.</p>
+    <table>
+      <thead><tr><th>Store</th><th>Starting mix</th><th>We confirm with you</th></tr></thead>
+      <tbody>
+        <tr><td>Kia West Palm Beach<br><small>Mike Wangle</small></td><td>All nine, starting with the character skit and a weekly hero post. The store already has an on-site video person, so this is the anchor for the character model.</td><td>Who the on-camera person is. Whether a Spanish version runs, since the store already serves Spanish-speaking buyers online.</td></tr>
+        <tr><td>Kia at the Avenues<br><small>Emre Sevinir, Jacksonville</small></td><td>Feature demos, owner how-tos, launch walkarounds and offers first. A root-for-the-employee campaign to build the account from a cold start, then the character skit once the person is clear.</td><td>The language mix. The local hooks that make Jacksonville content feel like Jacksonville.</td></tr>
+        <tr><td>Kia Rivergate<br><small>James Galuszka, Madison</small></td><td>The workhorse five. No character required, so it runs on the team's capacity as it is.</td><td>Whether anyone on the floor wants to be on camera. If yes, the campaign format opens.</td></tr>
+        <tr><td>Kia Hickory Hollow<br><small>James Galuszka, Antioch</small></td><td>Same as Rivergate, plus a follower campaign, because a brand-new account needs a reason to exist. Separate voice and separate scorecard from Rivergate.</td><td>Which of the existing accounts becomes the one account.</td></tr>
+        <tr><td>Ford Kansas City<br><small>Shane Silvey, Raytown</small></td><td>Feature demos on Ford features, owner how-tos, launch walkarounds, offers. Facebook and YouTube first, Instagram and TikTok as soon as the accounts are live.</td><td>The Ford feature list. The professional walkaround footage from your previous agency, which we can cut into the formats.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="scorecard">
+  <div class="wrap">
+    <span class="eyebrow">The scorecard</span>
+    <h2>What we measure, and what we will not claim.</h2>
+    <p>Each store's scorecard starts from its own baseline in month one. We track reach, saves and shares (the signal that people are passing content along), comments and messages, follower growth, and the share of posts that hit their format's benchmark.</p>
+    <p>We will not report a viral number as a local result. A post that reaches a million people reached people in Malta and Arizona. The scorecard separates reach from local conversation and local messages, so nobody mistakes one for the other.</p>
+    <p>Paid promotion is outside this pilot. We build every post so it is ready to boost the day that changes, because the formats that win organically are the ones worth paying to extend.</p>
+    <div class="box">
+      <h3>What we need from each store</h3>
+      <ul>
+        <li>One confirmed account per channel, with duplicates retired or merged.</li>
+        <li>One person willing to be on camera, even for the workhorse formats.</li>
+        <li>Fifteen minutes of lot time per capture, a few times a week.</li>
+        <li>Confirmation that any vehicle or offer we feature is real and available before it posts.</li>
+        <li>A yes or no from the general manager on the one-on-one items above.</li>
+      </ul>
+    </div>
+    <a class="more" href="index.html">&larr; Back to the playbook</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Prepared for Greenway Auto Group. Confidential. brightmattersystems.com</div>
+</footer>
+
+</body>
+</html>

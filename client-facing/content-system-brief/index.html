@@ -48,13 +48,18 @@
   h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;margin:0 0 .5rem}
   h1{font-size:var(--size-h1);letter-spacing:-.01em}
   h1 em{font-style:italic;font-weight:400;color:var(--bm-gold)}
-  h2{font-size:var(--size-h2)}
+  h2{font-size:var(--size-h2);margin-bottom:var(--space-4)}
   h3{font-size:var(--size-h3)}
   p{margin:0 0 1.5rem;max-width:62ch}
   .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--space-4)}
+  section{scroll-margin-top:72px}
 
   /* eyebrow */
   .eyebrow{display:block;font-family:var(--sans);font-size:var(--size-eyebrow);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--bm-gold);margin:0 0 var(--space-3)}
+
+  /* more link */
+  .more{display:inline-block;font-family:var(--sans);font-size:.95rem;font-weight:500;color:var(--bm-forest);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--bm-gold);margin-top:var(--space-2)}
+  .more:hover{color:var(--bm-gold)}
 
   /* nav */
   header.nav{position:sticky;top:0;z-index:5;background:var(--surface-inverse);color:var(--ink-inverse)}
@@ -64,6 +69,7 @@
   nav{display:flex;align-items:center}
   nav a{color:var(--ink-inverse);text-decoration:none;font-size:.92rem;margin-left:22px;opacity:.85}
   nav a:hover{opacity:1;color:var(--bm-gold)}
+  nav a.nav-brief{color:var(--bm-gold);opacity:1}
   .menu-toggle{display:none;background:none;border:1px solid var(--line-inverse);border-radius:2px;color:var(--ink-inverse);font-family:var(--sans);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;padding:8px 14px;cursor:pointer}
   #menu-state{display:none}
   @media (max-width:760px){
@@ -74,7 +80,7 @@
   }
 
   /* sections */
-  section{padding:var(--space-7) 0;border-top:1px solid var(--line-soft)}
+  section{padding:var(--space-7) 0}
   section.hero{background:linear-gradient(180deg,var(--bm-forest) 0,var(--bm-forest) calc(100% - 200px),var(--bm-forest-deep) 100%);color:var(--ink-inverse);border:0;padding:var(--space-8) 0 var(--space-7)}
   .hero .eyebrow{color:var(--bm-khaki)}
   .hero p{max-width:58ch;font-size:var(--size-lede);color:#E6DDCB}
@@ -104,41 +110,41 @@
   .box ul{margin:0;padding-left:0;list-style:none}
   .box li{border-left:2px solid var(--bm-gold);padding-left:14px;margin-bottom:12px}
 
+  /* proof line */
+  .proof{font-family:var(--serif);font-size:clamp(1.25rem,2.2vw,1.5rem);line-height:1.4;max-width:34ch;margin:0 0 1.5rem}
+  .proof a{color:var(--bm-forest);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--bm-gold)}
+
   /* format cards */
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-3);margin-top:var(--space-5)}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-3);margin-top:var(--space-6)}
   @media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
   @media (max-width:600px){.grid{grid-template-columns:1fr}}
   .card{background:var(--surface-tonal);padding:36px;border-radius:6px;display:flex;flex-direction:column;gap:6px}
   .card h3{font-size:1.5rem;margin:0}
   .card p{font-size:.97rem;color:var(--ink-2);margin:0}
-  .card .ev a,.two a{color:var(--bm-forest);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--bm-gold)}
+  .card .ev a{color:var(--bm-forest);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--bm-gold)}
   .card .ev{font-size:var(--size-small);color:var(--ink-2);margin-top:var(--space-2)}
   .tier{display:inline-block;font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--bm-gold);width:max-content;margin-bottom:4px}
 
   /* steps */
-  .steps{counter-reset:s;margin:var(--space-5) 0 0;padding:0;list-style:none}
-  .steps li{display:grid;grid-template-columns:64px 1fr;gap:var(--space-3);padding:22px 0;border-top:1px solid var(--line-soft)}
+  .steps{counter-reset:s;margin:var(--space-6) 0 0;padding:0;list-style:none;max-width:720px}
+  .steps li{display:grid;grid-template-columns:64px 1fr;gap:var(--space-3);padding:26px 0;border-top:1px solid var(--line-soft)}
   .steps li:last-child{border-bottom:1px solid var(--line-soft)}
   .steps li::before{counter-increment:s;content:counter(s);font-family:var(--serif);font-style:italic;font-size:2rem;color:var(--bm-gold);line-height:1}
   .steps h3{margin-bottom:.35rem}
-  .steps p{margin:0;color:var(--ink-2);max-width:66ch}
+  .steps p{margin:0;color:var(--ink-2);max-width:60ch}
 
-  /* table */
-  table{width:100%;border-collapse:collapse;margin-top:28px;font-size:.96rem}
-  th,td{text-align:left;padding:14px 12px;border-top:1px solid var(--line-soft);vertical-align:top}
-  th{font-family:var(--serif);font-weight:500;font-size:1.1rem;color:var(--bm-forest)}
-  tr:last-child td{border-bottom:1px solid var(--line-soft)}
-  td:first-child{font-weight:500;white-space:nowrap}
-  @media (max-width:700px){
-    table,thead,tbody,tr,td,th{display:block}
-    thead{display:none}
-    td{border:0;padding:6px 0;white-space:normal}
-    td:first-child{padding-top:var(--space-3);font-family:var(--serif);font-size:1.15rem;border-top:1px solid var(--line-soft)}
-    tr:last-child td:last-child{border-bottom:1px solid var(--line-soft);padding-bottom:var(--space-3)}
-  }
+  /* store list */
+  .store-list{margin:var(--space-6) 0 0;padding:0;list-style:none}
+  .store-list li{display:grid;grid-template-columns:1fr auto;gap:var(--space-3);align-items:baseline;padding:26px 0;border-top:1px solid var(--line-soft)}
+  .store-list li:last-child{border-bottom:1px solid var(--line-soft)}
+  .store-list h3{margin:0 0 .2rem}
+  .store-list .gm{font-size:var(--size-small);color:var(--ink-2);display:block;margin-bottom:.4rem}
+  .store-list p{margin:0;color:var(--ink-2);max-width:56ch}
+  .store-list .more{margin:0;white-space:nowrap}
+  @media (max-width:640px){.store-list li{grid-template-columns:1fr}}
 
   /* rhythm band */
-  .rhythm{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--space-2);margin-top:var(--space-5)}
+  .rhythm{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--space-2);margin-top:var(--space-6)}
   @media (max-width:900px){.rhythm{grid-template-columns:repeat(2,1fr)}}
   .rhythm div{background:var(--surface-inverse);color:var(--ink-inverse);padding:18px 16px}
   .rhythm div b{display:block;font-family:var(--serif);font-weight:500;font-size:1.25rem;margin-bottom:6px;color:var(--bm-gold)}
@@ -154,9 +160,7 @@
 
   footer{padding:var(--space-5) 0;font-size:.88rem;color:var(--ink-2)}
   footer .wrap{display:flex;justify-content:space-between;gap:var(--space-3);flex-wrap:wrap;align-items:center}
-  .note{font-size:var(--size-small);color:var(--ink-2);border-left:3px solid var(--bm-gold);padding-left:14px;margin-top:var(--space-3);max-width:60ch}
-  .note p{margin:0 0 .75rem;max-width:none}
-  .note p:last-child{margin-bottom:0}
+  .note{font-size:var(--size-small);color:var(--ink-2);border-left:3px solid var(--bm-gold);padding-left:14px;margin-top:var(--space-4);max-width:60ch}
 
   /* scroll reveal — hiding applies only once JS adds .reveal-init, so no-JS shows everything */
   @media (prefers-reduced-motion: no-preference){
@@ -176,11 +180,11 @@
     </div>
     <label class="menu-toggle" for="menu-state">Menu</label>
     <nav>
-      <a href="#learned">What we learned</a>
+      <a href="#learned">What works</a>
       <a href="#formats">The formats</a>
       <a href="#how">How it runs</a>
-      <a href="#stores">Your stores</a>
-      <a href="#measure">What we measure</a>
+      <a href="#stores">Your store</a>
+      <a class="nav-brief" href="details.html">Full brief</a>
     </nav>
   </div>
 </header>
@@ -189,43 +193,26 @@
   <div class="wrap">
     <span class="eyebrow">For Casey Coffey and the five pilot general managers</span>
     <h1>Your best stores already wrote the <em>playbook</em>. We are going to run it everywhere.</h1>
-    <p>Three Greenway Kia stores in Orlando are among the strongest dealership accounts on TikTok and Instagram in the country. This brief explains what they do that works, how we turned it into a repeatable system, and how each pilot store will produce content every week without hiring a film crew.</p>
+    <p>Three Greenway Kia stores in Orlando are among the strongest dealership accounts on TikTok and Instagram in the country. We turned what they do into a system your store can run every week without a film crew.</p>
     <div class="cta">
       <a class="btn btn-primary" href="#formats">See the nine formats</a>
       <a class="btn btn-secondary" href="#how">How it runs weekly</a>
     </div>
     <div class="stats">
-      <div><span>7.1M</span><small>plays on a single six-second post from Greenway Kia North</small></div>
-      <div><span>9</span><small>repeatable formats found across Kia North, Kia West and Kia East</small></div>
-      <div><span>5</span><small>pilot stores running the same system with their own people</small></div>
+      <div><span>7.1M</span><small>plays on one six-second post from Kia North</small></div>
+      <div><span>9</span><small>repeatable formats, each with proof</small></div>
+      <div><span>5</span><small>pilot stores, your own people on camera</small></div>
     </div>
   </div>
 </section>
 
 <section id="learned">
   <div class="wrap">
-    <div class="two">
-      <div>
-        <span class="eyebrow" data-reveal data-reveal-group="hd-learned">What we learned</span>
-        <h2 data-reveal data-reveal-group="hd-learned">The wins were not luck. They were formats.</h2>
-        <p>We pulled every top post from Kia North, Kia West and Kia East on TikTok, Instagram and YouTube, then read 739 comments and 21 transcripts to see what the audience actually responded to.</p>
-        <p>The pattern is consistent. The subject of a post barely matters. The format decides everything.</p>
-        <p>The clearest proof is on Kia West. A lease offer posted as a static image drew two likes.</p>
-        <p>The same kind of offer, delivered by a salesperson on camera who opened with "if you buy fast food every week, you can afford this car," drew <a href="https://www.tiktok.com/@greenwaykiawest/video/7596783553656933687" target="_blank" rel="noopener">120,000 plays and 1,500 saves</a>. Same store, same month, same offer.</p>
-        <p>Kia North built a 35,000-follower account without a single personality. Their engine is short demos of one feature, framed as a question. <a href="https://www.tiktok.com/@greenwaykianorth/video/7619367218345741582" target="_blank" rel="noopener">"Would you use this?"</a> reached 731,000 people and was saved 5,400 times, which means people sent it to the person they shop with.</p>
-        <p>Kia East has 590 TikTok followers and <a href="https://www.tiktok.com/@greenway.kia.east/video/7657596596594560269" target="_blank" rel="noopener">posts in Spanish that reach 36,000 people</a>. That is sixty times its audience, repeatedly. Nobody else in the group is serving those buyers.</p>
-      </div>
-      <div class="box" data-reveal>
-        <h3>What the audience told us</h3>
-        <ul>
-          <li>People follow a person, not a store. "I don't know what state you're in but I followed."</li>
-          <li>Owners learn their car's features from TikTok, not the manual, and they ask for the trim and year on every demo.</li>
-          <li>The same objection appears on every winning post, so we answer it once, well, instead of arguing in captions.</li>
-          <li>Every winner starts talking in the first half second. No logo, no music over the voice, no "welcome to."</li>
-          <li>Reach is national. Local conversion is a separate job, and we treat it as one.</li>
-        </ul>
-      </div>
-    </div>
+    <span class="eyebrow" data-reveal data-reveal-group="hd-learned">What works</span>
+    <h2 data-reveal data-reveal-group="hd-learned">The wins were not luck. They were formats.</h2>
+    <p>We studied every top post from your three Orlando stores. The subject of a post barely matters. The format decides everything.</p>
+    <p class="proof" data-reveal>On Kia West, a lease offer posted as a static image drew two likes. The same offer, delivered by a salesperson on camera, drew <a href="https://www.tiktok.com/@greenwaykiawest/video/7596783553656933687" target="_blank" rel="noopener">120,000 plays and 1,500 saves</a>. Same store, same month, same offer.</p>
+    <a class="more" href="details.html#findings">Read the full findings, including what 739 comments told us</a>
   </div>
 </section>
 
@@ -233,37 +220,33 @@
   <div class="wrap">
     <span class="eyebrow" data-reveal data-reveal-group="hd-formats">The formats</span>
     <h2 data-reveal data-reveal-group="hd-formats">Nine formats, each with proof and a shot list.</h2>
-    <p>Every store gets the same nine. What changes is the person on camera, the vehicles on the lot, the local hook, and the language.</p>
-    <p>Each format comes with a one-page shot list: who is on camera, three shots, how long, and how the caption is written. A salesperson with a phone can follow it.</p>
+    <p>Every store gets the same nine. Each comes with a one-page shot list a salesperson with a phone can follow.</p>
     <div class="grid">
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Feature demo, asked as a question</h3><p>One feature, shown working, opened with "Did you know your Telluride can do this?"</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykianorth/video/7619367218345741582" target="_blank" rel="noopener">Kia North, 731,000 plays, 5,400 saves</a></div></div>
-      <div class="card" data-reveal data-reveal-group="formats"><span class="tier tier-hero">Hero</span><h3>The six-second gag</h3><p>One visual joke, staff and vehicle in frame, six words of caption.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykianorth/video/7653108682481290510" target="_blank" rel="noopener">Kia North, 7.1 million plays</a>, 675,000 more on Instagram</div></div>
-      <div class="card" data-reveal data-reveal-group="formats"><span class="tier tier-hero">Hero</span><h3>Named character skit</h3><p>A staff member with a running persona in short scenarios that happen to be at a dealership.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7646440164973104397" target="_blank" rel="noopener">Kia West, 1.2 million plays, 44,600 shares</a></div></div>
-      <div class="card" data-reveal data-reveal-group="formats"><span class="tier tier-hero">Hero</span><h3>Root for the employee</h3><p>A real goal, a real number, updated every few days until it is hit.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7610826465751387405" target="_blank" rel="noopener">Kia West, 144,000 plays, 934 comments</a></div></div>
+      <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Hero</span><h3>The six-second gag</h3><p>One visual joke, staff and vehicle in frame, six words of caption.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykianorth/video/7653108682481290510" target="_blank" rel="noopener">Kia North, 7.1 million plays</a>, 675,000 more on Instagram</div></div>
+      <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Hero</span><h3>Named character skit</h3><p>A staff member with a running persona in short scenarios that happen to be at a dealership.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7646440164973104397" target="_blank" rel="noopener">Kia West, 1.2 million plays, 44,600 shares</a></div></div>
+      <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Hero</span><h3>Root for the employee</h3><p>A real goal, a real number, updated every few days until it is hit.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7610826465751387405" target="_blank" rel="noopener">Kia West, 144,000 plays, 934 comments</a></div></div>
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Owner how-to</h3><p>What to do when the key fob dies. How to set up CarPlay. Shot by a service advisor.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykianorth/video/7606015293361573133" target="_blank" rel="noopener">Kia North, 75,000 plays, 1,100 saves</a></div></div>
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Sourced hot take</h3><p>One real number that flips an assumption, with the source in the caption.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykianorth/video/7661670601454537998" target="_blank" rel="noopener">Kia North, 31,500 plays, 655 shares</a></div></div>
-      <div class="card" data-reveal data-reveal-group="formats"><span class="tier tier-hero">Hero</span><h3>Launch walkaround</h3><p>The week a new model lands, a salesperson who has driven it walks it top to bottom.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7649793054743743758" target="_blank" rel="noopener">Kia West, 220,000 plays</a></div></div>
+      <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Hero</span><h3>Launch walkaround</h3><p>The week a new model lands, a salesperson who has driven it walks it top to bottom.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7649793054743743758" target="_blank" rel="noopener">Kia West, 220,000 plays</a></div></div>
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Offer with a human hook</h3><p>A real offer, opened with a question, terms on screen, full disclaimer in the caption.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7596783553656933687" target="_blank" rel="noopener">Kia West, 120,000 plays, 1,500 saves</a></div></div>
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Second-language version</h3><p>The same formats, shot by a native speaker on staff, where the market calls for it.</p><div class="ev"><a href="https://www.tiktok.com/@greenway.kia.east/video/7657596596594560269" target="_blank" rel="noopener">Kia East, 36,000 plays on a 590-follower account</a></div></div>
     </div>
-    <div class="note" data-reveal>
-      <p>Every card links to the reference post on the sibling store's account. Watch them with sound on.</p>
-      <p>Hero formats are where the biggest reach lives and need a willing person. Workhorse formats need no personality and are the reliable weekly baseline. Inventory graphics, hours notices and holiday posts still get published, but they are utility, not content, and we do not count them.</p>
-    </div>
+    <p class="note" data-reveal>Every card links to the real post on a sibling store's account. Watch them with sound on.</p>
   </div>
 </section>
 
 <section id="how">
   <div class="wrap">
     <span class="eyebrow" data-reveal data-reveal-group="hd-how">The weekly system</span>
-    <h2 data-reveal data-reveal-group="hd-how">How it runs at a store, week to week.</h2>
-    <p>The goal is under thirty minutes of a general manager's time per week. Everything else is either done by us or done by the person on the floor who is already good at this.</p>
+    <h2 data-reveal data-reveal-group="hd-how">Under thirty minutes of your time per week.</h2>
+    <p>Everything else is done by us, or by the person on your floor who is already good at this.</p>
     <ol class="steps">
-      <li data-reveal data-reveal-group="steps"><div><h3>We send the brief on Monday</h3><p>A two-page brief per store: which format, who is on camera, three shots to capture, the caption already written, the vehicle confirmed on the lot. It comes from the format library plus what we know about your store.</p></div></li>
-      <li data-reveal data-reveal-group="steps"><div><h3>Your person shoots it on a phone</h3><p>One capture, one take where possible, native sound. The brief tells them what to say in the first three seconds. Fifteen minutes on the lot, not a production day.</p></div></li>
-      <li data-reveal data-reveal-group="steps"><div><h3>We cut it for every channel</h3><p>One capture becomes the TikTok, the Instagram Reel, the Facebook post, and a YouTube Short. We adjust the captions per channel. Nothing is reshot and nothing is posted once.</p></div></li>
-      <li data-reveal data-reveal-group="steps"><div><h3>We answer the comments and route the leads</h3><p>We answer questions about trim, year and price. Anyone showing intent goes to your store the same way messages reach you today, with a copy kept in Sprout.</p></div></li>
-      <li data-reveal data-reveal-group="steps"><div><h3>The scorecard tells us what to make next</h3><p>What performed re-ranks the formats for next week. We build your scorecard on your own numbers, against your own baseline, not against Orlando.</p></div></li>
+      <li data-reveal data-reveal-group="steps"><div><h3>We send the brief on Monday</h3><p>Which format, who is on camera, three shots, the caption already written.</p></div></li>
+      <li data-reveal data-reveal-group="steps"><div><h3>Your person shoots it on a phone</h3><p>One take, native sound, fifteen minutes on the lot.</p></div></li>
+      <li data-reveal data-reveal-group="steps"><div><h3>We cut it for every channel</h3><p>One capture becomes the TikTok, the Reel, the Facebook post, and the YouTube Short.</p></div></li>
+      <li data-reveal data-reveal-group="steps"><div><h3>We answer the comments and route the leads</h3><p>Anyone showing intent goes to your store, with a copy kept in Sprout.</p></div></li>
+      <li data-reveal data-reveal-group="steps"><div><h3>The scorecard tells us what to make next</h3><p>Your own numbers, against your own baseline, not against Orlando.</p></div></li>
     </ol>
     <div class="rhythm">
       <div data-reveal data-reveal-group="rhythm"><b>Weekly</b><span>One hero post and three to four workhorse posts per store</span></div>
@@ -272,24 +255,22 @@
       <div data-reveal data-reveal-group="rhythm"><b>Always</b><span>Store name and city on screen. A person opens every post.</span></div>
       <div data-reveal data-reveal-group="rhythm"><b>Never</b><span>Voiceover over stock footage, "stop by and see us," unverified offers</span></div>
     </div>
+    <a class="more" href="details.html#system">The full week, step by step</a>
   </div>
 </section>
 
 <section id="stores">
   <div class="wrap">
-    <span class="eyebrow" data-reveal data-reveal-group="hd-stores">Your stores</span>
+    <span class="eyebrow" data-reveal data-reveal-group="hd-stores">Your store</span>
     <h2 data-reveal data-reveal-group="hd-stores">What each pilot store gets.</h2>
-    <p>Same nine formats, tuned to each store's people and market. We settle the items marked "we confirm with you" in the one-on-one with each general manager instead of assuming them.</p>
-    <table data-reveal>
-      <thead><tr><th>Store</th><th>Starting mix</th><th>We confirm with you</th></tr></thead>
-      <tbody>
-        <tr><td>Kia West Palm Beach<br><small>Mike Wangle</small></td><td>All nine, starting with the character skit and a weekly hero post. The store already has an on-site video person, so this is the anchor for the character model.</td><td>Who the on-camera person is. Whether a Spanish version runs, since the store already serves Spanish-speaking buyers online.</td></tr>
-        <tr><td>Kia at the Avenues<br><small>Emre Sevinir, Jacksonville</small></td><td>Feature demos, owner how-tos, launch walkarounds and offers first. A root-for-the-employee campaign to build the account from a cold start, then the character skit once the person is clear.</td><td>The language mix. The local hooks that make Jacksonville content feel like Jacksonville.</td></tr>
-        <tr><td>Kia Rivergate<br><small>James Galuszka, Madison</small></td><td>The workhorse five. No character required, so it runs on the team's capacity as it is.</td><td>Whether anyone on the floor wants to be on camera. If yes, the campaign format opens.</td></tr>
-        <tr><td>Kia Hickory Hollow<br><small>James Galuszka, Antioch</small></td><td>Same as Rivergate, plus a follower campaign, because a brand-new account needs a reason to exist. Separate voice and separate scorecard from Rivergate.</td><td>Which of the existing accounts becomes the one account.</td></tr>
-        <tr><td>Ford Kansas City<br><small>Shane Silvey, Raytown</small></td><td>Feature demos on Ford features, owner how-tos, launch walkarounds, offers. Facebook and YouTube first, Instagram and TikTok as soon as the accounts are live.</td><td>The Ford feature list. The professional walkaround footage from your previous agency, which we can cut into the formats.</td></tr>
-      </tbody>
-    </table>
+    <p>Same nine formats, tuned to your people and market. We settle the open items in your one-on-one, never by assumption.</p>
+    <ul class="store-list">
+      <li data-reveal data-reveal-group="stores"><div><h3>Kia West Palm Beach</h3><span class="gm">Mike Wangle</span><p>All nine, anchored on the character skit and a weekly hero post.</p></div><a class="more" href="details.html#stores">Full plan</a></li>
+      <li data-reveal data-reveal-group="stores"><div><h3>Kia at the Avenues</h3><span class="gm">Emre Sevinir, Jacksonville</span><p>Workhorses first, plus a follower campaign to build the account from a cold start.</p></div><a class="more" href="details.html#stores">Full plan</a></li>
+      <li data-reveal data-reveal-group="stores"><div><h3>Kia Rivergate</h3><span class="gm">James Galuszka, Madison</span><p>The workhorse five, on the team's capacity as it is.</p></div><a class="more" href="details.html#stores">Full plan</a></li>
+      <li data-reveal data-reveal-group="stores"><div><h3>Kia Hickory Hollow</h3><span class="gm">James Galuszka, Antioch</span><p>The workhorse five plus a follower campaign, with its own voice and scorecard.</p></div><a class="more" href="details.html#stores">Full plan</a></li>
+      <li data-reveal data-reveal-group="stores"><div><h3>Ford Kansas City</h3><span class="gm">Shane Silvey, Raytown</span><p>Ford feature demos, how-tos and offers. Facebook and YouTube first.</p></div><a class="more" href="details.html#stores">Full plan</a></li>
+    </ul>
   </div>
 </section>
 
@@ -298,19 +279,17 @@
     <div class="two">
       <div>
         <span class="eyebrow" data-reveal data-reveal-group="hd-measure">The scorecard</span>
-        <h2 data-reveal data-reveal-group="hd-measure">What we measure, and what we will not claim.</h2>
-        <p>Each store's scorecard starts from its own baseline in month one. We track reach, saves and shares (the signal that people are passing content along), comments and messages, follower growth, and the share of posts that hit their format's benchmark.</p>
-        <p>We will not report a viral number as a local result. A post that reaches a million people reached people in Malta and Arizona. The scorecard separates reach from local conversation and local messages, so nobody mistakes one for the other.</p>
-        <p>Paid promotion is outside this pilot. We build every post so it is ready to boost the day that changes, because the formats that win organically are the ones worth paying to extend.</p>
+        <h2 data-reveal data-reveal-group="hd-measure">Your numbers, against your baseline.</h2>
+        <p>We will not report a viral number as a local result. Reach and local conversation stay separate on the scorecard, so nobody mistakes one for the other.</p>
+        <a class="more" href="details.html#scorecard">How the scorecard works</a>
       </div>
       <div class="box" data-reveal>
         <h3>What we need from each store</h3>
         <ul>
-          <li>One confirmed account per channel, with duplicates retired or merged.</li>
-          <li>One person willing to be on camera, even for the workhorse formats.</li>
+          <li>One confirmed account per channel.</li>
+          <li>One person willing to be on camera.</li>
           <li>Fifteen minutes of lot time per capture, a few times a week.</li>
-          <li>Confirmation that any vehicle or offer we feature is real and available before it posts.</li>
-          <li>A yes or no from the general manager on the one-on-one items above.</li>
+          <li>A yes or no from you on the one-on-one items.</li>
         </ul>
       </div>
     </div>
@@ -323,14 +302,13 @@
     <h2 data-reveal data-reveal-group="hd-close">Five stores. One system. Your people on camera.</h2>
     <div class="two">
       <div>
-        <p>Greenway already has the proof. Three of your own stores figured out what works on the platforms where car buyers actually spend time. The pilot takes what they learned, writes it down as formats a salesperson can follow, and runs it at five more stores with their own faces, their own cars, and their own markets.</p>
-        <p>By month six, each store has a library of its own best posts, a person who knows how to make more, and a scorecard that shows what moved. That is what gets handed to whoever runs it next.</p>
+        <p>Greenway already has the proof. The pilot writes it down as formats a salesperson can follow, and runs it at five more stores with their own faces, their own cars, and their own markets.</p>
       </div>
       <div class="box" data-reveal>
         <h3>Next</h3>
         <ul>
           <li>We start with a kickoff call for all five general managers.</li>
-          <li>We sit down with each general manager to settle the "we confirm with you" items.</li>
+          <li>We sit down with each general manager to settle the open items.</li>
           <li>First briefs go out the Monday after each one-on-one.</li>
         </ul>
       </div>
@@ -345,7 +323,7 @@
       <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#C6B7A1" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#AD7F44"/></svg>
       Bright Matter
     </div>
-    <div>Prepared for Greenway Auto Group. Confidential. brightmattersystems.com</div>
+    <div>Prepared for Greenway Auto Group. Confidential. <a class="more" href="details.html">Full brief</a></div>
   </div>
 </footer>
 
