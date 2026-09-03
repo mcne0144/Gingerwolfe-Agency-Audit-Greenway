@@ -10,7 +10,7 @@
 <style>
   :root{
     /* brand */
-    --bm-forest:#152C28; --bm-forest-2:#1E3B36; --bm-gold:#AD7F44;
+    --bm-forest:#152C28; --bm-forest-2:#1E3B36; --bm-forest-deep:#0F211D; --bm-gold:#AD7F44;
     --bm-cream:#F0E9DC; --bm-khaki:#C6B7A1;
     /* ink */
     --ink:#1C1F1E; --ink-2:#4A524F;
@@ -18,6 +18,7 @@
     /* surfaces */
     --surface-page:var(--bm-cream);
     --surface-raised:#FBF8F1;
+    --surface-tonal:#E8E0D0;
     --surface-inverse:var(--bm-forest);
     /* lines */
     --line-soft:rgba(21,44,40,.14);
@@ -25,7 +26,7 @@
     --line-inverse:rgba(240,233,220,.28);
     /* space */
     --space-1:8px; --space-2:12px; --space-3:18px; --space-4:24px;
-    --space-5:36px; --space-6:56px; --space-7:88px; --space-8:110px;
+    --space-5:36px; --space-6:56px; --space-7:96px; --space-8:110px;
     /* type scale */
     --size-eyebrow:.8rem;
     --size-small:.9rem;
@@ -49,7 +50,7 @@
   h1 em{font-style:italic;font-weight:400;color:var(--bm-gold)}
   h2{font-size:var(--size-h2)}
   h3{font-size:var(--size-h3)}
-  p{margin:0 0 1rem;max-width:62ch}
+  p{margin:0 0 1.5rem;max-width:62ch}
   .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--space-4)}
 
   /* eyebrow */
@@ -74,12 +75,13 @@
 
   /* sections */
   section{padding:var(--space-7) 0;border-top:1px solid var(--line-soft)}
-  section.hero{background:var(--surface-inverse);color:var(--ink-inverse);border:0;padding:var(--space-8) 0 var(--space-7)}
+  section.hero{background:linear-gradient(180deg,var(--bm-forest) 0,var(--bm-forest) calc(100% - 200px),var(--bm-forest-deep) 100%);color:var(--ink-inverse);border:0;padding:var(--space-8) 0 var(--space-7)}
   .hero .eyebrow{color:var(--bm-khaki)}
   .hero p{max-width:58ch;font-size:var(--size-lede);color:#E6DDCB}
 
   /* buttons */
-  .cta{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-5)}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:var(--space-5)}
+  @media (max-width:640px){.cta{flex-direction:column;align-items:flex-start}}
   .btn{display:inline-block;font-family:var(--sans);font-size:.95rem;font-weight:500;letter-spacing:.01em;text-decoration:none;padding:13px 24px;border-radius:2px;border:1px solid transparent;transition:background .15s,color .15s,border-color .15s}
   .btn-primary{background:var(--bm-gold);color:var(--bm-forest)}
   .btn-primary:hover{background:var(--bm-khaki)}
@@ -87,30 +89,31 @@
   .btn-secondary:hover{border-color:var(--bm-gold);color:var(--bm-gold)}
 
   /* stat strip */
-  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-4);margin-top:var(--space-6);border-top:1px solid var(--line-inverse);padding-top:28px}
+  .stats{display:flex;margin-top:var(--space-6)}
+  .stats div{flex:1;min-width:0}
+  .stats div+div{border-left:1px solid var(--line-inverse);padding-left:var(--space-4);margin-left:var(--space-4)}
   .stats div span{display:block;font-family:var(--serif);font-size:var(--size-stat);color:var(--bm-gold);line-height:1}
-  .stats div small{display:block;margin-top:var(--space-1);color:var(--ink-inverse-3);font-size:.92rem}
-  @media (max-width:640px){.stats{grid-template-columns:1fr;gap:var(--space-3)}}
+  .stats div small{display:block;margin-top:var(--space-1);color:var(--ink-inverse-3);font-family:var(--sans);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+  @media (max-width:640px){.stats div+div{padding-left:var(--space-3);margin-left:var(--space-3)}}
 
   /* layouts */
   .two{display:grid;grid-template-columns:1.25fr .9fr;gap:var(--space-6);align-items:start}
   @media (max-width:820px){.two{grid-template-columns:1fr}}
-  .box{border:1px solid var(--line-strong);padding:26px 28px;background:var(--surface-raised)}
-  .box h3{margin-bottom:.8rem}
-  .box ul{margin:0;padding-left:1.1rem}
-  .box li{margin-bottom:.5rem}
+  .box{padding:36px;background:var(--surface-tonal);border-radius:6px}
+  .box h3{font-size:1.5rem;margin-bottom:.8rem}
+  .box ul{margin:0;padding-left:0;list-style:none}
+  .box li{border-left:2px solid var(--bm-gold);padding-left:14px;margin-bottom:12px}
 
   /* format cards */
   .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-3);margin-top:var(--space-5)}
   @media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
   @media (max-width:600px){.grid{grid-template-columns:1fr}}
-  .card{background:var(--surface-raised);border:1px solid var(--line-soft);padding:22px 22px 20px;display:flex;flex-direction:column;gap:6px}
-  .card h3{font-size:1.25rem;margin:0}
+  .card{background:var(--surface-tonal);padding:36px;border-radius:6px;display:flex;flex-direction:column;gap:6px}
+  .card h3{font-size:1.5rem;margin:0}
   .card p{font-size:.97rem;color:var(--ink-2);margin:0}
   .card .ev a,.two a{color:var(--bm-forest);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--bm-gold)}
-  .card .ev{font-size:var(--size-small);color:var(--ink-2);border-top:1px solid var(--line-soft);padding-top:10px;margin-top:var(--space-1)}
-  .tier{display:inline-block;font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line-strong);border-radius:2px;color:var(--bm-forest);width:max-content;margin-bottom:6px}
-  .tier-hero{border-color:var(--bm-gold);color:var(--bm-gold)}
+  .card .ev{font-size:var(--size-small);color:var(--ink-2);margin-top:var(--space-2)}
+  .tier{display:inline-block;font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--bm-gold);width:max-content;margin-bottom:4px}
 
   /* steps */
   .steps{counter-reset:s;margin:var(--space-5) 0 0;padding:0;list-style:none}
@@ -142,16 +145,18 @@
   .rhythm div span{font-size:.92rem;color:var(--ink-inverse-2)}
 
   /* close */
-  .close{background:var(--surface-inverse);color:var(--ink-inverse)}
+  .close{background:linear-gradient(180deg,var(--bm-forest-deep) 0,var(--bm-forest) 200px,var(--bm-forest) calc(100% - 200px),var(--bm-forest-deep) 100%);color:var(--ink-inverse)}
   .close .eyebrow{color:var(--bm-khaki)}
   .close p{color:#E6DDCB}
   .close .two{gap:var(--space-5)}
-  .close .box{background:transparent;border-color:rgba(240,233,220,.35);color:var(--ink-inverse)}
+  .close .box{background:var(--bm-forest-2);color:var(--ink-inverse)}
   .closing-line{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.6vw,1.8rem);color:var(--bm-gold);margin-top:var(--space-5);border-top:1px solid var(--line-inverse);padding-top:var(--space-4);max-width:none}
 
   footer{padding:var(--space-5) 0;font-size:.88rem;color:var(--ink-2)}
   footer .wrap{display:flex;justify-content:space-between;gap:var(--space-3);flex-wrap:wrap;align-items:center}
   .note{font-size:var(--size-small);color:var(--ink-2);border-left:3px solid var(--bm-gold);padding-left:14px;margin-top:var(--space-3);max-width:60ch}
+  .note p{margin:0 0 .75rem;max-width:none}
+  .note p:last-child{margin-bottom:0}
 
   /* scroll reveal — hiding applies only once JS adds .reveal-init, so no-JS shows everything */
   @media (prefers-reduced-motion: no-preference){
@@ -188,7 +193,6 @@
     <div class="cta">
       <a class="btn btn-primary" href="#formats">See the nine formats</a>
       <a class="btn btn-secondary" href="#how">How it runs weekly</a>
-      <a class="btn btn-secondary" href="#stores">What your store gets</a>
     </div>
     <div class="stats">
       <div><span>7.1M</span><small>plays on a single six-second post from Greenway Kia North</small></div>
@@ -204,8 +208,10 @@
       <div>
         <span class="eyebrow" data-reveal data-reveal-group="hd-learned">What we learned</span>
         <h2 data-reveal data-reveal-group="hd-learned">The wins were not luck. They were formats.</h2>
-        <p>We pulled every top post from Kia North, Kia West and Kia East on TikTok, Instagram and YouTube, then read 739 comments and 21 transcripts to see what the audience actually responded to. The pattern is consistent. The subject of a post barely matters. The format decides everything.</p>
-        <p>The clearest proof is on Kia West. A lease offer posted as a static image drew two likes. The same kind of offer, delivered by a salesperson on camera who opened with "if you buy fast food every week, you can afford this car," drew <a href="https://www.tiktok.com/@greenwaykiawest/video/7596783553656933687" target="_blank" rel="noopener">120,000 plays and 1,500 saves</a>. Same store, same month, same offer.</p>
+        <p>We pulled every top post from Kia North, Kia West and Kia East on TikTok, Instagram and YouTube, then read 739 comments and 21 transcripts to see what the audience actually responded to.</p>
+        <p>The pattern is consistent. The subject of a post barely matters. The format decides everything.</p>
+        <p>The clearest proof is on Kia West. A lease offer posted as a static image drew two likes.</p>
+        <p>The same kind of offer, delivered by a salesperson on camera who opened with "if you buy fast food every week, you can afford this car," drew <a href="https://www.tiktok.com/@greenwaykiawest/video/7596783553656933687" target="_blank" rel="noopener">120,000 plays and 1,500 saves</a>. Same store, same month, same offer.</p>
         <p>Kia North built a 35,000-follower account without a single personality. Their engine is short demos of one feature, framed as a question. <a href="https://www.tiktok.com/@greenwaykianorth/video/7619367218345741582" target="_blank" rel="noopener">"Would you use this?"</a> reached 731,000 people and was saved 5,400 times, which means people sent it to the person they shop with.</p>
         <p>Kia East has 590 TikTok followers and <a href="https://www.tiktok.com/@greenway.kia.east/video/7657596596594560269" target="_blank" rel="noopener">posts in Spanish that reach 36,000 people</a>. That is sixty times its audience, repeatedly. Nobody else in the group is serving those buyers.</p>
       </div>
@@ -227,7 +233,8 @@
   <div class="wrap">
     <span class="eyebrow" data-reveal data-reveal-group="hd-formats">The formats</span>
     <h2 data-reveal data-reveal-group="hd-formats">Nine formats, each with proof and a shot list.</h2>
-    <p>Every store gets the same nine. What changes is the person on camera, the vehicles on the lot, the local hook, and the language. Each format comes with a one-page shot list: who is on camera, three shots, how long, and how the caption is written. A salesperson with a phone can follow it.</p>
+    <p>Every store gets the same nine. What changes is the person on camera, the vehicles on the lot, the local hook, and the language.</p>
+    <p>Each format comes with a one-page shot list: who is on camera, three shots, how long, and how the caption is written. A salesperson with a phone can follow it.</p>
     <div class="grid">
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Feature demo, asked as a question</h3><p>One feature, shown working, opened with "Did you know your Telluride can do this?"</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykianorth/video/7619367218345741582" target="_blank" rel="noopener">Kia North, 731,000 plays, 5,400 saves</a></div></div>
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier tier-hero">Hero</span><h3>The six-second gag</h3><p>One visual joke, staff and vehicle in frame, six words of caption.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykianorth/video/7653108682481290510" target="_blank" rel="noopener">Kia North, 7.1 million plays</a>, 675,000 more on Instagram</div></div>
@@ -239,7 +246,10 @@
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Offer with a human hook</h3><p>A real offer, opened with a question, terms on screen, full disclaimer in the caption.</p><div class="ev"><a href="https://www.tiktok.com/@greenwaykiawest/video/7596783553656933687" target="_blank" rel="noopener">Kia West, 120,000 plays, 1,500 saves</a></div></div>
       <div class="card" data-reveal data-reveal-group="formats"><span class="tier">Workhorse</span><h3>Second-language version</h3><p>The same formats, shot by a native speaker on staff, where the market calls for it.</p><div class="ev"><a href="https://www.tiktok.com/@greenway.kia.east/video/7657596596594560269" target="_blank" rel="noopener">Kia East, 36,000 plays on a 590-follower account</a></div></div>
     </div>
-    <p class="note" data-reveal>Every card links to the reference post on the sibling store's account. Watch them with sound on. Hero formats are where the biggest reach lives and need a willing person. Workhorse formats need no personality and are the reliable weekly baseline. Inventory graphics, hours notices and holiday posts still get published, but they are utility, not content, and we do not count them.</p>
+    <div class="note" data-reveal>
+      <p>Every card links to the reference post on the sibling store's account. Watch them with sound on.</p>
+      <p>Hero formats are where the biggest reach lives and need a willing person. Workhorse formats need no personality and are the reliable weekly baseline. Inventory graphics, hours notices and holiday posts still get published, but they are utility, not content, and we do not count them.</p>
+    </div>
   </div>
 </section>
 
