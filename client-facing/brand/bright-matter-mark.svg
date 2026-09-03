@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <mask id="bm-ringm"><circle cx="193.1" cy="206.1" r="142" fill="#fff"/><circle cx="198.2" cy="200.8" r="127" fill="#000"/><circle cx="295.4" cy="113.6" r="85.2" fill="#000"/></mask>
+  <rect width="400" height="400" fill="#D9C8B9" mask="url(#bm-ringm)"/>
+  <circle cx="295.4" cy="113.6" r="43" fill="#CA8828"/>
+</svg>
