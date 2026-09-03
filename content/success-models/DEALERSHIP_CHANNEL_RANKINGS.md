@@ -6,6 +6,8 @@
 **Scope:** National — all US car-dealership brands (rooftops, dealer groups, and national used-car retailers), NOT limited to Greenway. Companion to `SUCCESS_ACCOUNTS_RESEARCH.md` (which covers Greenway siblings + observed YouTube models).
 **Question answered:** What is the highest-performing dealership channel — by followers and engagement — on each of Facebook, Instagram, TikTok, and YouTube?
 
+**Structure:** Part A (§1–§6) ranks ALL dealership types nationally — the winners are specialty-inventory dealers whose audience a volume rooftop cannot replicate. **Part B (§8–§13) re-ranks with a strict comp set: franchise volume rooftops and volume dealer groups only** — the benchmarks that are actually apples-to-apples for Greenway's Kia/Ford stores. Use Part B for GM-facing benchmarks; use Part A only for format lessons.
+
 ---
 
 ## 0. Method & data sources
@@ -89,3 +91,74 @@ Counts from public page snippets, retrieved 2026-09-03 — **TO VERIFY** exact f
 - CarMax YouTube view total includes paid distribution (inference from 168.5M views vs 45.6K subs) → treat views as non-organic; the inference itself is **TO VERIFY**.
 - Vanguard TikTok/IG follower counts cross-check (3.9M / 5M scraped) against press coverage citing "nearly 13M total social followers" (Hour Detroit) — consistent.
 - Accounts NOT found despite search (absence of observation ≠ absence of account): a larger franchise-rooftop Instagram than Lamborghini Newport Beach; any dealership Facebook page above Vanguard's. A bigger account may exist → rankings are "largest found this pass."
+
+---
+---
+
+# PART B — FRANCHISE VOLUME ROOFTOP COMP SET (the Greenway-relevant rankings)
+
+**Added 2026-09-03 (same observation date).** Client feedback: Part A's winners (classic/exotic specialists, national retailers) are not apples-to-apples for a volume Kia/Ford rooftop. Part B strictly includes: **single franchise rooftops and volume dealer groups selling mainstream brands to a local market.** Excluded: classic/exotic/specialty dealers, national used-car retailers (CarMax/Carvana/AutoNation/DriveTime), OEM brand accounts, and personality accounts of individual salespeople/owners (listed as notables only).
+
+## 8. How the comp set was built
+
+TikTok profile-search sweeps ("Kia/Ford/Toyota/Chevrolet/Hyundai dealership"), vidIQ YouTube niche searches (dealership channels, US), direct profile fetches for every candidate, and public-page lookups for Facebook. Same tools and date as Part A. Same caveat: rankings are "largest/strongest found this pass," not a certified census.
+
+## 9. TikTok — top 3 volume rooftops
+
+| # | Rooftop | Handle | Followers | Lifetime likes | Recent-post engagement (last 6 non-pinned, 2026-09-03) |
+|---|---|---|---|---|---|
+| 1 | **Camino Real Chevrolet** (family-owned, Monterey Park CA, 10× Chevy Dealer of the Year) | `@caminorealchevy` | **161.8K** | 5.5M | Posts ~daily; ~3.8K avg views, ~288 avg likes → **~7.6% like-to-view** — the best current engagement at scale in the comp set |
+| 2 | **Mohawk Chevrolet** (Ballston Spa NY — home of "The Dealership" scripted office-comedy miniseries) | `@mohawkchevrolet` | **156.9K** | 1.9M | Current baseline modest (~1.2K avg views, ~2.5% like/view); the follower base was built by the 2024–25 viral series — proof one repeatable creative franchise can build a six-figure audience for a single rooftop |
+| 3 | **Bakersfield Hyundai** (Bakersfield CA) | `@bakersfieldhyundai661` | **130.4K** | **7.9M** | ~2.7K avg views recent; highest lifetime likes in the comp set (61 likes/follower) — staff-culture humor format |
+
+
+**Notables (not ranked):** Bert Ogden "Mission Kia" (Mission TX) `@bertogdenkia` — 76K followers / 914K likes, the largest **Kia rooftop** found on TikTok (bilingual Spanish/English market — relevant to any Greenway store with a Hispanic audience); Audi Milwaukee 78.4K / 2.8M; Voss Chevrolet (OH) — only 5.5K followers but 1.5M lifetime likes (viral spikes without follower conversion — the cautionary tale); Dan Cummins Auto (KY) 7.5K followers / 429.7K likes on 1,150 videos. Personality accounts for reference: Russ Flips Whips 797.8K; Chevy Dude 654K.
+
+## 10. YouTube — top 3 volume rooftops
+
+| # | Rooftop | Handle | Subscribers | Lifetime views | Engagement signal (retrieved 2026-09-03) |
+|---|---|---|---|---|---|
+| 1 | **Long McArthur Ford** (Salina KS) | `@longmcarthurford` | **76.6K** | 30.0M | ~326K trailing-30d views (≈4.3× subscriber base); 29 long uploads/30d + weekly live show; utility model (Ford news/ordering/config) that sold trucks nationally (No. 3 Maverick dealer in launch year, per AutoSuccess) |
+| 2 | **Lasco Ford** (Fenton MI) | `@lascoford` | **42.7K** | 18.2M | Walkaround/review library model (~37K lifetime avg views/video); currently low upload cadence |
+| 3 | **Camino Real Chevrolet** (Monterey Park CA) | `@caminorealchevy` | **18.1K** | 25.9M | Shorts-first: 13.5M Shorts views in trailing year, ~205K views/30d on an 18K-sub base — the best *organic* relative reach in the comp set; +42.5% subs in 1y |
+
+**Notables (not ranked):** Universal Hyundai Orlando (14.3K subs but ~524K 30d views) and Phillips Chevrolet (Frankfort IL; 12.3K subs, 45.9M lifetime views, ~875K 30d long-form views) — both view profiles are consistent with paid pre-roll distribution → treat views as non-organic until verified (**TO VERIFY**). Smart Motors Toyota (Madison WI) 14.1K. Personality channels at rooftops: Ask Jorge Lopez at Tomball Ford 44.4K; Dave B Sells Chevy 37.5K — evidence the "named salesperson" YouTube model works at volume stores (ties to `content/governance/SALESPERSON_CONTENT_FRAMEWORK.md`).
+
+## 11. Instagram — top 3 volume rooftops
+
+| # | Rooftop | Handle | Followers | Posts | Notes |
+|---|---|---|---|---|---|
+| 1 | **Camino Real Chevrolet** | `@caminorealchevy` | **143.4K** | 3.0K | Same people-led creative engine as its TikTok |
+| 2 | **Paragon Honda** (Queens NY — 16× #1 Honda Certified dealer) | `@paragonhonda` | **81K** | 3.1K | The long-running "digital dealer" benchmark; 24-hr sales/service positioning |
+| 3 | **Bakersfield Hyundai** | `@bakersfieldhyundai` | **43.3K** | 4.8K | TikTok-first content repurposed; 4.8K posts shows daily discipline |
+
+**Notables:** Galpin Honda (Mission Hills CA) and Longo Toyota (`@longotoyotala`) exist but were not fetched this pass; Audi Milwaukee only 2.8K (their TikTok strength did not transfer); Mohawk Chevrolet only 9.2K (series audience stayed on TikTok — channel-fit lesson). Exotic franchise rooftops excluded from this comp set: Lamborghini Newport Beach 279.4K would otherwise lead. Bert Ogden Kia IG not fetched (tool credits exhausted) — **TO VERIFY**.
+
+## 12. Facebook — top 3 volume rooftops
+
+Counts from public-page snippets, 2026-09-03 — **TO VERIFY** exact figures.
+
+| # | Rooftop | Likes | Engagement signal |
+|---|---|---|---|
+| 1 | **Dave Smith Motors** (Kellogg ID — mega volume CDJR/GMC store) | **~123.6K** | ~544 "talking about" (~0.4%) |
+| 2 | **Dan Cummins Chevrolet Buick** (Paris KY) | **~37.8K** | ~119 talking about |
+| 3 | **Longo Toyota** (El Monte CA — largest-volume Toyota store) | **~36.9K** | not retrieved |
+
+**Runners-up:** Camino Real Chevrolet ~31.3K · Galpin Honda ~30.8K · Ricart Automotive (group) ~14.9K · Bakersfield Hyundai ~13.3K. Group-level pages for context: Hendrick Automotive Group ~68.5K, Sewell ~21.8K. **Read:** even the best rooftop Facebook pages cluster at 13K–124K with sub-1% active engagement — Facebook is a maintenance/reputation channel for rooftops, not a growth channel. That directly supports our per-channel cadence weighting in `CONTENT_STRATEGY_FRAMEWORK`.
+
+## 13. Comp-set read for the Greenway pilot
+
+1. **Realistic ceilings, one comp per network:** TikTok ~130–160K (Camino Real / Mohawk / Bakersfield), Instagram ~40–145K, YouTube ~15–75K subs, Facebook ~35–125K likes. These are best-in-country outcomes for stores like ours, achieved over 2–4 years — pilot targets in `BENCHMARKS.md` should be set as a small fraction of these, not of Part A's millions.
+2. **Every comp-set winner is people-led, not offer-led.** Camino Real (family + staff humor), Mohawk (scripted workplace comedy), Bakersfield (staff culture), Long McArthur (a named host with utility programming). Zero of the top accounts lead with price/APR content. This is the strongest external validation yet of our pillar mix and no-hype voice.
+3. **One creative franchise beats scattered posting.** Mohawk built ~157K followers off a single repeatable series; Long McArthur off a weekly live show; Camino Real off a daily staff-bit cadence. Each Greenway store needs ONE owned format it repeats, not six content types at random.
+4. **Channel-fit is real:** Mohawk's TikTok audience didn't follow to Instagram; Audi Milwaukee's didn't either. Repurposing helps but each channel's audience must be earned with that channel's format.
+5. **The Kia-specific comp is Bert Ogden "Mission Kia"** (76K TikTok, bilingual, South Texas) — closest analog for the Jacksonville/Nashville Kia rooftops; worth a deeper content teardown before Store 02/03 calendars are revised.
+6. **Named-salesperson channels work at volume stores** (Jorge Lopez/Tomball Ford 44K, Dave B/Chevy 37.5K YouTube) — supports the governance track in `SALESPERSON_CONTENT_FRAMEWORK.md`, with the usual key-person-risk caveat.
+
+## 14. Part B verification ledger
+
+- Facebook counts: public-page snippets, not platform API → **TO VERIFY** (Sprout once pages are connected).
+- Instagram engagement rates: not retrievable this pass; Bert Ogden Kia and Longo Toyota IG profiles unfetched (tool credit limit) → **manual verification needed — 2026-09-03**.
+- TikTok engagement: 6-most-recent-post samples on one day — directional.
+- Universal Hyundai / Phillips Chevrolet YouTube views flagged as likely paid distribution — inference, **TO VERIFY**.
+- Mohawk Chevrolet follower attribution to "The Dealership" series: the series is widely covered trade press; the causal claim is our inference from timing → mark as inference in any client-facing use.
