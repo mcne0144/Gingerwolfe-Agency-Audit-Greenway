@@ -10,20 +10,21 @@
 <style>
   :root{
     /* brand */
-    --bm-forest:#152C28; --bm-forest-2:#1E3B36; --bm-forest-deep:#0F211D; --bm-gold:#AD7F44;
-    --bm-cream:#F0E9DC; --bm-khaki:#C6B7A1;
+    --bm-forest:#374F4E; --bm-forest-2:#435D5B; --bm-forest-deep:#2A3B3A;
+    --bm-gold:#D1801E; --bm-gold-text:#8A4E0D; --bm-sand:#EDBD95;
+    --bm-cream:#DACCC4; --bm-khaki:#AA8552;
     /* ink */
-    --ink:#1C1F1E; --ink-2:#4A524F;
-    --ink-inverse:var(--bm-cream); --ink-inverse-2:#D8CFBE; --ink-inverse-3:#C9BFAE;
+    --ink:#26302F; --ink-2:#4C5553;
+    --ink-inverse:#F0E7E0; --ink-inverse-2:#E8DED7; --ink-inverse-3:#C6B7AD;
     /* surfaces */
     --surface-page:var(--bm-cream);
-    --surface-raised:#FBF8F1;
-    --surface-tonal:#E8E0D0;
+    --surface-raised:#E5D8CE;
+    --surface-tonal:var(--bm-sand);
     --surface-inverse:var(--bm-forest);
     /* lines */
-    --line-soft:rgba(21,44,40,.14);
+    --line-soft:rgba(55,79,78,.18);
     --line-strong:var(--bm-forest);
-    --line-inverse:rgba(240,233,220,.28);
+    --line-inverse:rgba(218,204,196,.3);
     /* space */
     --space-1:8px; --space-2:12px; --space-3:18px; --space-4:24px;
     --space-5:36px; --space-6:56px; --space-7:96px; --space-8:110px;
@@ -42,6 +43,8 @@
     --max:1080px;
   }
   *{box-sizing:border-box}
+  /* on dark surfaces the accent shifts from amber to sand for contrast */
+  section.hero,.close,.rhythm div,header.nav{--bm-gold:var(--bm-sand)}
   html{scroll-behavior:smooth}
   body{margin:0;background:var(--surface-page);color:var(--ink);font-family:var(--sans);font-size:var(--size-body);line-height:1.55}
   a{color:inherit}
@@ -55,7 +58,7 @@
   section{scroll-margin-top:72px}
 
   /* eyebrow */
-  .eyebrow{display:block;font-family:var(--sans);font-size:var(--size-eyebrow);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--bm-gold);margin:0 0 var(--space-3)}
+  .eyebrow{display:block;font-family:var(--sans);font-size:var(--size-eyebrow);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--bm-gold-text);margin:0 0 var(--space-3)}
 
   /* more link */
   .more{display:inline-block;font-family:var(--sans);font-size:.95rem;font-weight:500;color:var(--bm-forest);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--bm-gold);margin-top:var(--space-2)}
@@ -82,14 +85,14 @@
   /* sections */
   section{padding:var(--space-7) 0}
   section.hero{background:linear-gradient(180deg,var(--bm-forest) 0,var(--bm-forest) calc(100% - 200px),var(--bm-forest-deep) 100%);color:var(--ink-inverse);border:0;padding:var(--space-8) 0 var(--space-7)}
-  .hero .eyebrow{color:var(--bm-khaki)}
-  .hero p{max-width:58ch;font-size:var(--size-lede);color:#E6DDCB}
+  .hero .eyebrow{color:var(--bm-gold)}
+  .hero p{max-width:58ch;font-size:var(--size-lede);color:var(--ink-inverse-2)}
 
   /* buttons */
   .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:var(--space-5)}
   @media (max-width:640px){.cta{flex-direction:column;align-items:flex-start}}
   .btn{display:inline-block;font-family:var(--sans);font-size:.95rem;font-weight:500;letter-spacing:.01em;text-decoration:none;padding:13px 24px;border-radius:2px;border:1px solid transparent;transition:background .15s,color .15s,border-color .15s}
-  .btn-primary{background:var(--bm-gold);color:var(--bm-forest)}
+  .btn-primary{background:var(--bm-gold);color:var(--bm-forest-deep)}
   .btn-primary:hover{background:var(--bm-khaki)}
   .btn-secondary{border-color:var(--line-inverse);color:var(--ink-inverse)}
   .btn-secondary:hover{border-color:var(--bm-gold);color:var(--bm-gold)}
@@ -123,13 +126,13 @@
   .card p{font-size:.97rem;color:var(--ink-2);margin:0}
   .card .ev a{color:var(--bm-forest);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--bm-gold)}
   .card .ev{font-size:var(--size-small);color:var(--ink-2);margin-top:var(--space-2)}
-  .tier{display:inline-block;font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--bm-gold);width:max-content;margin-bottom:4px}
+  .tier{display:inline-block;font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--bm-gold-text);width:max-content;margin-bottom:4px}
 
   /* steps */
   .steps{counter-reset:s;margin:var(--space-6) 0 0;padding:0;list-style:none;max-width:720px}
   .steps li{display:grid;grid-template-columns:64px 1fr;gap:var(--space-3);padding:26px 0;border-top:1px solid var(--line-soft)}
   .steps li:last-child{border-bottom:1px solid var(--line-soft)}
-  .steps li::before{counter-increment:s;content:counter(s);font-family:var(--serif);font-style:italic;font-size:2rem;color:var(--bm-gold);line-height:1}
+  .steps li::before{counter-increment:s;content:counter(s);font-family:var(--serif);font-style:italic;font-size:2rem;color:var(--bm-gold-text);line-height:1}
   .steps h3{margin-bottom:.35rem}
   .steps p{margin:0;color:var(--ink-2);max-width:60ch}
 
@@ -152,8 +155,8 @@
 
   /* close */
   .close{background:linear-gradient(180deg,var(--bm-forest-deep) 0,var(--bm-forest) 200px,var(--bm-forest) calc(100% - 200px),var(--bm-forest-deep) 100%);color:var(--ink-inverse)}
-  .close .eyebrow{color:var(--bm-khaki)}
-  .close p{color:#E6DDCB}
+  .close .eyebrow{color:var(--bm-gold)}
+  .close p{color:var(--ink-inverse-2)}
   .close .two{gap:var(--space-5)}
   .close .box{background:var(--bm-forest-2);color:var(--ink-inverse)}
   .closing-line{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.6vw,1.8rem);color:var(--bm-gold);margin-top:var(--space-5);border-top:1px solid var(--line-inverse);padding-top:var(--space-4);max-width:none}
@@ -175,7 +178,7 @@
   <input type="checkbox" id="menu-state" aria-hidden="true">
   <div class="wrap">
     <div class="lockup">
-      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#C6B7A1" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#AD7F44"/></svg>
+      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#AA8552" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#D1801E"/></svg>
       Bright Matter
     </div>
     <label class="menu-toggle" for="menu-state">Menu</label>
@@ -320,7 +323,7 @@
 <footer>
   <div class="wrap">
     <div class="lockup" style="color:var(--bm-forest)">
-      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#C6B7A1" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#AD7F44"/></svg>
+      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#AA8552" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#D1801E"/></svg>
       Bright Matter
     </div>
     <div>Prepared for Greenway Auto Group. Confidential. <a class="more" href="details.html">Full brief</a></div>

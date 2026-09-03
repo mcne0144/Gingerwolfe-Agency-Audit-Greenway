@@ -9,15 +9,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bm-forest:#152C28; --bm-forest-2:#1E3B36; --bm-forest-deep:#0F211D; --bm-gold:#AD7F44;
-    --bm-cream:#F0E9DC; --bm-khaki:#C6B7A1;
-    --ink:#1C1F1E; --ink-2:#4A524F;
-    --ink-inverse:var(--bm-cream); --ink-inverse-2:#D8CFBE;
+    --bm-forest:#374F4E; --bm-forest-2:#435D5B; --bm-forest-deep:#2A3B3A;
+    --bm-gold:#D1801E; --bm-gold-text:#8A4E0D; --bm-sand:#EDBD95;
+    --bm-cream:#DACCC4; --bm-khaki:#AA8552;
+    --ink:#26302F; --ink-2:#4C5553;
+    --ink-inverse:#F0E7E0; --ink-inverse-2:#E8DED7;
     --surface-page:var(--bm-cream);
-    --surface-tonal:#E8E0D0;
+    --surface-tonal:var(--bm-sand);
     --surface-inverse:var(--bm-forest);
-    --line-soft:rgba(21,44,40,.14);
-    --line-inverse:rgba(240,233,220,.28);
+    --line-soft:rgba(55,79,78,.18);
+    --line-inverse:rgba(218,204,196,.3);
     --space-2:12px; --space-3:18px; --space-4:24px; --space-5:36px; --space-6:56px; --space-7:96px;
     --size-eyebrow:.8rem; --size-small:.9rem; --size-body:1.0625rem;
     --size-h2:clamp(1.7rem,3vw,2.3rem); --size-h1:clamp(2.1rem,4.2vw,3.2rem);
@@ -26,6 +27,7 @@
     --max:880px;
   }
   *{box-sizing:border-box}
+  header.nav{--bm-gold:var(--bm-sand)}
   html{scroll-behavior:smooth}
   body{margin:0;background:var(--surface-page);color:var(--ink);font-family:var(--sans);font-size:var(--size-body);line-height:1.55}
   a{color:inherit}
@@ -36,7 +38,7 @@
   p{margin:0 0 1.5rem;max-width:62ch}
   .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--space-4)}
   section{padding:var(--space-6) 0;border-top:1px solid var(--line-soft);scroll-margin-top:72px}
-  .eyebrow{display:block;font-family:var(--sans);font-size:var(--size-eyebrow);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--bm-gold);margin:0 0 var(--space-3)}
+  .eyebrow{display:block;font-family:var(--sans);font-size:var(--size-eyebrow);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--bm-gold-text);margin:0 0 var(--space-3)}
   .more{display:inline-block;font-family:var(--sans);font-size:.95rem;font-weight:500;color:var(--bm-forest);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--bm-gold)}
   .more:hover{color:var(--bm-gold)}
 
@@ -59,7 +61,7 @@
   .steps{counter-reset:s;margin:var(--space-4) 0 0;padding:0;list-style:none}
   .steps li{display:grid;grid-template-columns:56px 1fr;gap:var(--space-3);padding:22px 0;border-top:1px solid var(--line-soft)}
   .steps li:last-child{border-bottom:1px solid var(--line-soft)}
-  .steps li::before{counter-increment:s;content:counter(s);font-family:var(--serif);font-style:italic;font-size:1.8rem;color:var(--bm-gold);line-height:1}
+  .steps li::before{counter-increment:s;content:counter(s);font-family:var(--serif);font-style:italic;font-size:1.8rem;color:var(--bm-gold-text);line-height:1}
   .steps h3{margin-bottom:.35rem}
   .steps p{margin:0;color:var(--ink-2)}
 
@@ -85,7 +87,7 @@
 <header class="nav">
   <div class="wrap">
     <div class="lockup">
-      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#C6B7A1" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#AD7F44"/></svg>
+      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M78 26 A36 36 0 1 0 82 58" fill="none" stroke="#AA8552" stroke-width="9" stroke-linecap="round"/><circle cx="80" cy="24" r="11" fill="#D1801E"/></svg>
       Bright Matter
     </div>
     <a class="back" href="index.html">&larr; Back to the playbook</a>
