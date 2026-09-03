@@ -160,3 +160,41 @@ The final per-store mix still comes from `CONTENT_STRATEGY_FRAMEWORK.md` §7 def
 4. **Current offers/incentives** — request from client via Shannon McNeil (nothing posted until confirmed).
 5. **Local hooks, sports ties, language split** — per-market TO VERIFY via Shannon/GMs.
 6. **Named staff** appearing in people/community content — two independent sources before names are used (OPERATING_RULES §3.5).
+
+---
+---
+
+# ADDENDUM (2026-09-03) — Models F–H from the national rooftop comp set
+
+**Source:** `DEALERSHIP_CHANNEL_RANKINGS.md` Part B (franchise volume rooftops, data retrieved 2026-09-03). These three models are the proven external blueprints for the framework's **Tier A / P3 growth engine** — the layer Models A–E did not cover with an at-scale rooftop exemplar. Same two governing rules as above (format yes / hype no; nothing unverifiable).
+
+**Scope note (operator directive, 2026-08-22):** Hyundai stores are out of scope as named benchmarks in anything client-facing. Bakersfield Hyundai observations therefore inform format design internally but are NOT cited to GMs; the client-facing exemplars are Camino Real, Mohawk, Bert Ogden (Kia), and Long McArthur.
+
+## Model F — Daily staff-bit engine (Camino Real Chevrolet blueprint)
+
+**What it is.** One light, people-led short per day: staff humor, family-store moments, quick trends, occasional inventory cameo. No scripts, no set — phone + personality + a daily slot. Camino Real: 161.8K TikTok / 143.4K IG / 5.5M likes, ~7.6% like-to-view on recent posts, built by a family-owned Chevy volume store.
+**Feeds:** P3 (TikTok 40% slot), Tier A when a recurring named person carries it, Tier B otherwise.
+**Fits:** Store 02 (2–3 willing staff, TO VERIFY names/consent); Store 01 (dedicated video person). Min-viable stores can run it at 2–3/week, not daily.
+
+## Model G — Serialized character mini-series (Mohawk Chevrolet blueprint)
+
+**What it is.** A named, scripted, recurring series with characters and episode structure ("The Dealership": workplace comedy at a Chevy store, ~157K TikTok followers from one creative franchise). Highest ceiling, highest production lift; audience accrues to the SERIES, so consistency is the whole game.
+**Feeds:** Tier A hero line, P3.
+**Fits:** Store 01 only (the one FULL-stance store with dedicated on-site video capacity). Phase in after 4+ weeks of Model F reps, not before.
+**Caution:** Mohawk's IG is 9.2K against 157K TikTok — a series audience does not migrate channels. Judge it on its home channel only.
+
+## Model H — Owner-utility programming (Long McArthur Ford blueprint)
+
+**What it is.** Become the market's useful source for one brand: model news, ordering/config explainers, deep walkarounds, recurring live Q&A. Long McArthur (Salina KS): 76.6K YT subs, ~326K monthly views, weekly live show; the utility line demonstrably sold vehicles nationally.
+**Feeds:** P1b depth reviews + P2 deal & ownership education; YouTube-led with FB distribution.
+**Fits:** **Store 05 (Ford of KC) almost exactly** — its ratified stance is FB+YT only, Tier-B strong: this is that stance executed at the national-best level, and it beats Bob Sight on watchability without touching IG/TikTok. Kia analog for Stores 01–04: best-seller depth reviews (already the Store 02 wedge).
+
+## Kia-market reference — Bert Ogden "Mission Kia" (Mission, TX)
+
+Largest Kia rooftop found on TikTok (76K followers / 914K likes), bilingual Spanish/English market. Closest single-brand analog for the pilot's Kia stores; pairs with the observed sibling Spanish-language findings (SUCCESS_ACCOUNTS_RESEARCH §1.1). **Content teardown recommended before Store 02/03 calendar revisions.** Language-mix decisions per store remain TO VERIFY.
+
+## Benchmark inputs for `audit/BENCHMARKS.md` / GM expectation-setting
+
+- Best-in-country volume-rooftop outcomes (multi-year): TikTok 130–160K followers · IG 40–145K · YT 15–75K subs · FB 35–125K likes. Six-month pilot targets = a small fraction; report **engagement-per-post**, not follower counts.
+- Facebook at even the best rooftops runs sub-1% active engagement → confirms FB's maintenance/community role in the ratified mix (P4-heavy, 5% P3). Do not set FB growth KPIs.
+- Zero comp-set winners lead with price/APR content → external validation of the "offer = video with a person, or not posted" rule and the anti-promo-race wedge.
